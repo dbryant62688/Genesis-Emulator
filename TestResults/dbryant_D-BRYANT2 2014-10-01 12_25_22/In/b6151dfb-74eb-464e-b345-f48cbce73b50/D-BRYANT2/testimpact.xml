@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Test xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="moveTest" IsTestCase="false" TestCaseId="0" AutomatedTestId="405043ea-b16c-d3e6-8672-bb99768825bf">
+  <Signatures>
+    <Signature>D8B4101DEB6ED3E20E594F23C69AF141828D938E</Signature>
+    <Signature>2F9A7EC927417F49B9400D7F93A5BC50F90A22ED</Signature>
+  </Signatures>
+</Test>

@@ -1,0 +1,26 @@
+﻿Build started 9/30/2014 3:27:53 PM.
+     1>Project "C:\GenesisEmulator\GenEm\GenEm\GenEm.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\GenEm.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\GenesisEmulator\GenEm\Debug\GenEm.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\GenEm.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\GenesisEmulator\GenEm\Debug\GenEm.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\GenesisEmulator\GenEm\Debug\GenEm.lib" /MACHINE:X86 Debug\GenEm.exe.embed.manifest.res
+         Debug\Main.obj
+         C:\GenesisEmulator\GenEm\Debug\CPU68K.lib
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\GenEm.exe.embed.manifest" /manifest Debug\GenEm.exe.intermediate.manifest
+         All outputs are up-to-date.
+       LinkEmbedManifest:
+         All outputs are up-to-date.
+         GenEm.vcxproj -> C:\GenesisEmulator\GenEm\Debug\GenEm.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\GenEm.unsuccessfulbuild".
+         Touching "Debug\GenEm.lastbuildstate".
+     1>Done Building Project "C:\GenesisEmulator\GenEm\GenEm\GenEm.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.00

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Test xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="ARInDirectAddressModeByteTest" IsTestCase="false" TestCaseId="0" AutomatedTestId="0826740c-fd4b-d197-1502-079e985e4a4f">
+  <Signatures>
+    <Signature>AC3509B49E991C0476FA1B9141976D6FBFA81820</Signature>
+    <Signature>03CEFEF212D3380F4F1F8A110B40D2A85C770F8B</Signature>
+    <Signature>7DAF21241BA220AAAC045E828B2BAD8504B2503F</Signature>
+  </Signatures>
+</Test>

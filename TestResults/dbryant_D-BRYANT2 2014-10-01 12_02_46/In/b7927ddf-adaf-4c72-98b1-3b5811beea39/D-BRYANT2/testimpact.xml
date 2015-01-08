@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Test xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="TstZeroTest" IsTestCase="false" TestCaseId="0" AutomatedTestId="a5ffacd2-eccb-97f5-ca59-8696181279a3">
+  <Signatures>
+    <Signature>1CDB064D223A4AB8038653A142CBDCEFF30A741F</Signature>
+    <Signature>EB6238DDD9E1B2E8E236CFED89B9C36A4AF72089</Signature>
+  </Signatures>
+</Test>

@@ -1,0 +1,1276 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="f843dce2-b119-4f76-8da9-3eba6dbd1d7c" name="dbryant@D-BRYANT2 2014-10-01 12:02:46" runUser="CRESTRON\dbryant" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Trace and Test Impact" id="bef5c62a-216d-4f5a-93ba-7bf2fdf519e1">
+    <Description>These are test settings for Trace and Test Impact.</Description>
+    <Deployment runDeploymentRoot="dbryant_D-BRYANT2 2014-10-01 12_02_46">
+      <DeploymentItem filename="C:\GenesisEmulator\GenEm\Debug\CPU68K.lib" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+        <DataCollectors>
+          <DataCollector uri="datacollector://microsoft/SystemInfo/1.0" assemblyQualifiedName="Microsoft.VisualStudio.TestTools.DataCollection.SystemInfo.SystemInfoDataCollector, Microsoft.VisualStudio.TestTools.DataCollection.SystemInfo, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" friendlyName="System Information">
+          </DataCollector>
+          <DataCollector uri="datacollector://microsoft/ActionLog/1.0" assemblyQualifiedName="Microsoft.VisualStudio.TestTools.ManualTest.ActionLog.ActionLogPlugin, Microsoft.VisualStudio.TestTools.ManualTest.ActionLog, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" friendlyName="Actions">
+          </DataCollector>
+          <DataCollector uri="datacollector://microsoft/HttpProxy/1.0" assemblyQualifiedName="Microsoft.VisualStudio.TraceCollector.HttpProxyCollector, Microsoft.VisualStudio.TraceCollector, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" friendlyName="ASP.NET Client Proxy for IntelliTrace and Test Impact">
+          </DataCollector>
+          <DataCollector uri="datacollector://microsoft/TestImpact/1.0" assemblyQualifiedName="Microsoft.VisualStudio.TraceCollector.TestImpactDataCollector, Microsoft.VisualStudio.TraceCollector, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" friendlyName="Test Impact">
+          </DataCollector>
+          <DataCollector uri="datacollector://microsoft/TraceDebugger/1.0" assemblyQualifiedName="Microsoft.VisualStudio.TraceCollector.TraceDebuggerDataCollector, Microsoft.VisualStudio.TraceCollector, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" friendlyName="IntelliTrace">
+          </DataCollector>
+        </DataCollectors>
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-10-01T12:02:46.7626575-04:00" queuing="2014-10-01T12:02:46.9746787-04:00" start="2014-10-01T12:02:49.6789491-04:00" finish="2014-10-01T12:03:00.4030214-04:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="43" executed="43" passed="9" error="0" failed="34" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <CollectorDataEntries>
+      <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+        <UriAttachments>
+          <UriAttachment>
+            <A href="D-BRYANT2\SystemInformation.xml">System Information from D-BRYANT2</A>
+          </UriAttachment>
+        </UriAttachments>
+      </Collector>
+    </CollectorDataEntries>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="ARInDirectAddressModeWordDisplacementTest" storage="c:\genesisemulator\genem\debug\defaulttest.dll" id="90ead5ab-0cc3-68b5-c872-3c5910452fe3">
+      <Execution id="9faea247-7fbe-4398-be3d-8e2ee47b7727" />
+      <TestMethod codeBase="C:/GenesisEmulator/GenEm/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenEmTest.AddressDisplacementTest, DefaultTest, Version=1.0.5387.19866, Culture=neutral, PublicKeyToken=null" name="ARInDirectAddressModeWordDisplacementTest" />
+    </UnitTest>
+    <UnitTest name="moveawordnegTest" storage="c:\genesisemulator\genem\debug\defaulttest.dll" id="01e284ca-a346-b826-2be1-41ae3c76b745">
+      <Execution id="cf0584d2-bc9d-472e-9980-8ab3238db1b1" />
+      <TestMethod codeBase="C:/GenesisEmulator/GenEm/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenEmTest.DataMovementTest, DefaultTest, Version=1.0.5387.19866, Culture=neutral, PublicKeyToken=null" name="moveawordnegTest" />
+    </UnitTest>
+    <UnitTest name="AbsoluteShortAddressModeWordTest" storage="c:\genesisemulator\genem\debug\defaulttest.dll" id="77f36036-5b3e-a9c7-69fd-b08a362faeb5">
+      <Execution id="815babff-ad67-48d5-ad03-e19a0afa8370" />
+      <TestMethod codeBase="C:/GenesisEmulator/GenEm/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenEmTest.UnitTest1, DefaultTest, Version=1.0.5387.19866, Culture=neutral, PublicKeyToken=null" name="AbsoluteShortAddressModeWordTest" />
+    </UnitTest>
+    <UnitTest name="ARInDirectAddressModeWordDecrementTest" storage="c:\genesisemulator\genem\debug\defaulttest.dll" id="68ca2e86-1e6f-4e69-fd3d-6a013217d7e1">
+      <Execution id="c50dc691-966f-4d2a-a750-39e76cb89bf5" />
+      <TestMethod codeBase="C:/GenesisEmulator/GenEm/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenEmTest.AddressDisplacementTest, DefaultTest, Version=1.0.5387.19866, Culture=neutral, PublicKeyToken=null" name="ARInDirectAddressModeWordDecrementTest" />
+    </UnitTest>
+    <UnitTest name="Bcc16bitTest" storage="c:\genesisemulator\genem\debug\defaulttest.dll" id="dcaabd90-51f3-42ac-82ce-9bc33df60a6c">
+      <Execution id="76b966ea-68a8-4113-a3f9-d6ca6ef76c4e" />
+      <TestMethod codeBase="C:/GenesisEmulator/GenEm/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenEmTest.ProgramControlTest, DefaultTest, Version=1.0.5387.19866, Culture=neutral, PublicKeyToken=null" name="Bcc16bitTest" />
+    </UnitTest>
+    <UnitTest name="ARInDirectAddressModeWordTest" storage="c:\genesisemulator\genem\debug\defaulttest.dll" id="32211488-436a-ba83-9f57-dab5fad1e88b">
+      <Execution id="c968414f-a385-4ba9-b0c9-249c26a67b8d" />
+      <TestMethod codeBase="C:/GenesisEmulator/GenEm/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenEmTest.UnitTest1, DefaultTest, Version=1.0.5387.19866, Culture=neutral, PublicKeyToken=null" name="ARInDirectAddressModeWordTest" />
+    </UnitTest>
+    <UnitTest name="ARInDirectAddressModeWordIncrementTest" storage="c:\genesisemulator\genem\debug\defaulttest.dll" id="f5919619-705f-35cb-065a-928005e5942f">
+      <Execution id="c0eff630-a8d4-4b02-854a-14757dc761d4" />
+      <TestMethod codeBase="C:/GenesisEmulator/GenEm/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenEmTest.AddressDisplacementTest, DefaultTest, Version=1.0.5387.19866, Culture=neutral, PublicKeyToken=null" name="ARInDirectAddressModeWordIncrementTest" />
+    </UnitTest>
+    <UnitTest name="TstNegativeTest" storage="c:\genesisemulator\genem\debug\defaulttest.dll" id="61b9ee7e-4133-3167-e0f6-e0ba1f1b3452">
+      <Execution id="fb0e9e81-e1bf-47e7-bcf4-6f3bc237c46d" />
+      <TestMethod codeBase="C:/GenesisEmulator/GenEm/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenEmTest.ProgramControlTest, DefaultTest, Version=1.0.5387.19866, Culture=neutral, PublicKeyToken=null" name="TstNegativeTest" />
+    </UnitTest>
+    <UnitTest name="DRDirectAddressModeWordTest" storage="c:\genesisemulator\genem\debug\defaulttest.dll" id="7bbfba78-db02-22e0-112d-f4f3b90f6463">
+      <Execution id="c0814b74-ccbd-4ff8-8a33-5c2bccf71d93" />
+      <TestMethod codeBase="C:/GenesisEmulator/GenEm/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenEmTest.UnitTest1, DefaultTest, Version=1.0.5387.19866, Culture=neutral, PublicKeyToken=null" name="DRDirectAddressModeWordTest" />
+    </UnitTest>
+    <UnitTest name="JMPTest" storage="c:\genesisemulator\genem\debug\defaulttest.dll" id="4246e005-5582-1a69-a24a-7bd7fbc2ff19">
+      <Execution id="d61de872-f470-49a2-9220-5356bdde5840" />
+      <TestMethod codeBase="C:/GenesisEmulator/GenEm/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenEmTest.ProgramControlTest, DefaultTest, Version=1.0.5387.19866, Culture=neutral, PublicKeyToken=null" name="JMPTest" />
+    </UnitTest>
+    <UnitTest name="ARInDirectAddressModeLongDisplacementTest" storage="c:\genesisemulator\genem\debug\defaulttest.dll" id="080b45e0-ed85-db33-9e13-4b35cd49d769">
+      <Execution id="864294c2-1a7a-4c44-83b9-7db0b78b60f5" />
+      <TestMethod codeBase="C:/GenesisEmulator/GenEm/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenEmTest.AddressDisplacementTest, DefaultTest, Version=1.0.5387.19866, Culture=neutral, PublicKeyToken=null" name="ARInDirectAddressModeLongDisplacementTest" />
+    </UnitTest>
+    <UnitTest name="moveqnegTest" storage="c:\genesisemulator\genem\debug\defaulttest.dll" id="4f742dd3-6b2e-cd7a-601c-d21d1203ec94">
+      <Execution id="dd83dea7-e4a8-4e7e-be18-aeb220aea6cd" />
+      <TestMethod codeBase="C:/GenesisEmulator/GenEm/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenEmTest.DataMovementTest, DefaultTest, Version=1.0.5387.19866, Culture=neutral, PublicKeyToken=null" name="moveqnegTest" />
+    </UnitTest>
+    <UnitTest name="Bra32BitTest" storage="c:\genesisemulator\genem\debug\defaulttest.dll" id="ed296a88-0c21-604c-fae1-ba9cec2453d9">
+      <Execution id="785775cf-8ad0-46ae-8aa5-ebc7c329cd71" />
+      <TestMethod codeBase="C:/GenesisEmulator/GenEm/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenEmTest.ProgramControlTest, DefaultTest, Version=1.0.5387.19866, Culture=neutral, PublicKeyToken=null" name="Bra32BitTest" />
+    </UnitTest>
+    <UnitTest name="AbsoluteShortAddressModeLongTest" storage="c:\genesisemulator\genem\debug\defaulttest.dll" id="a334898a-8fa3-4405-cd1c-7387b81db5f4">
+      <Execution id="8e54fdac-acdd-4c7a-a020-5449439fb610" />
+      <TestMethod codeBase="C:/GenesisEmulator/GenEm/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenEmTest.UnitTest1, DefaultTest, Version=1.0.5387.19866, Culture=neutral, PublicKeyToken=null" name="AbsoluteShortAddressModeLongTest" />
+    </UnitTest>
+    <UnitTest name="ARInDirectAddressModeLongDecrementTest" storage="c:\genesisemulator\genem\debug\defaulttest.dll" id="99f501ca-7a13-0b63-66c7-f9c38b6830ff">
+      <Execution id="a1f16b26-f553-4513-b442-9fc6a44452bb" />
+      <TestMethod codeBase="C:/GenesisEmulator/GenEm/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenEmTest.AddressDisplacementTest, DefaultTest, Version=1.0.5387.19866, Culture=neutral, PublicKeyToken=null" name="ARInDirectAddressModeLongDecrementTest" />
+    </UnitTest>
+    <UnitTest name="ARInDirectAddressModeLongTest" storage="c:\genesisemulator\genem\debug\defaulttest.dll" id="d2d6d958-0656-1274-5cd4-08718515d5aa">
+      <Execution id="0f4f5557-077f-4084-99e8-36385966fe7a" />
+      <TestMethod codeBase="C:/GenesisEmulator/GenEm/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenEmTest.UnitTest1, DefaultTest, Version=1.0.5387.19866, Culture=neutral, PublicKeyToken=null" name="ARInDirectAddressModeLongTest" />
+    </UnitTest>
+    <UnitTest name="ARInDirectAddressModeByteIncrementTest" storage="c:\genesisemulator\genem\debug\defaulttest.dll" id="3d45c220-26cb-afa4-bbc3-0953ed300eec">
+      <Execution id="db352c35-5302-4d5a-b27b-c74b839c60be" />
+      <TestMethod codeBase="C:/GenesisEmulator/GenEm/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenEmTest.AddressDisplacementTest, DefaultTest, Version=1.0.5387.19866, Culture=neutral, PublicKeyToken=null" name="ARInDirectAddressModeByteIncrementTest" />
+    </UnitTest>
+    <UnitTest name="ARInDirectAddressModeByteTest" storage="c:\genesisemulator\genem\debug\defaulttest.dll" id="0826740c-fd4b-d197-1502-079e985e4a4f">
+      <Execution id="740adc26-bacf-421d-a980-36b515d61b40" />
+      <TestMethod codeBase="C:/GenesisEmulator/GenEm/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenEmTest.UnitTest1, DefaultTest, Version=1.0.5387.19866, Culture=neutral, PublicKeyToken=null" name="ARInDirectAddressModeByteTest" />
+    </UnitTest>
+    <UnitTest name="TstZeroTest" storage="c:\genesisemulator\genem\debug\defaulttest.dll" id="a5ffacd2-eccb-97f5-ca59-8696181279a3">
+      <Execution id="b7927ddf-adaf-4c72-98b1-3b5811beea39" />
+      <TestMethod codeBase="C:/GenesisEmulator/GenEm/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenEmTest.ProgramControlTest, DefaultTest, Version=1.0.5387.19866, Culture=neutral, PublicKeyToken=null" name="TstZeroTest" />
+    </UnitTest>
+    <UnitTest name="Bra8BitTest" storage="c:\genesisemulator\genem\debug\defaulttest.dll" id="e2852dd1-8418-301e-5fef-121983e85ad2">
+      <Execution id="ca8e5137-5c08-467e-82b3-3434bf2bacba" />
+      <TestMethod codeBase="C:/GenesisEmulator/GenEm/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenEmTest.ProgramControlTest, DefaultTest, Version=1.0.5387.19866, Culture=neutral, PublicKeyToken=null" name="Bra8BitTest" />
+    </UnitTest>
+    <UnitTest name="Bra16BitTest" storage="c:\genesisemulator\genem\debug\defaulttest.dll" id="70ba78f9-03fc-e9ce-b835-ebea9a0f7668">
+      <Execution id="135eb2b5-475f-4ea9-a1be-69bf754ea11e" />
+      <TestMethod codeBase="C:/GenesisEmulator/GenEm/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenEmTest.ProgramControlTest, DefaultTest, Version=1.0.5387.19866, Culture=neutral, PublicKeyToken=null" name="Bra16BitTest" />
+    </UnitTest>
+    <UnitTest name="ImmediateAddressModeWordTest" storage="c:\genesisemulator\genem\debug\defaulttest.dll" id="6d5169a5-fc62-6120-a678-54b1fc7d1ed6">
+      <Execution id="66742809-7952-4af6-9df4-7947bcbfc61c" />
+      <TestMethod codeBase="C:/GenesisEmulator/GenEm/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenEmTest.UnitTest1, DefaultTest, Version=1.0.5387.19866, Culture=neutral, PublicKeyToken=null" name="ImmediateAddressModeWordTest" />
+    </UnitTest>
+    <UnitTest name="ARInDirectAddressModeLongIncrementTest" storage="c:\genesisemulator\genem\debug\defaulttest.dll" id="5729348f-4874-4e1e-a4b3-471010e67a26">
+      <Execution id="c25a98db-b3c1-4d27-94ad-eed7b4f785e9" />
+      <TestMethod codeBase="C:/GenesisEmulator/GenEm/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenEmTest.AddressDisplacementTest, DefaultTest, Version=1.0.5387.19866, Culture=neutral, PublicKeyToken=null" name="ARInDirectAddressModeLongIncrementTest" />
+    </UnitTest>
+    <UnitTest name="ARInDirectAddressModeLongIndexDisplacementTest" storage="c:\genesisemulator\genem\debug\defaulttest.dll" id="673555db-df97-d4e6-95a6-8db8ae30ad06">
+      <Execution id="afbb03fb-0ab1-4898-a043-a1e5a218544d" />
+      <TestMethod codeBase="C:/GenesisEmulator/GenEm/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenEmTest.AddressDisplacementTest, DefaultTest, Version=1.0.5387.19866, Culture=neutral, PublicKeyToken=null" name="ARInDirectAddressModeLongIndexDisplacementTest" />
+    </UnitTest>
+    <UnitTest name="TstPositiveTest" storage="c:\genesisemulator\genem\debug\defaulttest.dll" id="0d3e83d0-5014-d6f9-bdf6-8948b9f90c86">
+      <Execution id="e502ee06-af35-41d7-b9f3-8c07572a1d86" />
+      <TestMethod codeBase="C:/GenesisEmulator/GenEm/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenEmTest.ProgramControlTest, DefaultTest, Version=1.0.5387.19866, Culture=neutral, PublicKeyToken=null" name="TstPositiveTest" />
+    </UnitTest>
+    <UnitTest name="ImmediateAddressModeLongTest" storage="c:\genesisemulator\genem\debug\defaulttest.dll" id="55bfa6b1-39ce-2383-38d5-9069d7b5f1d0">
+      <Execution id="7fe73a00-2182-4eb8-87ae-6c78c347a709" />
+      <TestMethod codeBase="C:/GenesisEmulator/GenEm/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenEmTest.UnitTest1, DefaultTest, Version=1.0.5387.19866, Culture=neutral, PublicKeyToken=null" name="ImmediateAddressModeLongTest" />
+    </UnitTest>
+    <UnitTest name="DRDirectAddressModeLongTest" storage="c:\genesisemulator\genem\debug\defaulttest.dll" id="d60e7dfd-f0b5-1dc2-cd78-09dd93cc330a">
+      <Execution id="edb1d178-fba0-463e-9f4b-236adca53c7d" />
+      <TestMethod codeBase="C:/GenesisEmulator/GenEm/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenEmTest.UnitTest1, DefaultTest, Version=1.0.5387.19866, Culture=neutral, PublicKeyToken=null" name="DRDirectAddressModeLongTest" />
+    </UnitTest>
+    <UnitTest name="ARInDirectAddressModeByteIndexDisplacementTest" storage="c:\genesisemulator\genem\debug\defaulttest.dll" id="c0acc18e-900e-d1c4-d109-b2e8c2a54bba">
+      <Execution id="58d79d03-7cb2-4933-9ee6-09544358d661" />
+      <TestMethod codeBase="C:/GenesisEmulator/GenEm/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenEmTest.AddressDisplacementTest, DefaultTest, Version=1.0.5387.19866, Culture=neutral, PublicKeyToken=null" name="ARInDirectAddressModeByteIndexDisplacementTest" />
+    </UnitTest>
+    <UnitTest name="moveawordposTest" storage="c:\genesisemulator\genem\debug\defaulttest.dll" id="f5e3553d-51fd-7a25-b025-63bbc2a4379d">
+      <Execution id="a31da54d-bddb-4a5c-bd75-2c9681e84398" />
+      <TestMethod codeBase="C:/GenesisEmulator/GenEm/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenEmTest.DataMovementTest, DefaultTest, Version=1.0.5387.19866, Culture=neutral, PublicKeyToken=null" name="moveawordposTest" />
+    </UnitTest>
+    <UnitTest name="Bcc8bitTest" storage="c:\genesisemulator\genem\debug\defaulttest.dll" id="153d9f17-f883-be4b-f9e7-ace3a2a34de6">
+      <Execution id="fa1d6b34-61fc-4ed9-a91b-ed83986ee461" />
+      <TestMethod codeBase="C:/GenesisEmulator/GenEm/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenEmTest.ProgramControlTest, DefaultTest, Version=1.0.5387.19866, Culture=neutral, PublicKeyToken=null" name="Bcc8bitTest" />
+    </UnitTest>
+    <UnitTest name="ARDirectAddressModeLongTest" storage="c:\genesisemulator\genem\debug\defaulttest.dll" id="8fb9f831-5c37-ae0b-6c9b-900f024de0cc">
+      <Execution id="4b06869a-dea8-45a2-a406-26173cbe0a59" />
+      <TestMethod codeBase="C:/GenesisEmulator/GenEm/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenEmTest.UnitTest1, DefaultTest, Version=1.0.5387.19866, Culture=neutral, PublicKeyToken=null" name="ARDirectAddressModeLongTest" />
+    </UnitTest>
+    <UnitTest name="ARDirectAddressModeByteTest" storage="c:\genesisemulator\genem\debug\defaulttest.dll" id="bf85fec3-d5fc-818c-6463-be33e3f3694d">
+      <Execution id="f4add7b1-1084-4123-a11d-1cde62a95c82" />
+      <TestMethod codeBase="C:/GenesisEmulator/GenEm/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenEmTest.UnitTest1, DefaultTest, Version=1.0.5387.19866, Culture=neutral, PublicKeyToken=null" name="ARDirectAddressModeByteTest" />
+    </UnitTest>
+    <UnitTest name="ARInDirectAddressModeWordIndexDisplacementTest" storage="c:\genesisemulator\genem\debug\defaulttest.dll" id="fbfcd82a-f36c-878b-a8e6-fc507d622fa8">
+      <Execution id="c31c092e-1149-4c36-8152-cb2d66c9e31a" />
+      <TestMethod codeBase="C:/GenesisEmulator/GenEm/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenEmTest.AddressDisplacementTest, DefaultTest, Version=1.0.5387.19866, Culture=neutral, PublicKeyToken=null" name="ARInDirectAddressModeWordIndexDisplacementTest" />
+    </UnitTest>
+    <UnitTest name="movealongTest" storage="c:\genesisemulator\genem\debug\defaulttest.dll" id="e7e328c3-8833-8755-36bc-290ff227fa6b">
+      <Execution id="465449a4-b3ea-4887-9d53-23b2afe10d8e" />
+      <TestMethod codeBase="C:/GenesisEmulator/GenEm/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenEmTest.DataMovementTest, DefaultTest, Version=1.0.5387.19866, Culture=neutral, PublicKeyToken=null" name="movealongTest" />
+    </UnitTest>
+    <UnitTest name="ImmediateAddressModeByteTest" storage="c:\genesisemulator\genem\debug\defaulttest.dll" id="f3e08c24-2f78-3e36-31d4-062f1b63be1e">
+      <Execution id="a998461e-07fa-4280-bce0-4687c7b6496b" />
+      <TestMethod codeBase="C:/GenesisEmulator/GenEm/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenEmTest.UnitTest1, DefaultTest, Version=1.0.5387.19866, Culture=neutral, PublicKeyToken=null" name="ImmediateAddressModeByteTest" />
+    </UnitTest>
+    <UnitTest name="moveTest" storage="c:\genesisemulator\genem\debug\defaulttest.dll" id="405043ea-b16c-d3e6-8672-bb99768825bf">
+      <Execution id="e7a2a0ce-1321-4c6f-ae8a-1018ef67ded6" />
+      <TestMethod codeBase="C:/GenesisEmulator/GenEm/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenEmTest.DataMovementTest, DefaultTest, Version=1.0.5387.19866, Culture=neutral, PublicKeyToken=null" name="moveTest" />
+    </UnitTest>
+    <UnitTest name="ARInDirectAddressModeByteDecrementTest" storage="c:\genesisemulator\genem\debug\defaulttest.dll" id="9cd94090-2377-de1a-9b9b-38814dabf111">
+      <Execution id="a1da93cf-ad2b-4ca7-8f98-8687768453fc" />
+      <TestMethod codeBase="C:/GenesisEmulator/GenEm/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenEmTest.AddressDisplacementTest, DefaultTest, Version=1.0.5387.19866, Culture=neutral, PublicKeyToken=null" name="ARInDirectAddressModeByteDecrementTest" />
+    </UnitTest>
+    <UnitTest name="ARDirectAddressModeWordTest" storage="c:\genesisemulator\genem\debug\defaulttest.dll" id="0ded22de-f8c0-b253-a61b-4b64a0a68bc8">
+      <Execution id="69d97b32-cfdc-40a1-9fec-6f9cd70a3701" />
+      <TestMethod codeBase="C:/GenesisEmulator/GenEm/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenEmTest.UnitTest1, DefaultTest, Version=1.0.5387.19866, Culture=neutral, PublicKeyToken=null" name="ARDirectAddressModeWordTest" />
+    </UnitTest>
+    <UnitTest name="Bcc32bitTest" storage="c:\genesisemulator\genem\debug\defaulttest.dll" id="d1682589-214e-ac75-7590-ceee3dac3f76">
+      <Execution id="4015522d-47f4-43a3-8d02-a545be5c874a" />
+      <TestMethod codeBase="C:/GenesisEmulator/GenEm/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenEmTest.ProgramControlTest, DefaultTest, Version=1.0.5387.19866, Culture=neutral, PublicKeyToken=null" name="Bcc32bitTest" />
+    </UnitTest>
+    <UnitTest name="AbsoluteShortAddressModeByteTest" storage="c:\genesisemulator\genem\debug\defaulttest.dll" id="daba1e0f-e8c6-5d01-2253-ac9c99a8a429">
+      <Execution id="5863691f-ad9e-42d7-91f1-9d80ec7bed62" />
+      <TestMethod codeBase="C:/GenesisEmulator/GenEm/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenEmTest.UnitTest1, DefaultTest, Version=1.0.5387.19866, Culture=neutral, PublicKeyToken=null" name="AbsoluteShortAddressModeByteTest" />
+    </UnitTest>
+    <UnitTest name="ARInDirectAddressModeByteDisplacementTest" storage="c:\genesisemulator\genem\debug\defaulttest.dll" id="d4a7209b-3036-e9e7-1544-5b2a9dd02fa0">
+      <Execution id="fc70e312-d810-4f53-ba30-54ddb5397746" />
+      <TestMethod codeBase="C:/GenesisEmulator/GenEm/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenEmTest.AddressDisplacementTest, DefaultTest, Version=1.0.5387.19866, Culture=neutral, PublicKeyToken=null" name="ARInDirectAddressModeByteDisplacementTest" />
+    </UnitTest>
+    <UnitTest name="moveqposTest" storage="c:\genesisemulator\genem\debug\defaulttest.dll" id="4046718c-1796-ccad-b3fa-0a99ca8d7207">
+      <Execution id="0e5f39ae-3206-4654-a457-338dd554aff1" />
+      <TestMethod codeBase="C:/GenesisEmulator/GenEm/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenEmTest.DataMovementTest, DefaultTest, Version=1.0.5387.19866, Culture=neutral, PublicKeyToken=null" name="moveqposTest" />
+    </UnitTest>
+    <UnitTest name="DRDirectAddressModeByteTest" storage="c:\genesisemulator\genem\debug\defaulttest.dll" id="fd32e42f-c4f4-b6e5-950c-4143c3d5e6f8">
+      <Execution id="8739b04c-f8fd-4a4b-b429-6dccaeec2dcb" />
+      <TestMethod codeBase="C:/GenesisEmulator/GenEm/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenEmTest.UnitTest1, DefaultTest, Version=1.0.5387.19866, Culture=neutral, PublicKeyToken=null" name="DRDirectAddressModeByteTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="01e284ca-a346-b826-2be1-41ae3c76b745" executionId="cf0584d2-bc9d-472e-9980-8ab3238db1b1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="080b45e0-ed85-db33-9e13-4b35cd49d769" executionId="864294c2-1a7a-4c44-83b9-7db0b78b60f5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0826740c-fd4b-d197-1502-079e985e4a4f" executionId="740adc26-bacf-421d-a980-36b515d61b40" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0d3e83d0-5014-d6f9-bdf6-8948b9f90c86" executionId="e502ee06-af35-41d7-b9f3-8c07572a1d86" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0ded22de-f8c0-b253-a61b-4b64a0a68bc8" executionId="69d97b32-cfdc-40a1-9fec-6f9cd70a3701" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="153d9f17-f883-be4b-f9e7-ace3a2a34de6" executionId="fa1d6b34-61fc-4ed9-a91b-ed83986ee461" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="32211488-436a-ba83-9f57-dab5fad1e88b" executionId="c968414f-a385-4ba9-b0c9-249c26a67b8d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3d45c220-26cb-afa4-bbc3-0953ed300eec" executionId="db352c35-5302-4d5a-b27b-c74b839c60be" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4046718c-1796-ccad-b3fa-0a99ca8d7207" executionId="0e5f39ae-3206-4654-a457-338dd554aff1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="405043ea-b16c-d3e6-8672-bb99768825bf" executionId="e7a2a0ce-1321-4c6f-ae8a-1018ef67ded6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4246e005-5582-1a69-a24a-7bd7fbc2ff19" executionId="d61de872-f470-49a2-9220-5356bdde5840" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4f742dd3-6b2e-cd7a-601c-d21d1203ec94" executionId="dd83dea7-e4a8-4e7e-be18-aeb220aea6cd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="55bfa6b1-39ce-2383-38d5-9069d7b5f1d0" executionId="7fe73a00-2182-4eb8-87ae-6c78c347a709" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5729348f-4874-4e1e-a4b3-471010e67a26" executionId="c25a98db-b3c1-4d27-94ad-eed7b4f785e9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="61b9ee7e-4133-3167-e0f6-e0ba1f1b3452" executionId="fb0e9e81-e1bf-47e7-bcf4-6f3bc237c46d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="673555db-df97-d4e6-95a6-8db8ae30ad06" executionId="afbb03fb-0ab1-4898-a043-a1e5a218544d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="68ca2e86-1e6f-4e69-fd3d-6a013217d7e1" executionId="c50dc691-966f-4d2a-a750-39e76cb89bf5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6d5169a5-fc62-6120-a678-54b1fc7d1ed6" executionId="66742809-7952-4af6-9df4-7947bcbfc61c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="70ba78f9-03fc-e9ce-b835-ebea9a0f7668" executionId="135eb2b5-475f-4ea9-a1be-69bf754ea11e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="77f36036-5b3e-a9c7-69fd-b08a362faeb5" executionId="815babff-ad67-48d5-ad03-e19a0afa8370" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7bbfba78-db02-22e0-112d-f4f3b90f6463" executionId="c0814b74-ccbd-4ff8-8a33-5c2bccf71d93" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8fb9f831-5c37-ae0b-6c9b-900f024de0cc" executionId="4b06869a-dea8-45a2-a406-26173cbe0a59" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="90ead5ab-0cc3-68b5-c872-3c5910452fe3" executionId="9faea247-7fbe-4398-be3d-8e2ee47b7727" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="99f501ca-7a13-0b63-66c7-f9c38b6830ff" executionId="a1f16b26-f553-4513-b442-9fc6a44452bb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9cd94090-2377-de1a-9b9b-38814dabf111" executionId="a1da93cf-ad2b-4ca7-8f98-8687768453fc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a334898a-8fa3-4405-cd1c-7387b81db5f4" executionId="8e54fdac-acdd-4c7a-a020-5449439fb610" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a5ffacd2-eccb-97f5-ca59-8696181279a3" executionId="b7927ddf-adaf-4c72-98b1-3b5811beea39" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bf85fec3-d5fc-818c-6463-be33e3f3694d" executionId="f4add7b1-1084-4123-a11d-1cde62a95c82" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c0acc18e-900e-d1c4-d109-b2e8c2a54bba" executionId="58d79d03-7cb2-4933-9ee6-09544358d661" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d1682589-214e-ac75-7590-ceee3dac3f76" executionId="4015522d-47f4-43a3-8d02-a545be5c874a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d2d6d958-0656-1274-5cd4-08718515d5aa" executionId="0f4f5557-077f-4084-99e8-36385966fe7a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d4a7209b-3036-e9e7-1544-5b2a9dd02fa0" executionId="fc70e312-d810-4f53-ba30-54ddb5397746" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d60e7dfd-f0b5-1dc2-cd78-09dd93cc330a" executionId="edb1d178-fba0-463e-9f4b-236adca53c7d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="daba1e0f-e8c6-5d01-2253-ac9c99a8a429" executionId="5863691f-ad9e-42d7-91f1-9d80ec7bed62" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="dcaabd90-51f3-42ac-82ce-9bc33df60a6c" executionId="76b966ea-68a8-4113-a3f9-d6ca6ef76c4e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e2852dd1-8418-301e-5fef-121983e85ad2" executionId="ca8e5137-5c08-467e-82b3-3434bf2bacba" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e7e328c3-8833-8755-36bc-290ff227fa6b" executionId="465449a4-b3ea-4887-9d53-23b2afe10d8e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ed296a88-0c21-604c-fae1-ba9cec2453d9" executionId="785775cf-8ad0-46ae-8aa5-ebc7c329cd71" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f3e08c24-2f78-3e36-31d4-062f1b63be1e" executionId="a998461e-07fa-4280-bce0-4687c7b6496b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f5919619-705f-35cb-065a-928005e5942f" executionId="c0eff630-a8d4-4b02-854a-14757dc761d4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f5e3553d-51fd-7a25-b025-63bbc2a4379d" executionId="a31da54d-bddb-4a5c-bd75-2c9681e84398" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fbfcd82a-f36c-878b-a8e6-fc507d622fa8" executionId="c31c092e-1149-4c36-8152-cb2d66c9e31a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fd32e42f-c4f4-b6e5-950c-4143c3d5e6f8" executionId="8739b04c-f8fd-4a4b-b429-6dccaeec2dcb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="cf0584d2-bc9d-472e-9980-8ab3238db1b1" testId="01e284ca-a346-b826-2be1-41ae3c76b745" testName="moveawordnegTest" computerName="D-BRYANT2" duration="00:00:00.2053445" startTime="2014-10-01T12:02:49.8759688-04:00" endTime="2014-10-01T12:02:50.6790491-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cf0584d2-bc9d-472e-9980-8ab3238db1b1">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;4294967125&gt;. Actual:&lt;0&gt;. </Message>
+          <StackTrace>   at GenEmTest.DataMovementTest.moveawordnegTest() in c:\genesisemulator\genem\genemtest\datamovementtest.cpp:line 184
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\SystemInformation.xml">System Information from D-BRYANT2</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/TraceDebugger/1.0" collectorDisplayName="IntelliTrace">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\QTAgent32_141001_120250557_16032.iTrace">IntelliTrace file for 'QTAgent32.exe' (16032)</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="864294c2-1a7a-4c44-83b9-7db0b78b60f5" testId="080b45e0-ed85-db33-9e13-4b35cd49d769" testName="ARInDirectAddressModeLongDisplacementTest" computerName="D-BRYANT2" duration="00:00:00.0088452" startTime="2014-10-01T12:02:50.6910503-04:00" endTime="2014-10-01T12:02:51.1840996-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="864294c2-1a7a-4c44-83b9-7db0b78b60f5">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;2014467687&gt;. Actual:&lt;1365&gt;. </Message>
+          <StackTrace>   at GenEmTest.AddressDisplacementTest.ARInDirectAddressModeLongDisplacementTest() in c:\genesisemulator\genem\genemtest\addressdisplacementtest.cpp:line 256
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\SystemInformation.xml">System Information from D-BRYANT2</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/TraceDebugger/1.0" collectorDisplayName="IntelliTrace">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\QTAgent32_141001_120250715_16032.iTrace">IntelliTrace file for 'QTAgent32.exe' (16032)</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="740adc26-bacf-421d-a980-36b515d61b40" testId="0826740c-fd4b-d197-1502-079e985e4a4f" testName="ARInDirectAddressModeByteTest" computerName="D-BRYANT2" duration="00:00:00.0072312" startTime="2014-10-01T12:02:51.1911003-04:00" endTime="2014-10-01T12:02:51.3291141-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="740adc26-bacf-421d-a980-36b515d61b40">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;1366&gt;. Actual:&lt;1365&gt;. </Message>
+          <StackTrace>   at GenEmTest.UnitTest1.ARInDirectAddressModeByteTest() in c:\genesisemulator\genem\genemtest\unittest1.cpp:line 400
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\SystemInformation.xml">System Information from D-BRYANT2</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/TraceDebugger/1.0" collectorDisplayName="IntelliTrace">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\QTAgent32_141001_120251209_16032.iTrace">IntelliTrace file for 'QTAgent32.exe' (16032)</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="e502ee06-af35-41d7-b9f3-8c07572a1d86" testId="0d3e83d0-5014-d6f9-bdf6-8948b9f90c86" testName="TstPositiveTest" computerName="D-BRYANT2" duration="00:00:00.0015922" startTime="2014-10-01T12:02:51.3351147-04:00" endTime="2014-10-01T12:02:51.3871199-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e502ee06-af35-41d7-b9f3-8c07572a1d86">
+      <CollectorDataEntries>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\SystemInformation.xml">System Information from D-BRYANT2</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/TestImpact/1.0" collectorDisplayName="Test Impact">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\testimpact.xml">Test Impact Data</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="69d97b32-cfdc-40a1-9fec-6f9cd70a3701" testId="0ded22de-f8c0-b253-a61b-4b64a0a68bc8" testName="ARDirectAddressModeWordTest" computerName="D-BRYANT2" duration="00:00:00.0054095" startTime="2014-10-01T12:02:51.3941206-04:00" endTime="2014-10-01T12:02:51.6161428-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="69d97b32-cfdc-40a1-9fec-6f9cd70a3701">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;8500&gt;. Actual:&lt;1365&gt;. </Message>
+          <StackTrace>   at GenEmTest.UnitTest1.ARDirectAddressModeWordTest() in c:\genesisemulator\genem\genemtest\unittest1.cpp:line 345
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\SystemInformation.xml">System Information from D-BRYANT2</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/TraceDebugger/1.0" collectorDisplayName="IntelliTrace">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\QTAgent32_141001_120251411_16032.iTrace">IntelliTrace file for 'QTAgent32.exe' (16032)</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="fa1d6b34-61fc-4ed9-a91b-ed83986ee461" testId="153d9f17-f883-be4b-f9e7-ace3a2a34de6" testName="Bcc8bitTest" computerName="D-BRYANT2" duration="00:00:00.0011075" startTime="2014-10-01T12:02:51.6231435-04:00" endTime="2014-10-01T12:02:51.6571469-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fa1d6b34-61fc-4ed9-a91b-ed83986ee461">
+      <CollectorDataEntries>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\SystemInformation.xml">System Information from D-BRYANT2</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/TestImpact/1.0" collectorDisplayName="Test Impact">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\testimpact.xml">Test Impact Data</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="c968414f-a385-4ba9-b0c9-249c26a67b8d" testId="32211488-436a-ba83-9f57-dab5fad1e88b" testName="ARInDirectAddressModeWordTest" computerName="D-BRYANT2" duration="00:00:00.0022577" startTime="2014-10-01T12:02:51.6631475-04:00" endTime="2014-10-01T12:02:51.7591571-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c968414f-a385-4ba9-b0c9-249c26a67b8d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;30806&gt;. Actual:&lt;1365&gt;. </Message>
+          <StackTrace>   at GenEmTest.UnitTest1.ARInDirectAddressModeWordTest() in c:\genesisemulator\genem\genemtest\unittest1.cpp:line 427
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\SystemInformation.xml">System Information from D-BRYANT2</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/TraceDebugger/1.0" collectorDisplayName="IntelliTrace">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\QTAgent32_141001_120251676_16032.iTrace">IntelliTrace file for 'QTAgent32.exe' (16032)</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="db352c35-5302-4d5a-b27b-c74b839c60be" testId="3d45c220-26cb-afa4-bbc3-0953ed300eec" testName="ARInDirectAddressModeByteIncrementTest" computerName="D-BRYANT2" duration="00:00:00.0052710" startTime="2014-10-01T12:02:51.7671579-04:00" endTime="2014-10-01T12:02:51.8851697-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="db352c35-5302-4d5a-b27b-c74b839c60be">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;4&gt;. Actual:&lt;3&gt;. </Message>
+          <StackTrace>   at GenEmTest.AddressDisplacementTest.ARInDirectAddressModeByteIncrementTest() in c:\genesisemulator\genem\genemtest\addressdisplacementtest.cpp:line 38
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\SystemInformation.xml">System Information from D-BRYANT2</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/TraceDebugger/1.0" collectorDisplayName="IntelliTrace">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\QTAgent32_141001_120251783_16032.iTrace">IntelliTrace file for 'QTAgent32.exe' (16032)</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="0e5f39ae-3206-4654-a457-338dd554aff1" testId="4046718c-1796-ccad-b3fa-0a99ca8d7207" testName="moveqposTest" computerName="D-BRYANT2" duration="00:00:00.0054754" startTime="2014-10-01T12:02:51.8921704-04:00" endTime="2014-10-01T12:02:52.0841896-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0e5f39ae-3206-4654-a457-338dd554aff1">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;127&gt;. Actual:&lt;1365&gt;. </Message>
+          <StackTrace>   at GenEmTest.DataMovementTest.moveqposTest() in c:\genesisemulator\genem\genemtest\datamovementtest.cpp:line 126
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\SystemInformation.xml">System Information from D-BRYANT2</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/TraceDebugger/1.0" collectorDisplayName="IntelliTrace">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\QTAgent32_141001_120251908_16032.iTrace">IntelliTrace file for 'QTAgent32.exe' (16032)</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="e7a2a0ce-1321-4c6f-ae8a-1018ef67ded6" testId="405043ea-b16c-d3e6-8672-bb99768825bf" testName="moveTest" computerName="D-BRYANT2" duration="00:00:00.0050275" startTime="2014-10-01T12:02:52.0901902-04:00" endTime="2014-10-01T12:02:52.5392351-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e7a2a0ce-1321-4c6f-ae8a-1018ef67ded6">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;4660&gt;. Actual:&lt;1365&gt;. </Message>
+          <StackTrace>   at GenEmTest.DataMovementTest.moveTest() in c:\genesisemulator\genem\genemtest\datamovementtest.cpp:line 42
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\SystemInformation.xml">System Information from D-BRYANT2</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/TraceDebugger/1.0" collectorDisplayName="IntelliTrace">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\QTAgent32_141001_120252116_16032.iTrace">IntelliTrace file for 'QTAgent32.exe' (16032)</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="d61de872-f470-49a2-9220-5356bdde5840" testId="4246e005-5582-1a69-a24a-7bd7fbc2ff19" testName="JMPTest" computerName="D-BRYANT2" duration="00:00:00.0011182" startTime="2014-10-01T12:02:52.5472359-04:00" endTime="2014-10-01T12:02:52.5772389-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d61de872-f470-49a2-9220-5356bdde5840">
+      <CollectorDataEntries>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\SystemInformation.xml">System Information from D-BRYANT2</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/TestImpact/1.0" collectorDisplayName="Test Impact">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\testimpact.xml">Test Impact Data</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="dd83dea7-e4a8-4e7e-be18-aeb220aea6cd" testId="4f742dd3-6b2e-cd7a-601c-d21d1203ec94" testName="moveqnegTest" computerName="D-BRYANT2" duration="00:00:00.0018525" startTime="2014-10-01T12:02:52.5802392-04:00" endTime="2014-10-01T12:02:52.8362648-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dd83dea7-e4a8-4e7e-be18-aeb220aea6cd">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;4294967295&gt;. Actual:&lt;1365&gt;. </Message>
+          <StackTrace>   at GenEmTest.DataMovementTest.moveqnegTest() in c:\genesisemulator\genem\genemtest\datamovementtest.cpp:line 97
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\SystemInformation.xml">System Information from D-BRYANT2</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/TraceDebugger/1.0" collectorDisplayName="IntelliTrace">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\QTAgent32_141001_120252586_16032.iTrace">IntelliTrace file for 'QTAgent32.exe' (16032)</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="7fe73a00-2182-4eb8-87ae-6c78c347a709" testId="55bfa6b1-39ce-2383-38d5-9069d7b5f1d0" testName="ImmediateAddressModeLongTest" computerName="D-BRYANT2" duration="00:00:00.0383365" startTime="2014-10-01T12:02:52.8422654-04:00" endTime="2014-10-01T12:02:52.9982810-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7fe73a00-2182-4eb8-87ae-6c78c347a709">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;305419896&gt;. Actual:&lt;512&gt;. </Message>
+          <StackTrace>   at GenEmTest.UnitTest1.ImmediateAddressModeLongTest() in c:\genesisemulator\genem\genemtest\unittest1.cpp:line 209
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\SystemInformation.xml">System Information from D-BRYANT2</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/TraceDebugger/1.0" collectorDisplayName="IntelliTrace">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\QTAgent32_141001_120252896_16032.iTrace">IntelliTrace file for 'QTAgent32.exe' (16032)</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="c25a98db-b3c1-4d27-94ad-eed7b4f785e9" testId="5729348f-4874-4e1e-a4b3-471010e67a26" testName="ARInDirectAddressModeLongIncrementTest" computerName="D-BRYANT2" duration="00:00:00.0052543" startTime="2014-10-01T12:02:53.0042816-04:00" endTime="2014-10-01T12:02:53.1282940-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c25a98db-b3c1-4d27-94ad-eed7b4f785e9">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;6&gt;. Actual:&lt;2&gt;. </Message>
+          <StackTrace>   at GenEmTest.AddressDisplacementTest.ARInDirectAddressModeLongIncrementTest() in c:\genesisemulator\genem\genemtest\addressdisplacementtest.cpp:line 92
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\SystemInformation.xml">System Information from D-BRYANT2</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/TraceDebugger/1.0" collectorDisplayName="IntelliTrace">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\QTAgent32_141001_120253020_16032.iTrace">IntelliTrace file for 'QTAgent32.exe' (16032)</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="fb0e9e81-e1bf-47e7-bcf4-6f3bc237c46d" testId="61b9ee7e-4133-3167-e0f6-e0ba1f1b3452" testName="TstNegativeTest" computerName="D-BRYANT2" duration="00:00:00.0053365" startTime="2014-10-01T12:02:53.1352947-04:00" endTime="2014-10-01T12:02:53.4813293-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fb0e9e81-e1bf-47e7-bcf4-6f3bc237c46d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;2&gt;. Actual:&lt;0&gt;. </Message>
+          <StackTrace>   at GenEmTest.ProgramControlTest.TstNegativeTest() in c:\genesisemulator\genem\genemtest\programcontroltest.cpp:line 67
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\SystemInformation.xml">System Information from D-BRYANT2</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/TraceDebugger/1.0" collectorDisplayName="IntelliTrace">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\QTAgent32_141001_120253151_16032.iTrace">IntelliTrace file for 'QTAgent32.exe' (16032)</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="afbb03fb-0ab1-4898-a043-a1e5a218544d" testId="673555db-df97-d4e6-95a6-8db8ae30ad06" testName="ARInDirectAddressModeLongIndexDisplacementTest" computerName="D-BRYANT2" duration="00:00:00.0053513" startTime="2014-10-01T12:02:53.4883300-04:00" endTime="2014-10-01T12:02:53.8593671-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="afbb03fb-0ab1-4898-a043-a1e5a218544d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;287454031&gt;. Actual:&lt;1365&gt;. </Message>
+          <StackTrace>   at GenEmTest.AddressDisplacementTest.ARInDirectAddressModeLongIndexDisplacementTest() in c:\genesisemulator\genem\genemtest\addressdisplacementtest.cpp:line 342
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\SystemInformation.xml">System Information from D-BRYANT2</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/TraceDebugger/1.0" collectorDisplayName="IntelliTrace">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\QTAgent32_141001_120253515_16032.iTrace">IntelliTrace file for 'QTAgent32.exe' (16032)</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="c50dc691-966f-4d2a-a750-39e76cb89bf5" testId="68ca2e86-1e6f-4e69-fd3d-6a013217d7e1" testName="ARInDirectAddressModeWordDecrementTest" computerName="D-BRYANT2" duration="00:00:00.0051371" startTime="2014-10-01T12:02:53.8653677-04:00" endTime="2014-10-01T12:02:54.0023814-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c50dc691-966f-4d2a-a750-39e76cb89bf5">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;5&gt;. Actual:&lt;7&gt;. </Message>
+          <StackTrace>   at GenEmTest.AddressDisplacementTest.ARInDirectAddressModeWordDecrementTest() in c:\genesisemulator\genem\genemtest\addressdisplacementtest.cpp:line 147
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\SystemInformation.xml">System Information from D-BRYANT2</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/TraceDebugger/1.0" collectorDisplayName="IntelliTrace">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\QTAgent32_141001_120253880_16032.iTrace">IntelliTrace file for 'QTAgent32.exe' (16032)</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="66742809-7952-4af6-9df4-7947bcbfc61c" testId="6d5169a5-fc62-6120-a678-54b1fc7d1ed6" testName="ImmediateAddressModeWordTest" computerName="D-BRYANT2" duration="00:00:00.0054050" startTime="2014-10-01T12:02:54.0093821-04:00" endTime="2014-10-01T12:02:54.1303942-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="66742809-7952-4af6-9df4-7947bcbfc61c">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;4660&gt;. Actual:&lt;1&gt;. </Message>
+          <StackTrace>   at GenEmTest.UnitTest1.ImmediateAddressModeWordTest() in c:\genesisemulator\genem\genemtest\unittest1.cpp:line 183
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\SystemInformation.xml">System Information from D-BRYANT2</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/TraceDebugger/1.0" collectorDisplayName="IntelliTrace">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\QTAgent32_141001_120254025_16032.iTrace">IntelliTrace file for 'QTAgent32.exe' (16032)</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="135eb2b5-475f-4ea9-a1be-69bf754ea11e" testId="70ba78f9-03fc-e9ce-b835-ebea9a0f7668" testName="Bra16BitTest" computerName="D-BRYANT2" duration="00:00:00.0011501" startTime="2014-10-01T12:02:54.1373949-04:00" endTime="2014-10-01T12:02:54.1773989-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="135eb2b5-475f-4ea9-a1be-69bf754ea11e">
+      <CollectorDataEntries>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\SystemInformation.xml">System Information from D-BRYANT2</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/TestImpact/1.0" collectorDisplayName="Test Impact">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\testimpact.xml">Test Impact Data</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="815babff-ad67-48d5-ad03-e19a0afa8370" testId="77f36036-5b3e-a9c7-69fd-b08a362faeb5" testName="AbsoluteShortAddressModeWordTest" computerName="D-BRYANT2" duration="00:00:00.0022493" startTime="2014-10-01T12:02:54.1843996-04:00" endTime="2014-10-01T12:02:54.3264138-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="815babff-ad67-48d5-ad03-e19a0afa8370">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;4660&gt;. Actual:&lt;512&gt;. </Message>
+          <StackTrace>   at GenEmTest.UnitTest1.AbsoluteShortAddressModeWordTest() in c:\genesisemulator\genem\genemtest\unittest1.cpp:line 105
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\SystemInformation.xml">System Information from D-BRYANT2</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/TraceDebugger/1.0" collectorDisplayName="IntelliTrace">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\QTAgent32_141001_120254194_16032.iTrace">IntelliTrace file for 'QTAgent32.exe' (16032)</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="c0814b74-ccbd-4ff8-8a33-5c2bccf71d93" testId="7bbfba78-db02-22e0-112d-f4f3b90f6463" testName="DRDirectAddressModeWordTest" computerName="D-BRYANT2" duration="00:00:00.0050039" startTime="2014-10-01T12:02:54.3334145-04:00" endTime="2014-10-01T12:02:54.5714383-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c0814b74-ccbd-4ff8-8a33-5c2bccf71d93">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;8500&gt;. Actual:&lt;1365&gt;. </Message>
+          <StackTrace>   at GenEmTest.UnitTest1.DRDirectAddressModeWordTest() in c:\genesisemulator\genem\genemtest\unittest1.cpp:line 263
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\SystemInformation.xml">System Information from D-BRYANT2</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/TraceDebugger/1.0" collectorDisplayName="IntelliTrace">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\QTAgent32_141001_120254348_16032.iTrace">IntelliTrace file for 'QTAgent32.exe' (16032)</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="4b06869a-dea8-45a2-a406-26173cbe0a59" testId="8fb9f831-5c37-ae0b-6c9b-900f024de0cc" testName="ARDirectAddressModeLongTest" computerName="D-BRYANT2" duration="00:00:00.0054179" startTime="2014-10-01T12:02:54.5784390-04:00" endTime="2014-10-01T12:02:54.7324544-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4b06869a-dea8-45a2-a406-26173cbe0a59">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;557078034&gt;. Actual:&lt;1365&gt;. </Message>
+          <StackTrace>   at GenEmTest.UnitTest1.ARDirectAddressModeLongTest() in c:\genesisemulator\genem\genemtest\unittest1.cpp:line 372
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\SystemInformation.xml">System Information from D-BRYANT2</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/TraceDebugger/1.0" collectorDisplayName="IntelliTrace">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\QTAgent32_141001_120254604_16032.iTrace">IntelliTrace file for 'QTAgent32.exe' (16032)</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="9faea247-7fbe-4398-be3d-8e2ee47b7727" testId="90ead5ab-0cc3-68b5-c872-3c5910452fe3" testName="ARInDirectAddressModeWordDisplacementTest" computerName="D-BRYANT2" duration="00:00:00.0052592" startTime="2014-10-01T12:02:54.7384550-04:00" endTime="2014-10-01T12:02:54.8734685-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9faea247-7fbe-4398-be3d-8e2ee47b7727">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;30738&gt;. Actual:&lt;1365&gt;. </Message>
+          <StackTrace>   at GenEmTest.AddressDisplacementTest.ARInDirectAddressModeWordDisplacementTest() in c:\genesisemulator\genem\genemtest\addressdisplacementtest.cpp:line 229
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\SystemInformation.xml">System Information from D-BRYANT2</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/TraceDebugger/1.0" collectorDisplayName="IntelliTrace">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\QTAgent32_141001_120254754_16032.iTrace">IntelliTrace file for 'QTAgent32.exe' (16032)</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="a1f16b26-f553-4513-b442-9fc6a44452bb" testId="99f501ca-7a13-0b63-66c7-f9c38b6830ff" testName="ARInDirectAddressModeLongDecrementTest" computerName="D-BRYANT2" duration="00:00:00.0019598" startTime="2014-10-01T12:02:54.8754687-04:00" endTime="2014-10-01T12:02:55.5125324-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a1f16b26-f553-4513-b442-9fc6a44452bb">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;3&gt;. Actual:&lt;7&gt;. </Message>
+          <StackTrace>   at GenEmTest.AddressDisplacementTest.ARInDirectAddressModeLongDecrementTest() in c:\genesisemulator\genem\genemtest\addressdisplacementtest.cpp:line 174
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\SystemInformation.xml">System Information from D-BRYANT2</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/TraceDebugger/1.0" collectorDisplayName="IntelliTrace">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\QTAgent32_141001_120254881_16032.iTrace">IntelliTrace file for 'QTAgent32.exe' (16032)</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="a1da93cf-ad2b-4ca7-8f98-8687768453fc" testId="9cd94090-2377-de1a-9b9b-38814dabf111" testName="ARInDirectAddressModeByteDecrementTest" computerName="D-BRYANT2" duration="00:00:00.0052874" startTime="2014-10-01T12:02:55.5195331-04:00" endTime="2014-10-01T12:02:55.7085520-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a1da93cf-ad2b-4ca7-8f98-8687768453fc">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;6&gt;. Actual:&lt;7&gt;. </Message>
+          <StackTrace>   at GenEmTest.AddressDisplacementTest.ARInDirectAddressModeByteDecrementTest() in c:\genesisemulator\genem\genemtest\addressdisplacementtest.cpp:line 120
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\SystemInformation.xml">System Information from D-BRYANT2</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/TraceDebugger/1.0" collectorDisplayName="IntelliTrace">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\QTAgent32_141001_120255540_16032.iTrace">IntelliTrace file for 'QTAgent32.exe' (16032)</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="8e54fdac-acdd-4c7a-a020-5449439fb610" testId="a334898a-8fa3-4405-cd1c-7387b81db5f4" testName="AbsoluteShortAddressModeLongTest" computerName="D-BRYANT2" duration="00:00:00.0053251" startTime="2014-10-01T12:02:55.7155527-04:00" endTime="2014-10-01T12:02:55.9285740-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8e54fdac-acdd-4c7a-a020-5449439fb610">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;305419896&gt;. Actual:&lt;512&gt;. </Message>
+          <StackTrace>   at GenEmTest.UnitTest1.AbsoluteShortAddressModeLongTest() in c:\genesisemulator\genem\genemtest\unittest1.cpp:line 131
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\SystemInformation.xml">System Information from D-BRYANT2</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/TraceDebugger/1.0" collectorDisplayName="IntelliTrace">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\QTAgent32_141001_120255730_16032.iTrace">IntelliTrace file for 'QTAgent32.exe' (16032)</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="b7927ddf-adaf-4c72-98b1-3b5811beea39" testId="a5ffacd2-eccb-97f5-ca59-8696181279a3" testName="TstZeroTest" computerName="D-BRYANT2" duration="00:00:00.0010786" startTime="2014-10-01T12:02:55.9355747-04:00" endTime="2014-10-01T12:02:55.9665778-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b7927ddf-adaf-4c72-98b1-3b5811beea39">
+      <CollectorDataEntries>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\SystemInformation.xml">System Information from D-BRYANT2</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/TestImpact/1.0" collectorDisplayName="Test Impact">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\testimpact.xml">Test Impact Data</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="f4add7b1-1084-4123-a11d-1cde62a95c82" testId="bf85fec3-d5fc-818c-6463-be33e3f3694d" testName="ARDirectAddressModeByteTest" computerName="D-BRYANT2" duration="00:00:00.0053087" startTime="2014-10-01T12:02:55.9735785-04:00" endTime="2014-10-01T12:02:56.1015913-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f4add7b1-1084-4123-a11d-1cde62a95c82">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;1284&gt;. Actual:&lt;1365&gt;. </Message>
+          <StackTrace>   at GenEmTest.UnitTest1.ARDirectAddressModeByteTest() in c:\genesisemulator\genem\genemtest\unittest1.cpp:line 318
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\SystemInformation.xml">System Information from D-BRYANT2</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/TraceDebugger/1.0" collectorDisplayName="IntelliTrace">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\QTAgent32_141001_120255999_16032.iTrace">IntelliTrace file for 'QTAgent32.exe' (16032)</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="58d79d03-7cb2-4933-9ee6-09544358d661" testId="c0acc18e-900e-d1c4-d109-b2e8c2a54bba" testName="ARInDirectAddressModeByteIndexDisplacementTest" computerName="D-BRYANT2" duration="00:00:00.0055686" startTime="2014-10-01T12:02:56.1085920-04:00" endTime="2014-10-01T12:02:56.4066218-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="58d79d03-7cb2-4933-9ee6-09544358d661">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;1297&gt;. Actual:&lt;1365&gt;. </Message>
+          <StackTrace>   at GenEmTest.AddressDisplacementTest.ARInDirectAddressModeByteIndexDisplacementTest() in c:\genesisemulator\genem\genemtest\addressdisplacementtest.cpp:line 286
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\SystemInformation.xml">System Information from D-BRYANT2</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/TraceDebugger/1.0" collectorDisplayName="IntelliTrace">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\QTAgent32_141001_120256125_16032.iTrace">IntelliTrace file for 'QTAgent32.exe' (16032)</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="4015522d-47f4-43a3-8d02-a545be5c874a" testId="d1682589-214e-ac75-7590-ceee3dac3f76" testName="Bcc32bitTest" computerName="D-BRYANT2" duration="00:00:00.0011486" startTime="2014-10-01T12:02:56.4126224-04:00" endTime="2014-10-01T12:02:56.4456257-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4015522d-47f4-43a3-8d02-a545be5c874a">
+      <CollectorDataEntries>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\SystemInformation.xml">System Information from D-BRYANT2</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/TestImpact/1.0" collectorDisplayName="Test Impact">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\testimpact.xml">Test Impact Data</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="0f4f5557-077f-4084-99e8-36385966fe7a" testId="d2d6d958-0656-1274-5cd4-08718515d5aa" testName="ARInDirectAddressModeLongTest" computerName="D-BRYANT2" duration="00:00:00.0051995" startTime="2014-10-01T12:02:56.4526264-04:00" endTime="2014-10-01T12:02:56.6096421-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0f4f5557-077f-4084-99e8-36385966fe7a">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;1446253176&gt;. Actual:&lt;1365&gt;. </Message>
+          <StackTrace>   at GenEmTest.UnitTest1.ARInDirectAddressModeLongTest() in c:\genesisemulator\genem\genemtest\unittest1.cpp:line 454
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\SystemInformation.xml">System Information from D-BRYANT2</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/TraceDebugger/1.0" collectorDisplayName="IntelliTrace">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\QTAgent32_141001_120256473_16032.iTrace">IntelliTrace file for 'QTAgent32.exe' (16032)</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="fc70e312-d810-4f53-ba30-54ddb5397746" testId="d4a7209b-3036-e9e7-1544-5b2a9dd02fa0" testName="ARInDirectAddressModeByteDisplacementTest" computerName="D-BRYANT2" duration="00:00:00.0053646" startTime="2014-10-01T12:02:56.6166428-04:00" endTime="2014-10-01T12:02:56.7486560-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fc70e312-d810-4f53-ba30-54ddb5397746">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;1298&gt;. Actual:&lt;1365&gt;. </Message>
+          <StackTrace>   at GenEmTest.AddressDisplacementTest.ARInDirectAddressModeByteDisplacementTest() in c:\genesisemulator\genem\genemtest\addressdisplacementtest.cpp:line 202
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\SystemInformation.xml">System Information from D-BRYANT2</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/TraceDebugger/1.0" collectorDisplayName="IntelliTrace">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\QTAgent32_141001_120256631_16032.iTrace">IntelliTrace file for 'QTAgent32.exe' (16032)</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="edb1d178-fba0-463e-9f4b-236adca53c7d" testId="d60e7dfd-f0b5-1dc2-cd78-09dd93cc330a" testName="DRDirectAddressModeLongTest" computerName="D-BRYANT2" duration="00:00:00.0051965" startTime="2014-10-01T12:02:56.7556567-04:00" endTime="2014-10-01T12:02:57.4057217-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="edb1d178-fba0-463e-9f4b-236adca53c7d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;557078034&gt;. Actual:&lt;1365&gt;. </Message>
+          <StackTrace>   at GenEmTest.UnitTest1.DRDirectAddressModeLongTest() in c:\genesisemulator\genem\genemtest\unittest1.cpp:line 290
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\SystemInformation.xml">System Information from D-BRYANT2</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/TraceDebugger/1.0" collectorDisplayName="IntelliTrace">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\QTAgent32_141001_120256771_16032.iTrace">IntelliTrace file for 'QTAgent32.exe' (16032)</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="5863691f-ad9e-42d7-91f1-9d80ec7bed62" testId="daba1e0f-e8c6-5d01-2253-ac9c99a8a429" testName="AbsoluteShortAddressModeByteTest" computerName="D-BRYANT2" duration="00:00:00.0052646" startTime="2014-10-01T12:02:57.4127224-04:00" endTime="2014-10-01T12:02:57.9927804-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5863691f-ad9e-42d7-91f1-9d80ec7bed62">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;564&gt;. Actual:&lt;512&gt;. </Message>
+          <StackTrace>   at GenEmTest.UnitTest1.AbsoluteShortAddressModeByteTest() in c:\genesisemulator\genem\genemtest\unittest1.cpp:line 78
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\SystemInformation.xml">System Information from D-BRYANT2</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/TraceDebugger/1.0" collectorDisplayName="IntelliTrace">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\QTAgent32_141001_120257438_16032.iTrace">IntelliTrace file for 'QTAgent32.exe' (16032)</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="76b966ea-68a8-4113-a3f9-d6ca6ef76c4e" testId="dcaabd90-51f3-42ac-82ce-9bc33df60a6c" testName="Bcc16bitTest" computerName="D-BRYANT2" duration="00:00:00.0011387" startTime="2014-10-01T12:02:58.0017813-04:00" endTime="2014-10-01T12:02:58.0327844-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="76b966ea-68a8-4113-a3f9-d6ca6ef76c4e">
+      <CollectorDataEntries>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\SystemInformation.xml">System Information from D-BRYANT2</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/TestImpact/1.0" collectorDisplayName="Test Impact">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\testimpact.xml">Test Impact Data</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="ca8e5137-5c08-467e-82b3-3434bf2bacba" testId="e2852dd1-8418-301e-5fef-121983e85ad2" testName="Bra8BitTest" computerName="D-BRYANT2" duration="00:00:00.0004211" startTime="2014-10-01T12:02:58.0357847-04:00" endTime="2014-10-01T12:02:58.0477859-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ca8e5137-5c08-467e-82b3-3434bf2bacba">
+      <CollectorDataEntries>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\SystemInformation.xml">System Information from D-BRYANT2</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/TestImpact/1.0" collectorDisplayName="Test Impact">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\testimpact.xml">Test Impact Data</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="465449a4-b3ea-4887-9d53-23b2afe10d8e" testId="e7e328c3-8833-8755-36bc-290ff227fa6b" testName="movealongTest" computerName="D-BRYANT2" duration="00:00:00.0018532" startTime="2014-10-01T12:02:58.0507862-04:00" endTime="2014-10-01T12:02:58.1847996-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="465449a4-b3ea-4887-9d53-23b2afe10d8e">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;305435989&gt;. Actual:&lt;0&gt;. </Message>
+          <StackTrace>   at GenEmTest.DataMovementTest.movealongTest() in c:\genesisemulator\genem\genemtest\datamovementtest.cpp:line 213
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\SystemInformation.xml">System Information from D-BRYANT2</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/TraceDebugger/1.0" collectorDisplayName="IntelliTrace">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\QTAgent32_141001_120258058_16032.iTrace">IntelliTrace file for 'QTAgent32.exe' (16032)</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="785775cf-8ad0-46ae-8aa5-ebc7c329cd71" testId="ed296a88-0c21-604c-fae1-ba9cec2453d9" testName="Bra32BitTest" computerName="D-BRYANT2" duration="00:00:00.0011125" startTime="2014-10-01T12:02:58.1918003-04:00" endTime="2014-10-01T12:02:58.2248036-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="785775cf-8ad0-46ae-8aa5-ebc7c329cd71">
+      <CollectorDataEntries>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\SystemInformation.xml">System Information from D-BRYANT2</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/TestImpact/1.0" collectorDisplayName="Test Impact">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\testimpact.xml">Test Impact Data</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="a998461e-07fa-4280-bce0-4687c7b6496b" testId="f3e08c24-2f78-3e36-31d4-062f1b63be1e" testName="ImmediateAddressModeByteTest" computerName="D-BRYANT2" duration="00:00:00.0054312" startTime="2014-10-01T12:02:58.2308042-04:00" endTime="2014-10-01T12:02:58.8398651-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a998461e-07fa-4280-bce0-4687c7b6496b">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;516&gt;. Actual:&lt;512&gt;. </Message>
+          <StackTrace>   at GenEmTest.UnitTest1.ImmediateAddressModeByteTest() in c:\genesisemulator\genem\genemtest\unittest1.cpp:line 157
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\SystemInformation.xml">System Information from D-BRYANT2</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/TraceDebugger/1.0" collectorDisplayName="IntelliTrace">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\QTAgent32_141001_120258246_16032.iTrace">IntelliTrace file for 'QTAgent32.exe' (16032)</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="c0eff630-a8d4-4b02-854a-14757dc761d4" testId="f5919619-705f-35cb-065a-928005e5942f" testName="ARInDirectAddressModeWordIncrementTest" computerName="D-BRYANT2" duration="00:00:00.0052691" startTime="2014-10-01T12:02:58.8458657-04:00" endTime="2014-10-01T12:02:59.0448856-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c0eff630-a8d4-4b02-854a-14757dc761d4">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;5&gt;. Actual:&lt;3&gt;. </Message>
+          <StackTrace>   at GenEmTest.AddressDisplacementTest.ARInDirectAddressModeWordIncrementTest() in c:\genesisemulator\genem\genemtest\addressdisplacementtest.cpp:line 65
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\SystemInformation.xml">System Information from D-BRYANT2</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/TraceDebugger/1.0" collectorDisplayName="IntelliTrace">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\QTAgent32_141001_120258873_16032.iTrace">IntelliTrace file for 'QTAgent32.exe' (16032)</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="a31da54d-bddb-4a5c-bd75-2c9681e84398" testId="f5e3553d-51fd-7a25-b025-63bbc2a4379d" testName="moveawordposTest" computerName="D-BRYANT2" duration="00:00:00.0059487" startTime="2014-10-01T12:02:59.0528864-04:00" endTime="2014-10-01T12:02:59.2389050-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a31da54d-bddb-4a5c-bd75-2c9681e84398">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;1365&gt;. Actual:&lt;0&gt;. </Message>
+          <StackTrace>   at GenEmTest.DataMovementTest.moveawordposTest() in c:\genesisemulator\genem\genemtest\datamovementtest.cpp:line 155
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\SystemInformation.xml">System Information from D-BRYANT2</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/TraceDebugger/1.0" collectorDisplayName="IntelliTrace">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\QTAgent32_141001_120259068_16032.iTrace">IntelliTrace file for 'QTAgent32.exe' (16032)</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="c31c092e-1149-4c36-8152-cb2d66c9e31a" testId="fbfcd82a-f36c-878b-a8e6-fc507d622fa8" testName="ARInDirectAddressModeWordIndexDisplacementTest" computerName="D-BRYANT2" duration="00:00:00.0053156" startTime="2014-10-01T12:02:59.2459057-04:00" endTime="2014-10-01T12:02:59.4439255-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c31c092e-1149-4c36-8152-cb2d66c9e31a">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;4386&gt;. Actual:&lt;1365&gt;. </Message>
+          <StackTrace>   at GenEmTest.AddressDisplacementTest.ARInDirectAddressModeWordIndexDisplacementTest() in c:\genesisemulator\genem\genemtest\addressdisplacementtest.cpp:line 314
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\SystemInformation.xml">System Information from D-BRYANT2</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/TraceDebugger/1.0" collectorDisplayName="IntelliTrace">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\QTAgent32_141001_120259261_16032.iTrace">IntelliTrace file for 'QTAgent32.exe' (16032)</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="8739b04c-f8fd-4a4b-b429-6dccaeec2dcb" testId="fd32e42f-c4f4-b6e5-950c-4143c3d5e6f8" testName="DRDirectAddressModeByteTest" computerName="D-BRYANT2" duration="00:00:00.0053323" startTime="2014-10-01T12:02:59.4509262-04:00" endTime="2014-10-01T12:02:59.6189430-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8739b04c-f8fd-4a4b-b429-6dccaeec2dcb">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;1284&gt;. Actual:&lt;1365&gt;. </Message>
+          <StackTrace>   at GenEmTest.UnitTest1.DRDirectAddressModeByteTest() in c:\genesisemulator\genem\genemtest\unittest1.cpp:line 236
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\SystemInformation.xml">System Information from D-BRYANT2</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/TraceDebugger/1.0" collectorDisplayName="IntelliTrace">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\QTAgent32_141001_120259472_16032.iTrace">IntelliTrace file for 'QTAgent32.exe' (16032)</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+  </Results>
+</TestRun>

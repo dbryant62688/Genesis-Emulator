@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="8e49dddc-ac45-468c-a16a-b34eb9d8173f" name="dbryant@D-BRYANT2 2014-10-01 12:14:35" runUser="CRESTRON\dbryant" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Trace and Test Impact" id="bef5c62a-216d-4f5a-93ba-7bf2fdf519e1">
+    <Description>These are test settings for Trace and Test Impact.</Description>
+    <Deployment runDeploymentRoot="dbryant_D-BRYANT2 2014-10-01 12_14_35">
+      <DeploymentItem filename="C:\GenesisEmulator\GenEm\Debug\CPU68K.lib" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+        <DataCollectors>
+          <DataCollector uri="datacollector://microsoft/SystemInfo/1.0" assemblyQualifiedName="Microsoft.VisualStudio.TestTools.DataCollection.SystemInfo.SystemInfoDataCollector, Microsoft.VisualStudio.TestTools.DataCollection.SystemInfo, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" friendlyName="System Information">
+          </DataCollector>
+          <DataCollector uri="datacollector://microsoft/ActionLog/1.0" assemblyQualifiedName="Microsoft.VisualStudio.TestTools.ManualTest.ActionLog.ActionLogPlugin, Microsoft.VisualStudio.TestTools.ManualTest.ActionLog, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" friendlyName="Actions">
+          </DataCollector>
+          <DataCollector uri="datacollector://microsoft/HttpProxy/1.0" assemblyQualifiedName="Microsoft.VisualStudio.TraceCollector.HttpProxyCollector, Microsoft.VisualStudio.TraceCollector, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" friendlyName="ASP.NET Client Proxy for IntelliTrace and Test Impact">
+          </DataCollector>
+          <DataCollector uri="datacollector://microsoft/TestImpact/1.0" assemblyQualifiedName="Microsoft.VisualStudio.TraceCollector.TestImpactDataCollector, Microsoft.VisualStudio.TraceCollector, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" friendlyName="Test Impact">
+          </DataCollector>
+          <DataCollector uri="datacollector://microsoft/TraceDebugger/1.0" assemblyQualifiedName="Microsoft.VisualStudio.TraceCollector.TraceDebuggerDataCollector, Microsoft.VisualStudio.TraceCollector, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" friendlyName="IntelliTrace">
+          </DataCollector>
+        </DataCollectors>
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-10-01T12:14:35.5295271-04:00" queuing="2014-10-01T12:14:35.9365678-04:00" start="2014-10-01T12:14:38.7248466-04:00" finish="2014-10-01T12:14:40.6320373-04:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <CollectorDataEntries>
+      <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+        <UriAttachments>
+          <UriAttachment>
+            <A href="D-BRYANT2\SystemInformation.xml">System Information from D-BRYANT2</A>
+          </UriAttachment>
+        </UriAttachments>
+      </Collector>
+    </CollectorDataEntries>
+    <DataCollectorMessages>
+      <DataCollectorMessage timestamp="2014-10-01T12:14:36.5156257-04:00" dataCollectorUri="datacollector://microsoft/HttpProxy/1.0" dataCollectorFriendlyName="ASP.NET Client Proxy for IntelliTrace and Test Impact" agentName="D-BRYANT2" level="Warning">
+        <Text>An error occurred while installing and starting the HTTP proxy used to associate tests with web requests. PRXY0022: When registering the proxy, another instance of the proxy was detected at end point '127.0.0.1:44148'. Multiple instances of this proxy are not allowed for the same user on the same computer. (To override this behavior, use the 'AllowMultipleProxies' configuration option.)</Text>
+      </DataCollectorMessage>
+    </DataCollectorMessages>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="moveqposTest" storage="c:\genesisemulator\genem\debug\defaulttest.dll" id="4046718c-1796-ccad-b3fa-0a99ca8d7207">
+      <Execution id="ef7a1971-f17b-42c4-aefa-d29e2d647159" />
+      <TestMethod codeBase="C:/GenesisEmulator/GenEm/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenEmTest.DataMovementTest, DefaultTest, Version=1.0.5387.19866, Culture=neutral, PublicKeyToken=null" name="moveqposTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="4046718c-1796-ccad-b3fa-0a99ca8d7207" executionId="ef7a1971-f17b-42c4-aefa-d29e2d647159" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="ef7a1971-f17b-42c4-aefa-d29e2d647159" testId="4046718c-1796-ccad-b3fa-0a99ca8d7207" testName="moveqposTest" computerName="D-BRYANT2" duration="00:00:00.1827531" startTime="2014-10-01T12:14:38.8848626-04:00" endTime="2014-10-01T12:14:39.7849526-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ef7a1971-f17b-42c4-aefa-d29e2d647159">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;127&gt;. Actual:&lt;1365&gt;. </Message>
+          <StackTrace>   at GenEmTest.DataMovementTest.moveqposTest() in c:\genesisemulator\genem\genemtest\datamovementtest.cpp:line 126
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\SystemInformation.xml">System Information from D-BRYANT2</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/TraceDebugger/1.0" collectorDisplayName="IntelliTrace">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\QTAgent32_141001_121439626_18772.iTrace">IntelliTrace file for 'QTAgent32.exe' (18772)</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+  </Results>
+</TestRun>

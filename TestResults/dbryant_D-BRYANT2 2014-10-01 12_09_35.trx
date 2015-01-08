@@ -1,0 +1,463 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="ad38628a-73a1-4f02-936f-a17f2c5ccfca" name="dbryant@D-BRYANT2 2014-10-01 12:09:35" runUser="CRESTRON\dbryant" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Trace and Test Impact" id="bef5c62a-216d-4f5a-93ba-7bf2fdf519e1">
+    <Description>These are test settings for Trace and Test Impact.</Description>
+    <Deployment userDeploymentRoot="C:\GenesisEmulator\GenEm\TestResults" useDefaultDeploymentRoot="false" runDeploymentRoot="dbryant_D-BRYANT2 2014-10-01 12_09_35">
+      <DeploymentItem filename="C:\GenesisEmulator\GenEm\Debug\CPU68K.lib" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+        <DataCollectors>
+          <DataCollector uri="datacollector://microsoft/SystemInfo/1.0" assemblyQualifiedName="Microsoft.VisualStudio.TestTools.DataCollection.SystemInfo.SystemInfoDataCollector, Microsoft.VisualStudio.TestTools.DataCollection.SystemInfo, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" friendlyName="System Information">
+          </DataCollector>
+          <DataCollector uri="datacollector://microsoft/ActionLog/1.0" assemblyQualifiedName="Microsoft.VisualStudio.TestTools.ManualTest.ActionLog.ActionLogPlugin, Microsoft.VisualStudio.TestTools.ManualTest.ActionLog, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" friendlyName="Actions">
+          </DataCollector>
+          <DataCollector uri="datacollector://microsoft/HttpProxy/1.0" assemblyQualifiedName="Microsoft.VisualStudio.TraceCollector.HttpProxyCollector, Microsoft.VisualStudio.TraceCollector, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" friendlyName="ASP.NET Client Proxy for IntelliTrace and Test Impact">
+          </DataCollector>
+          <DataCollector uri="datacollector://microsoft/TestImpact/1.0" assemblyQualifiedName="Microsoft.VisualStudio.TraceCollector.TestImpactDataCollector, Microsoft.VisualStudio.TraceCollector, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" friendlyName="Test Impact">
+          </DataCollector>
+          <DataCollector uri="datacollector://microsoft/TraceDebugger/1.0" assemblyQualifiedName="Microsoft.VisualStudio.TraceCollector.TraceDebuggerDataCollector, Microsoft.VisualStudio.TraceCollector, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" friendlyName="IntelliTrace">
+          </DataCollector>
+        </DataCollectors>
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-10-01T12:09:35.7345506-04:00" queuing="2014-10-01T12:09:36.2366008-04:00" start="2014-10-01T12:09:40.6750446-04:00" finish="2014-10-01T12:14:02.7022447-04:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="23" executed="13" error="0" failed="12" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="10" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="D-BRYANT2" outcome="Error" timestamp="2014-10-01T12:14:02.7002445-04:00">
+        <Text>Test host process exited unexpectedly.</Text>
+      </RunInfo>
+    </RunInfos>
+    <DataCollectorMessages>
+      <DataCollectorMessage timestamp="2014-10-01T12:09:36.8086580-04:00" dataCollectorUri="datacollector://microsoft/HttpProxy/1.0" dataCollectorFriendlyName="ASP.NET Client Proxy for IntelliTrace and Test Impact" agentName="D-BRYANT2" level="Warning">
+        <Text>An error occurred while installing and starting the HTTP proxy used to associate tests with web requests. PRXY0022: When registering the proxy, another instance of the proxy was detected at end point '127.0.0.1:44148'. Multiple instances of this proxy are not allowed for the same user on the same computer. (To override this behavior, use the 'AllowMultipleProxies' configuration option.)</Text>
+      </DataCollectorMessage>
+    </DataCollectorMessages>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="ARInDirectAddressModeByteDisplacementTest" storage="c:\genesisemulator\genem\debug\defaulttest.dll" id="d4a7209b-3036-e9e7-1544-5b2a9dd02fa0">
+      <Execution id="57495405-57ac-4ad2-9a64-3d2bf20c3e1d" />
+      <TestMethod codeBase="C:/GenesisEmulator/GenEm/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenEmTest.AddressDisplacementTest, DefaultTest, Version=1.0.5387.19866, Culture=neutral, PublicKeyToken=null" name="ARInDirectAddressModeByteDisplacementTest" />
+    </UnitTest>
+    <UnitTest name="ARInDirectAddressModeWordIndexDisplacementTest" storage="c:\genesisemulator\genem\debug\defaulttest.dll" id="fbfcd82a-f36c-878b-a8e6-fc507d622fa8">
+      <Execution id="9ad9a96f-06ea-47b0-b9f0-eaf85c471fe0" />
+      <TestMethod codeBase="C:/GenesisEmulator/GenEm/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenEmTest.AddressDisplacementTest, DefaultTest, Version=1.0.5387.19866, Culture=neutral, PublicKeyToken=null" name="ARInDirectAddressModeWordIndexDisplacementTest" />
+    </UnitTest>
+    <UnitTest name="AbsoluteShortAddressModeByteTest" storage="c:\genesisemulator\genem\debug\defaulttest.dll" id="daba1e0f-e8c6-5d01-2253-ac9c99a8a429">
+      <Execution id="59b83888-ce3e-4f60-aed8-c3ea275fc63e" />
+      <TestMethod codeBase="C:/GenesisEmulator/GenEm/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenEmTest.UnitTest1, DefaultTest, Version=1.0.5387.19866, Culture=neutral, PublicKeyToken=null" name="AbsoluteShortAddressModeByteTest" />
+    </UnitTest>
+    <UnitTest name="ARInDirectAddressModeLongIndexDisplacementTest" storage="c:\genesisemulator\genem\debug\defaulttest.dll" id="673555db-df97-d4e6-95a6-8db8ae30ad06">
+      <Execution id="f8a7734c-c607-4564-95ed-94867a94482f" />
+      <TestMethod codeBase="C:/GenesisEmulator/GenEm/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenEmTest.AddressDisplacementTest, DefaultTest, Version=1.0.5387.19866, Culture=neutral, PublicKeyToken=null" name="ARInDirectAddressModeLongIndexDisplacementTest" />
+    </UnitTest>
+    <UnitTest name="TstNegativeTest" storage="c:\genesisemulator\genem\debug\defaulttest.dll" id="61b9ee7e-4133-3167-e0f6-e0ba1f1b3452">
+      <Execution id="e9423c79-878f-400d-9b33-3728c18e75ed" />
+      <TestMethod codeBase="C:/GenesisEmulator/GenEm/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenEmTest.ProgramControlTest, DefaultTest, Version=1.0.5387.19866, Culture=neutral, PublicKeyToken=null" name="TstNegativeTest" />
+    </UnitTest>
+    <UnitTest name="moveqnegTest" storage="c:\genesisemulator\genem\debug\defaulttest.dll" id="4f742dd3-6b2e-cd7a-601c-d21d1203ec94">
+      <Execution id="182e1c82-b3d0-4226-8670-6fa093962ba7" />
+      <TestMethod codeBase="C:/GenesisEmulator/GenEm/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenEmTest.DataMovementTest, DefaultTest, Version=1.0.5387.19866, Culture=neutral, PublicKeyToken=null" name="moveqnegTest" />
+    </UnitTest>
+    <UnitTest name="ARInDirectAddressModeWordDecrementTest" storage="c:\genesisemulator\genem\debug\defaulttest.dll" id="68ca2e86-1e6f-4e69-fd3d-6a013217d7e1">
+      <Execution id="740d8e3b-5439-4dfa-a120-9a5a1a96def5" />
+      <TestMethod codeBase="C:/GenesisEmulator/GenEm/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenEmTest.AddressDisplacementTest, DefaultTest, Version=1.0.5387.19866, Culture=neutral, PublicKeyToken=null" name="ARInDirectAddressModeWordDecrementTest" />
+    </UnitTest>
+    <UnitTest name="ImmediateAddressModeWordTest" storage="c:\genesisemulator\genem\debug\defaulttest.dll" id="6d5169a5-fc62-6120-a678-54b1fc7d1ed6">
+      <Execution id="8603e804-2495-4ab6-aca6-54e9227b9ed5" />
+      <TestMethod codeBase="C:/GenesisEmulator/GenEm/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenEmTest.UnitTest1, DefaultTest, Version=1.0.5387.19866, Culture=neutral, PublicKeyToken=null" name="ImmediateAddressModeWordTest" />
+    </UnitTest>
+    <UnitTest name="ARInDirectAddressModeByteDecrementTest" storage="c:\genesisemulator\genem\debug\defaulttest.dll" id="9cd94090-2377-de1a-9b9b-38814dabf111">
+      <Execution id="945fba59-f359-4024-a453-90f0387674b1" />
+      <TestMethod codeBase="C:/GenesisEmulator/GenEm/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenEmTest.AddressDisplacementTest, DefaultTest, Version=1.0.5387.19866, Culture=neutral, PublicKeyToken=null" name="ARInDirectAddressModeByteDecrementTest" />
+    </UnitTest>
+    <UnitTest name="ARInDirectAddressModeLongDecrementTest" storage="c:\genesisemulator\genem\debug\defaulttest.dll" id="99f501ca-7a13-0b63-66c7-f9c38b6830ff">
+      <Execution id="81618d1a-5aaf-4785-8851-25204c7c87af" />
+      <TestMethod codeBase="C:/GenesisEmulator/GenEm/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenEmTest.AddressDisplacementTest, DefaultTest, Version=1.0.5387.19866, Culture=neutral, PublicKeyToken=null" name="ARInDirectAddressModeLongDecrementTest" />
+    </UnitTest>
+    <UnitTest name="ARInDirectAddressModeLongIncrementTest" storage="c:\genesisemulator\genem\debug\defaulttest.dll" id="5729348f-4874-4e1e-a4b3-471010e67a26">
+      <Execution id="291011eb-ec84-41dd-b34d-c9c2b6317827" />
+      <TestMethod codeBase="C:/GenesisEmulator/GenEm/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenEmTest.AddressDisplacementTest, DefaultTest, Version=1.0.5387.19866, Culture=neutral, PublicKeyToken=null" name="ARInDirectAddressModeLongIncrementTest" />
+    </UnitTest>
+    <UnitTest name="moveqposTest" storage="c:\genesisemulator\genem\debug\defaulttest.dll" id="4046718c-1796-ccad-b3fa-0a99ca8d7207">
+      <Execution id="bd0f4253-c2e5-49e4-937e-72d279c7405f" />
+      <TestMethod codeBase="C:/GenesisEmulator/GenEm/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenEmTest.DataMovementTest, DefaultTest, Version=1.0.5387.19866, Culture=neutral, PublicKeyToken=null" name="moveqposTest" />
+    </UnitTest>
+    <UnitTest name="moveawordnegTest" storage="c:\genesisemulator\genem\debug\defaulttest.dll" id="01e284ca-a346-b826-2be1-41ae3c76b745">
+      <Execution id="ec7531c1-5714-4576-ae8a-cf226afaad07" />
+      <TestMethod codeBase="C:/GenesisEmulator/GenEm/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenEmTest.DataMovementTest, DefaultTest, Version=1.0.5387.19866, Culture=neutral, PublicKeyToken=null" name="moveawordnegTest" />
+    </UnitTest>
+    <UnitTest name="DRDirectAddressModeByteTest" storage="c:\genesisemulator\genem\debug\defaulttest.dll" id="fd32e42f-c4f4-b6e5-950c-4143c3d5e6f8">
+      <Execution id="9a4c0d71-eb2f-4e20-a76a-84cbbfe5c500" />
+      <TestMethod codeBase="C:/GenesisEmulator/GenEm/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenEmTest.UnitTest1, DefaultTest, Version=1.0.5387.19866, Culture=neutral, PublicKeyToken=null" name="DRDirectAddressModeByteTest" />
+    </UnitTest>
+    <UnitTest name="moveawordposTest" storage="c:\genesisemulator\genem\debug\defaulttest.dll" id="f5e3553d-51fd-7a25-b025-63bbc2a4379d">
+      <Execution id="89b77426-ed2c-4bb7-af67-120f816b003a" />
+      <TestMethod codeBase="C:/GenesisEmulator/GenEm/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenEmTest.DataMovementTest, DefaultTest, Version=1.0.5387.19866, Culture=neutral, PublicKeyToken=null" name="moveawordposTest" />
+    </UnitTest>
+    <UnitTest name="ARInDirectAddressModeWordTest" storage="c:\genesisemulator\genem\debug\defaulttest.dll" id="32211488-436a-ba83-9f57-dab5fad1e88b">
+      <Execution id="75c9a698-4609-45f3-bd05-7a590c55a427" />
+      <TestMethod codeBase="C:/GenesisEmulator/GenEm/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenEmTest.UnitTest1, DefaultTest, Version=1.0.5387.19866, Culture=neutral, PublicKeyToken=null" name="ARInDirectAddressModeWordTest" />
+    </UnitTest>
+    <UnitTest name="ARInDirectAddressModeLongDisplacementTest" storage="c:\genesisemulator\genem\debug\defaulttest.dll" id="080b45e0-ed85-db33-9e13-4b35cd49d769">
+      <Execution id="0ee20c1f-babf-43f1-9d71-89a3b2d9275d" />
+      <TestMethod codeBase="C:/GenesisEmulator/GenEm/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenEmTest.AddressDisplacementTest, DefaultTest, Version=1.0.5387.19866, Culture=neutral, PublicKeyToken=null" name="ARInDirectAddressModeLongDisplacementTest" />
+    </UnitTest>
+    <UnitTest name="movealongTest" storage="c:\genesisemulator\genem\debug\defaulttest.dll" id="e7e328c3-8833-8755-36bc-290ff227fa6b">
+      <Execution id="dfbd35fa-ba76-4921-94e4-bd553e8d789b" />
+      <TestMethod codeBase="C:/GenesisEmulator/GenEm/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenEmTest.DataMovementTest, DefaultTest, Version=1.0.5387.19866, Culture=neutral, PublicKeyToken=null" name="movealongTest" />
+    </UnitTest>
+    <UnitTest name="DRDirectAddressModeWordTest" storage="c:\genesisemulator\genem\debug\defaulttest.dll" id="7bbfba78-db02-22e0-112d-f4f3b90f6463">
+      <Execution id="df0386e6-aca2-45fa-9806-2acabc86dc32" />
+      <TestMethod codeBase="C:/GenesisEmulator/GenEm/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenEmTest.UnitTest1, DefaultTest, Version=1.0.5387.19866, Culture=neutral, PublicKeyToken=null" name="DRDirectAddressModeWordTest" />
+    </UnitTest>
+    <UnitTest name="AbsoluteShortAddressModeLongTest" storage="c:\genesisemulator\genem\debug\defaulttest.dll" id="a334898a-8fa3-4405-cd1c-7387b81db5f4">
+      <Execution id="371551b1-626c-46e7-94ee-da7def470178" />
+      <TestMethod codeBase="C:/GenesisEmulator/GenEm/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenEmTest.UnitTest1, DefaultTest, Version=1.0.5387.19866, Culture=neutral, PublicKeyToken=null" name="AbsoluteShortAddressModeLongTest" />
+    </UnitTest>
+    <UnitTest name="ARInDirectAddressModeByteIndexDisplacementTest" storage="c:\genesisemulator\genem\debug\defaulttest.dll" id="c0acc18e-900e-d1c4-d109-b2e8c2a54bba">
+      <Execution id="2ca895c4-65b7-483b-873f-7c19398f74c0" />
+      <TestMethod codeBase="C:/GenesisEmulator/GenEm/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenEmTest.AddressDisplacementTest, DefaultTest, Version=1.0.5387.19866, Culture=neutral, PublicKeyToken=null" name="ARInDirectAddressModeByteIndexDisplacementTest" />
+    </UnitTest>
+    <UnitTest name="ARInDirectAddressModeWordDisplacementTest" storage="c:\genesisemulator\genem\debug\defaulttest.dll" id="90ead5ab-0cc3-68b5-c872-3c5910452fe3">
+      <Execution id="4e7ecb06-4655-413e-a1e0-a27cfdb1c7cc" />
+      <TestMethod codeBase="C:/GenesisEmulator/GenEm/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenEmTest.AddressDisplacementTest, DefaultTest, Version=1.0.5387.19866, Culture=neutral, PublicKeyToken=null" name="ARInDirectAddressModeWordDisplacementTest" />
+    </UnitTest>
+    <UnitTest name="ImmediateAddressModeByteTest" storage="c:\genesisemulator\genem\debug\defaulttest.dll" id="f3e08c24-2f78-3e36-31d4-062f1b63be1e">
+      <Execution id="95656710-9f5f-46af-a4bd-6b4bc0b4eb5c" />
+      <TestMethod codeBase="C:/GenesisEmulator/GenEm/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenEmTest.UnitTest1, DefaultTest, Version=1.0.5387.19866, Culture=neutral, PublicKeyToken=null" name="ImmediateAddressModeByteTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="4046718c-1796-ccad-b3fa-0a99ca8d7207" executionId="bd0f4253-c2e5-49e4-937e-72d279c7405f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="080b45e0-ed85-db33-9e13-4b35cd49d769" executionId="0ee20c1f-babf-43f1-9d71-89a3b2d9275d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="32211488-436a-ba83-9f57-dab5fad1e88b" executionId="75c9a698-4609-45f3-bd05-7a590c55a427" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e7e328c3-8833-8755-36bc-290ff227fa6b" executionId="dfbd35fa-ba76-4921-94e4-bd553e8d789b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="01e284ca-a346-b826-2be1-41ae3c76b745" executionId="ec7531c1-5714-4576-ae8a-cf226afaad07" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="673555db-df97-d4e6-95a6-8db8ae30ad06" executionId="f8a7734c-c607-4564-95ed-94867a94482f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c0acc18e-900e-d1c4-d109-b2e8c2a54bba" executionId="2ca895c4-65b7-483b-873f-7c19398f74c0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fd32e42f-c4f4-b6e5-950c-4143c3d5e6f8" executionId="9a4c0d71-eb2f-4e20-a76a-84cbbfe5c500" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9cd94090-2377-de1a-9b9b-38814dabf111" executionId="945fba59-f359-4024-a453-90f0387674b1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a334898a-8fa3-4405-cd1c-7387b81db5f4" executionId="371551b1-626c-46e7-94ee-da7def470178" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6d5169a5-fc62-6120-a678-54b1fc7d1ed6" executionId="8603e804-2495-4ab6-aca6-54e9227b9ed5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d4a7209b-3036-e9e7-1544-5b2a9dd02fa0" executionId="57495405-57ac-4ad2-9a64-3d2bf20c3e1d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="daba1e0f-e8c6-5d01-2253-ac9c99a8a429" executionId="59b83888-ce3e-4f60-aed8-c3ea275fc63e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f5e3553d-51fd-7a25-b025-63bbc2a4379d" executionId="89b77426-ed2c-4bb7-af67-120f816b003a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="99f501ca-7a13-0b63-66c7-f9c38b6830ff" executionId="81618d1a-5aaf-4785-8851-25204c7c87af" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="68ca2e86-1e6f-4e69-fd3d-6a013217d7e1" executionId="740d8e3b-5439-4dfa-a120-9a5a1a96def5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5729348f-4874-4e1e-a4b3-471010e67a26" executionId="291011eb-ec84-41dd-b34d-c9c2b6317827" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7bbfba78-db02-22e0-112d-f4f3b90f6463" executionId="df0386e6-aca2-45fa-9806-2acabc86dc32" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fbfcd82a-f36c-878b-a8e6-fc507d622fa8" executionId="9ad9a96f-06ea-47b0-b9f0-eaf85c471fe0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="90ead5ab-0cc3-68b5-c872-3c5910452fe3" executionId="4e7ecb06-4655-413e-a1e0-a27cfdb1c7cc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f3e08c24-2f78-3e36-31d4-062f1b63be1e" executionId="95656710-9f5f-46af-a4bd-6b4bc0b4eb5c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="61b9ee7e-4133-3167-e0f6-e0ba1f1b3452" executionId="e9423c79-878f-400d-9b33-3728c18e75ed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4f742dd3-6b2e-cd7a-601c-d21d1203ec94" executionId="182e1c82-b3d0-4226-8670-6fa093962ba7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="bd0f4253-c2e5-49e4-937e-72d279c7405f" testId="4046718c-1796-ccad-b3fa-0a99ca8d7207" testName="moveqposTest" computerName="D-BRYANT2" duration="00:00:03.7475166" startTime="2014-10-01T12:09:41.2040975-04:00" endTime="2014-10-01T12:09:48.7488519-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bd0f4253-c2e5-49e4-937e-72d279c7405f">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;127&gt;. Actual:&lt;1365&gt;. </Message>
+          <StackTrace>   at GenEmTest.DataMovementTest.moveqposTest() in c:\genesisemulator\genem\genemtest\datamovementtest.cpp:line 126
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\SystemInformation.xml">System Information from D-BRYANT2</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+      <DataCollectorMessages>
+        <DataCollectorMessage timestamp="2014-10-01T12:09:48.7408511-04:00" dataCollectorUri="datacollector://microsoft/TestImpact/1.0" dataCollectorFriendlyName="Test Impact" agentName="D-BRYANT2" level="Warning">
+          <Text>No Microsoft .NET applications were launched during the test run. Launch applications from Explorer or a new command prompt after a test case has started. If no .NET application is being tested, disable the Test Impact and IntelliTrace diagnostic data adapters.</Text>
+        </DataCollectorMessage>
+      </DataCollectorMessages>
+    </UnitTestResult>
+    <UnitTestResult executionId="0ee20c1f-babf-43f1-9d71-89a3b2d9275d" testId="080b45e0-ed85-db33-9e13-4b35cd49d769" testName="ARInDirectAddressModeLongDisplacementTest" computerName="D-BRYANT2" duration="00:00:01.3689913" startTime="2014-10-01T12:09:48.7638534-04:00" endTime="2014-10-01T12:09:50.2009971-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0ee20c1f-babf-43f1-9d71-89a3b2d9275d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;2014467687&gt;. Actual:&lt;1365&gt;. </Message>
+          <StackTrace>   at GenEmTest.AddressDisplacementTest.ARInDirectAddressModeLongDisplacementTest() in c:\genesisemulator\genem\genemtest\addressdisplacementtest.cpp:line 256
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\SystemInformation.xml">System Information from D-BRYANT2</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+      <DataCollectorMessages>
+        <DataCollectorMessage timestamp="2014-10-01T12:09:50.1799950-04:00" dataCollectorUri="datacollector://microsoft/TestImpact/1.0" dataCollectorFriendlyName="Test Impact" agentName="D-BRYANT2" level="Warning">
+          <Text>No Microsoft .NET applications were launched during the test run. Launch applications from Explorer or a new command prompt after a test case has started. If no .NET application is being tested, disable the Test Impact and IntelliTrace diagnostic data adapters.</Text>
+        </DataCollectorMessage>
+      </DataCollectorMessages>
+    </UnitTestResult>
+    <UnitTestResult executionId="75c9a698-4609-45f3-bd05-7a590c55a427" testId="32211488-436a-ba83-9f57-dab5fad1e88b" testName="ARInDirectAddressModeWordTest" computerName="D-BRYANT2" duration="00:00:00.8620888" startTime="2014-10-01T12:09:50.2069977-04:00" endTime="2014-10-01T12:09:51.1290899-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="75c9a698-4609-45f3-bd05-7a590c55a427">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;30806&gt;. Actual:&lt;1365&gt;. </Message>
+          <StackTrace>   at GenEmTest.UnitTest1.ARInDirectAddressModeWordTest() in c:\genesisemulator\genem\genemtest\unittest1.cpp:line 427
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\SystemInformation.xml">System Information from D-BRYANT2</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+      <DataCollectorMessages>
+        <DataCollectorMessage timestamp="2014-10-01T12:09:51.1040874-04:00" dataCollectorUri="datacollector://microsoft/TestImpact/1.0" dataCollectorFriendlyName="Test Impact" agentName="D-BRYANT2" level="Warning">
+          <Text>No Microsoft .NET applications were launched during the test run. Launch applications from Explorer or a new command prompt after a test case has started. If no .NET application is being tested, disable the Test Impact and IntelliTrace diagnostic data adapters.</Text>
+        </DataCollectorMessage>
+      </DataCollectorMessages>
+    </UnitTestResult>
+    <UnitTestResult executionId="dfbd35fa-ba76-4921-94e4-bd553e8d789b" testId="e7e328c3-8833-8755-36bc-290ff227fa6b" testName="movealongTest" computerName="D-BRYANT2" duration="00:00:01.2320096" startTime="2014-10-01T12:09:51.1350905-04:00" endTime="2014-10-01T12:09:52.4262196-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dfbd35fa-ba76-4921-94e4-bd553e8d789b">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;305435989&gt;. Actual:&lt;0&gt;. </Message>
+          <StackTrace>   at GenEmTest.DataMovementTest.movealongTest() in c:\genesisemulator\genem\genemtest\datamovementtest.cpp:line 213
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\SystemInformation.xml">System Information from D-BRYANT2</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+      <DataCollectorMessages>
+        <DataCollectorMessage timestamp="2014-10-01T12:09:52.4012171-04:00" dataCollectorUri="datacollector://microsoft/TestImpact/1.0" dataCollectorFriendlyName="Test Impact" agentName="D-BRYANT2" level="Warning">
+          <Text>No Microsoft .NET applications were launched during the test run. Launch applications from Explorer or a new command prompt after a test case has started. If no .NET application is being tested, disable the Test Impact and IntelliTrace diagnostic data adapters.</Text>
+        </DataCollectorMessage>
+      </DataCollectorMessages>
+    </UnitTestResult>
+    <UnitTestResult executionId="ec7531c1-5714-4576-ae8a-cf226afaad07" testId="01e284ca-a346-b826-2be1-41ae3c76b745" testName="moveawordnegTest" computerName="D-BRYANT2" duration="00:00:00.8686363" startTime="2014-10-01T12:09:52.4332203-04:00" endTime="2014-10-01T12:09:53.3603130-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ec7531c1-5714-4576-ae8a-cf226afaad07">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;4294967125&gt;. Actual:&lt;0&gt;. </Message>
+          <StackTrace>   at GenEmTest.DataMovementTest.moveawordnegTest() in c:\genesisemulator\genem\genemtest\datamovementtest.cpp:line 184
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\SystemInformation.xml">System Information from D-BRYANT2</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+      <DataCollectorMessages>
+        <DataCollectorMessage timestamp="2014-10-01T12:09:53.3533123-04:00" dataCollectorUri="datacollector://microsoft/TestImpact/1.0" dataCollectorFriendlyName="Test Impact" agentName="D-BRYANT2" level="Warning">
+          <Text>No Microsoft .NET applications were launched during the test run. Launch applications from Explorer or a new command prompt after a test case has started. If no .NET application is being tested, disable the Test Impact and IntelliTrace diagnostic data adapters.</Text>
+        </DataCollectorMessage>
+      </DataCollectorMessages>
+    </UnitTestResult>
+    <UnitTestResult executionId="f8a7734c-c607-4564-95ed-94867a94482f" testId="673555db-df97-d4e6-95a6-8db8ae30ad06" testName="ARInDirectAddressModeLongIndexDisplacementTest" computerName="D-BRYANT2" duration="00:00:00.8138123" startTime="2014-10-01T12:09:53.3793149-04:00" endTime="2014-10-01T12:09:54.2404010-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f8a7734c-c607-4564-95ed-94867a94482f">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;287454031&gt;. Actual:&lt;1365&gt;. </Message>
+          <StackTrace>   at GenEmTest.AddressDisplacementTest.ARInDirectAddressModeLongIndexDisplacementTest() in c:\genesisemulator\genem\genemtest\addressdisplacementtest.cpp:line 342
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\SystemInformation.xml">System Information from D-BRYANT2</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+      <DataCollectorMessages>
+        <DataCollectorMessage timestamp="2014-10-01T12:09:54.2364006-04:00" dataCollectorUri="datacollector://microsoft/TestImpact/1.0" dataCollectorFriendlyName="Test Impact" agentName="D-BRYANT2" level="Warning">
+          <Text>No Microsoft .NET applications were launched during the test run. Launch applications from Explorer or a new command prompt after a test case has started. If no .NET application is being tested, disable the Test Impact and IntelliTrace diagnostic data adapters.</Text>
+        </DataCollectorMessage>
+      </DataCollectorMessages>
+    </UnitTestResult>
+    <UnitTestResult executionId="2ca895c4-65b7-483b-873f-7c19398f74c0" testId="c0acc18e-900e-d1c4-d109-b2e8c2a54bba" testName="ARInDirectAddressModeByteIndexDisplacementTest" computerName="D-BRYANT2" duration="00:00:00.7897606" startTime="2014-10-01T12:09:54.2764046-04:00" endTime="2014-10-01T12:09:55.1364906-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2ca895c4-65b7-483b-873f-7c19398f74c0">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;1297&gt;. Actual:&lt;1365&gt;. </Message>
+          <StackTrace>   at GenEmTest.AddressDisplacementTest.ARInDirectAddressModeByteIndexDisplacementTest() in c:\genesisemulator\genem\genemtest\addressdisplacementtest.cpp:line 286
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\SystemInformation.xml">System Information from D-BRYANT2</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+      <DataCollectorMessages>
+        <DataCollectorMessage timestamp="2014-10-01T12:09:55.1104880-04:00" dataCollectorUri="datacollector://microsoft/TestImpact/1.0" dataCollectorFriendlyName="Test Impact" agentName="D-BRYANT2" level="Warning">
+          <Text>No Microsoft .NET applications were launched during the test run. Launch applications from Explorer or a new command prompt after a test case has started. If no .NET application is being tested, disable the Test Impact and IntelliTrace diagnostic data adapters.</Text>
+        </DataCollectorMessage>
+      </DataCollectorMessages>
+    </UnitTestResult>
+    <UnitTestResult executionId="9a4c0d71-eb2f-4e20-a76a-84cbbfe5c500" testId="fd32e42f-c4f4-b6e5-950c-4143c3d5e6f8" testName="DRDirectAddressModeByteTest" computerName="D-BRYANT2" duration="00:00:00.9456059" startTime="2014-10-01T12:09:55.1544924-04:00" endTime="2014-10-01T12:09:56.1675937-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9a4c0d71-eb2f-4e20-a76a-84cbbfe5c500">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;1284&gt;. Actual:&lt;1365&gt;. </Message>
+          <StackTrace>   at GenEmTest.UnitTest1.DRDirectAddressModeByteTest() in c:\genesisemulator\genem\genemtest\unittest1.cpp:line 236
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\SystemInformation.xml">System Information from D-BRYANT2</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+      <DataCollectorMessages>
+        <DataCollectorMessage timestamp="2014-10-01T12:09:56.1645934-04:00" dataCollectorUri="datacollector://microsoft/TestImpact/1.0" dataCollectorFriendlyName="Test Impact" agentName="D-BRYANT2" level="Warning">
+          <Text>No Microsoft .NET applications were launched during the test run. Launch applications from Explorer or a new command prompt after a test case has started. If no .NET application is being tested, disable the Test Impact and IntelliTrace diagnostic data adapters.</Text>
+        </DataCollectorMessage>
+      </DataCollectorMessages>
+    </UnitTestResult>
+    <UnitTestResult executionId="945fba59-f359-4024-a453-90f0387674b1" testId="9cd94090-2377-de1a-9b9b-38814dabf111" testName="ARInDirectAddressModeByteDecrementTest" computerName="D-BRYANT2" duration="00:00:00.8133002" startTime="2014-10-01T12:09:56.1825952-04:00" endTime="2014-10-01T12:09:57.0466816-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="945fba59-f359-4024-a453-90f0387674b1">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;6&gt;. Actual:&lt;7&gt;. </Message>
+          <StackTrace>   at GenEmTest.AddressDisplacementTest.ARInDirectAddressModeByteDecrementTest() in c:\genesisemulator\genem\genemtest\addressdisplacementtest.cpp:line 120
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\SystemInformation.xml">System Information from D-BRYANT2</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+      <DataCollectorMessages>
+        <DataCollectorMessage timestamp="2014-10-01T12:09:57.0456815-04:00" dataCollectorUri="datacollector://microsoft/TestImpact/1.0" dataCollectorFriendlyName="Test Impact" agentName="D-BRYANT2" level="Warning">
+          <Text>No Microsoft .NET applications were launched during the test run. Launch applications from Explorer or a new command prompt after a test case has started. If no .NET application is being tested, disable the Test Impact and IntelliTrace diagnostic data adapters.</Text>
+        </DataCollectorMessage>
+      </DataCollectorMessages>
+    </UnitTestResult>
+    <UnitTestResult executionId="371551b1-626c-46e7-94ee-da7def470178" testId="a334898a-8fa3-4405-cd1c-7387b81db5f4" testName="AbsoluteShortAddressModeLongTest" computerName="D-BRYANT2" duration="00:00:00.8065159" startTime="2014-10-01T12:09:57.0546824-04:00" endTime="2014-10-01T12:09:57.8977667-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="371551b1-626c-46e7-94ee-da7def470178">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;305419896&gt;. Actual:&lt;512&gt;. </Message>
+          <StackTrace>   at GenEmTest.UnitTest1.AbsoluteShortAddressModeLongTest() in c:\genesisemulator\genem\genemtest\unittest1.cpp:line 131
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\SystemInformation.xml">System Information from D-BRYANT2</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+      <DataCollectorMessages>
+        <DataCollectorMessage timestamp="2014-10-01T12:09:57.8957665-04:00" dataCollectorUri="datacollector://microsoft/TestImpact/1.0" dataCollectorFriendlyName="Test Impact" agentName="D-BRYANT2" level="Warning">
+          <Text>No Microsoft .NET applications were launched during the test run. Launch applications from Explorer or a new command prompt after a test case has started. If no .NET application is being tested, disable the Test Impact and IntelliTrace diagnostic data adapters.</Text>
+        </DataCollectorMessage>
+      </DataCollectorMessages>
+    </UnitTestResult>
+    <UnitTestResult executionId="8603e804-2495-4ab6-aca6-54e9227b9ed5" testId="6d5169a5-fc62-6120-a678-54b1fc7d1ed6" testName="ImmediateAddressModeWordTest" computerName="D-BRYANT2" duration="00:00:00.7649891" startTime="2014-10-01T12:09:57.9047674-04:00" endTime="2014-10-01T12:09:58.7418511-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8603e804-2495-4ab6-aca6-54e9227b9ed5">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;4660&gt;. Actual:&lt;1&gt;. </Message>
+          <StackTrace>   at GenEmTest.UnitTest1.ImmediateAddressModeWordTest() in c:\genesisemulator\genem\genemtest\unittest1.cpp:line 183
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\SystemInformation.xml">System Information from D-BRYANT2</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+      <DataCollectorMessages>
+        <DataCollectorMessage timestamp="2014-10-01T12:09:58.7218491-04:00" dataCollectorUri="datacollector://microsoft/TestImpact/1.0" dataCollectorFriendlyName="Test Impact" agentName="D-BRYANT2" level="Warning">
+          <Text>No Microsoft .NET applications were launched during the test run. Launch applications from Explorer or a new command prompt after a test case has started. If no .NET application is being tested, disable the Test Impact and IntelliTrace diagnostic data adapters.</Text>
+        </DataCollectorMessage>
+      </DataCollectorMessages>
+    </UnitTestResult>
+    <UnitTestResult executionId="57495405-57ac-4ad2-9a64-3d2bf20c3e1d" testId="d4a7209b-3036-e9e7-1544-5b2a9dd02fa0" testName="ARInDirectAddressModeByteDisplacementTest" computerName="D-BRYANT2" duration="00:00:00.6878351" startTime="2014-10-01T12:09:58.7578527-04:00" endTime="2014-10-01T12:09:59.4939263-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="57495405-57ac-4ad2-9a64-3d2bf20c3e1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;1298&gt;. Actual:&lt;1365&gt;. </Message>
+          <StackTrace>   at GenEmTest.AddressDisplacementTest.ARInDirectAddressModeByteDisplacementTest() in c:\genesisemulator\genem\genemtest\addressdisplacementtest.cpp:line 202
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\SystemInformation.xml">System Information from D-BRYANT2</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+      <DataCollectorMessages>
+        <DataCollectorMessage timestamp="2014-10-01T12:09:59.4899259-04:00" dataCollectorUri="datacollector://microsoft/TestImpact/1.0" dataCollectorFriendlyName="Test Impact" agentName="D-BRYANT2" level="Warning">
+          <Text>No Microsoft .NET applications were launched during the test run. Launch applications from Explorer or a new command prompt after a test case has started. If no .NET application is being tested, disable the Test Impact and IntelliTrace diagnostic data adapters.</Text>
+        </DataCollectorMessage>
+      </DataCollectorMessages>
+    </UnitTestResult>
+    <UnitTestResult executionId="59b83888-ce3e-4f60-aed8-c3ea275fc63e" testId="daba1e0f-e8c6-5d01-2253-ac9c99a8a429" testName="AbsoluteShortAddressModeByteTest" computerName="D-BRYANT2" duration="00:04:03.1883164" startTime="2014-10-01T12:09:59.5129282-04:00" endTime="2014-10-01T12:14:02.7012446-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="59b83888-ce3e-4f60-aed8-c3ea275fc63e">
+    </UnitTestResult>
+    <UnitTestResult executionId="89b77426-ed2c-4bb7-af67-120f816b003a" testId="f5e3553d-51fd-7a25-b025-63bbc2a4379d" testName="moveawordposTest" computerName="D-BRYANT2" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="89b77426-ed2c-4bb7-af67-120f816b003a">
+    </UnitTestResult>
+    <UnitTestResult executionId="81618d1a-5aaf-4785-8851-25204c7c87af" testId="99f501ca-7a13-0b63-66c7-f9c38b6830ff" testName="ARInDirectAddressModeLongDecrementTest" computerName="D-BRYANT2" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="81618d1a-5aaf-4785-8851-25204c7c87af">
+    </UnitTestResult>
+    <UnitTestResult executionId="740d8e3b-5439-4dfa-a120-9a5a1a96def5" testId="68ca2e86-1e6f-4e69-fd3d-6a013217d7e1" testName="ARInDirectAddressModeWordDecrementTest" computerName="D-BRYANT2" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="740d8e3b-5439-4dfa-a120-9a5a1a96def5">
+    </UnitTestResult>
+    <UnitTestResult executionId="291011eb-ec84-41dd-b34d-c9c2b6317827" testId="5729348f-4874-4e1e-a4b3-471010e67a26" testName="ARInDirectAddressModeLongIncrementTest" computerName="D-BRYANT2" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="291011eb-ec84-41dd-b34d-c9c2b6317827">
+    </UnitTestResult>
+    <UnitTestResult executionId="df0386e6-aca2-45fa-9806-2acabc86dc32" testId="7bbfba78-db02-22e0-112d-f4f3b90f6463" testName="DRDirectAddressModeWordTest" computerName="D-BRYANT2" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="df0386e6-aca2-45fa-9806-2acabc86dc32">
+    </UnitTestResult>
+    <UnitTestResult executionId="9ad9a96f-06ea-47b0-b9f0-eaf85c471fe0" testId="fbfcd82a-f36c-878b-a8e6-fc507d622fa8" testName="ARInDirectAddressModeWordIndexDisplacementTest" computerName="D-BRYANT2" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9ad9a96f-06ea-47b0-b9f0-eaf85c471fe0">
+    </UnitTestResult>
+    <UnitTestResult executionId="4e7ecb06-4655-413e-a1e0-a27cfdb1c7cc" testId="90ead5ab-0cc3-68b5-c872-3c5910452fe3" testName="ARInDirectAddressModeWordDisplacementTest" computerName="D-BRYANT2" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4e7ecb06-4655-413e-a1e0-a27cfdb1c7cc">
+    </UnitTestResult>
+    <UnitTestResult executionId="95656710-9f5f-46af-a4bd-6b4bc0b4eb5c" testId="f3e08c24-2f78-3e36-31d4-062f1b63be1e" testName="ImmediateAddressModeByteTest" computerName="D-BRYANT2" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="95656710-9f5f-46af-a4bd-6b4bc0b4eb5c">
+    </UnitTestResult>
+    <UnitTestResult executionId="e9423c79-878f-400d-9b33-3728c18e75ed" testId="61b9ee7e-4133-3167-e0f6-e0ba1f1b3452" testName="TstNegativeTest" computerName="D-BRYANT2" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e9423c79-878f-400d-9b33-3728c18e75ed">
+    </UnitTestResult>
+    <UnitTestResult executionId="182e1c82-b3d0-4226-8670-6fa093962ba7" testId="4f742dd3-6b2e-cd7a-601c-d21d1203ec94" testName="moveqnegTest" computerName="D-BRYANT2" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="182e1c82-b3d0-4226-8670-6fa093962ba7">
+    </UnitTestResult>
+  </Results>
+</TestRun>

@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Test xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="ARInDirectAddressModeWordIncrementTest" IsTestCase="false" TestCaseId="0" AutomatedTestId="f5919619-705f-35cb-065a-928005e5942f">
+  <Signatures>
+    <Signature>0311CEE08F45C0196D30DFE616775896E29C4029</Signature>
+    <Signature>021D51D229732C1D65F84FB18C8C2EA1F07BADF3</Signature>
+  </Signatures>
+</Test>

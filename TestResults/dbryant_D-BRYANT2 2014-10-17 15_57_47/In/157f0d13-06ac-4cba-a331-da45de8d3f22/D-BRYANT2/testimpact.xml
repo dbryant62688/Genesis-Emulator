@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Test xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="ARInDirectAddressModeLongIndexDisplacementTest" IsTestCase="false" TestCaseId="0" AutomatedTestId="673555db-df97-d4e6-95a6-8db8ae30ad06">
+  <Signatures>
+    <Signature>CDCE77FD1DF079CD4800F496662A7D0D6579A842</Signature>
+    <Signature>021D51D229732C1D65F84FB18C8C2EA1F07BADF3</Signature>
+  </Signatures>
+</Test>

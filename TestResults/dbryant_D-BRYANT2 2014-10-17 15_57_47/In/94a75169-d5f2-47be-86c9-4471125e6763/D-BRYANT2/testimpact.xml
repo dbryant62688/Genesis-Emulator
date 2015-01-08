@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Test xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="ARDirectAddressModeLongTest" IsTestCase="false" TestCaseId="0" AutomatedTestId="8fb9f831-5c37-ae0b-6c9b-900f024de0cc">
+  <Signatures>
+    <Signature>AC3509B49E991C0476FA1B9141976D6FBFA81820</Signature>
+    <Signature>92A82E7EB87EA17B5FA18FF28E784F606CCE1B40</Signature>
+    <Signature>7DAF21241BA220AAAC045E828B2BAD8504B2503F</Signature>
+  </Signatures>
+</Test>

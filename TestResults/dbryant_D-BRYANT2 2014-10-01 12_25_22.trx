@@ -1,0 +1,1043 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="cbd59e50-5aab-40c0-917d-2bfaebdecb3b" name="dbryant@D-BRYANT2 2014-10-01 12:25:22" runUser="CRESTRON\dbryant" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Trace and Test Impact" id="bef5c62a-216d-4f5a-93ba-7bf2fdf519e1">
+    <Description>These are test settings for Trace and Test Impact.</Description>
+    <Deployment runDeploymentRoot="dbryant_D-BRYANT2 2014-10-01 12_25_22">
+      <DeploymentItem filename="C:\GenesisEmulator\GenEm\Debug\CPU68K.lib" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+        <DataCollectors>
+          <DataCollector uri="datacollector://microsoft/SystemInfo/1.0" assemblyQualifiedName="Microsoft.VisualStudio.TestTools.DataCollection.SystemInfo.SystemInfoDataCollector, Microsoft.VisualStudio.TestTools.DataCollection.SystemInfo, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" friendlyName="System Information">
+          </DataCollector>
+          <DataCollector uri="datacollector://microsoft/ActionLog/1.0" assemblyQualifiedName="Microsoft.VisualStudio.TestTools.ManualTest.ActionLog.ActionLogPlugin, Microsoft.VisualStudio.TestTools.ManualTest.ActionLog, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" friendlyName="Actions">
+          </DataCollector>
+          <DataCollector uri="datacollector://microsoft/HttpProxy/1.0" assemblyQualifiedName="Microsoft.VisualStudio.TraceCollector.HttpProxyCollector, Microsoft.VisualStudio.TraceCollector, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" friendlyName="ASP.NET Client Proxy for IntelliTrace and Test Impact">
+          </DataCollector>
+          <DataCollector uri="datacollector://microsoft/TestImpact/1.0" assemblyQualifiedName="Microsoft.VisualStudio.TraceCollector.TestImpactDataCollector, Microsoft.VisualStudio.TraceCollector, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" friendlyName="Test Impact">
+          </DataCollector>
+          <DataCollector uri="datacollector://microsoft/TraceDebugger/1.0" assemblyQualifiedName="Microsoft.VisualStudio.TraceCollector.TraceDebuggerDataCollector, Microsoft.VisualStudio.TraceCollector, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" friendlyName="IntelliTrace">
+          </DataCollector>
+        </DataCollectors>
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-10-01T12:25:22.4814841-04:00" queuing="2014-10-01T12:25:22.7124841-04:00" start="2014-10-01T12:25:25.7794841-04:00" finish="2014-10-01T12:25:28.7224841-04:00" />
+  <ResultSummary outcome="Warning">
+    <Counters total="43" executed="43" passed="43" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <CollectorDataEntries>
+      <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+        <UriAttachments>
+          <UriAttachment>
+            <A href="D-BRYANT2\SystemInformation.xml">System Information from D-BRYANT2</A>
+          </UriAttachment>
+        </UriAttachments>
+      </Collector>
+    </CollectorDataEntries>
+    <DataCollectorMessages>
+      <DataCollectorMessage timestamp="2014-10-01T12:25:23.2794841-04:00" dataCollectorUri="datacollector://microsoft/HttpProxy/1.0" dataCollectorFriendlyName="ASP.NET Client Proxy for IntelliTrace and Test Impact" agentName="D-BRYANT2" level="Warning">
+        <Text>An error occurred while installing and starting the HTTP proxy used to associate tests with web requests. PRXY0022: When registering the proxy, another instance of the proxy was detected at end point '127.0.0.1:44148'. Multiple instances of this proxy are not allowed for the same user on the same computer. (To override this behavior, use the 'AllowMultipleProxies' configuration option.)</Text>
+      </DataCollectorMessage>
+    </DataCollectorMessages>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="ARInDirectAddressModeWordDisplacementTest" storage="c:\genesisemulator\genem\debug\defaulttest.dll" id="90ead5ab-0cc3-68b5-c872-3c5910452fe3">
+      <Execution id="705ab740-ea3e-4563-a19c-1af7f3fe3ed5" />
+      <TestMethod codeBase="C:/GenesisEmulator/GenEm/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenEmTest.AddressDisplacementTest, DefaultTest, Version=1.0.5387.20537, Culture=neutral, PublicKeyToken=null" name="ARInDirectAddressModeWordDisplacementTest" />
+    </UnitTest>
+    <UnitTest name="moveawordnegTest" storage="c:\genesisemulator\genem\debug\defaulttest.dll" id="01e284ca-a346-b826-2be1-41ae3c76b745">
+      <Execution id="f893cf8a-b679-4eb7-9290-e3cb1e54e34b" />
+      <TestMethod codeBase="C:/GenesisEmulator/GenEm/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenEmTest.DataMovementTest, DefaultTest, Version=1.0.5387.20537, Culture=neutral, PublicKeyToken=null" name="moveawordnegTest" />
+    </UnitTest>
+    <UnitTest name="AbsoluteShortAddressModeWordTest" storage="c:\genesisemulator\genem\debug\defaulttest.dll" id="77f36036-5b3e-a9c7-69fd-b08a362faeb5">
+      <Execution id="d1a2fde9-5ef3-4ffa-ac02-9aacb6a14358" />
+      <TestMethod codeBase="C:/GenesisEmulator/GenEm/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenEmTest.UnitTest1, DefaultTest, Version=1.0.5387.20537, Culture=neutral, PublicKeyToken=null" name="AbsoluteShortAddressModeWordTest" />
+    </UnitTest>
+    <UnitTest name="ARInDirectAddressModeWordDecrementTest" storage="c:\genesisemulator\genem\debug\defaulttest.dll" id="68ca2e86-1e6f-4e69-fd3d-6a013217d7e1">
+      <Execution id="a8352169-9aca-4d7c-9b2a-b9a2f81dcc25" />
+      <TestMethod codeBase="C:/GenesisEmulator/GenEm/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenEmTest.AddressDisplacementTest, DefaultTest, Version=1.0.5387.20537, Culture=neutral, PublicKeyToken=null" name="ARInDirectAddressModeWordDecrementTest" />
+    </UnitTest>
+    <UnitTest name="Bcc16bitTest" storage="c:\genesisemulator\genem\debug\defaulttest.dll" id="dcaabd90-51f3-42ac-82ce-9bc33df60a6c">
+      <Execution id="f4bd47b2-385d-470e-97c1-21e06f77b52d" />
+      <TestMethod codeBase="C:/GenesisEmulator/GenEm/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenEmTest.ProgramControlTest, DefaultTest, Version=1.0.5387.20537, Culture=neutral, PublicKeyToken=null" name="Bcc16bitTest" />
+    </UnitTest>
+    <UnitTest name="ARInDirectAddressModeWordTest" storage="c:\genesisemulator\genem\debug\defaulttest.dll" id="32211488-436a-ba83-9f57-dab5fad1e88b">
+      <Execution id="44e53159-5141-4ef9-bf98-faa7aa12a8c6" />
+      <TestMethod codeBase="C:/GenesisEmulator/GenEm/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenEmTest.UnitTest1, DefaultTest, Version=1.0.5387.20537, Culture=neutral, PublicKeyToken=null" name="ARInDirectAddressModeWordTest" />
+    </UnitTest>
+    <UnitTest name="ARInDirectAddressModeWordIncrementTest" storage="c:\genesisemulator\genem\debug\defaulttest.dll" id="f5919619-705f-35cb-065a-928005e5942f">
+      <Execution id="a1fc3185-2608-4e9c-90c2-1a267b052cac" />
+      <TestMethod codeBase="C:/GenesisEmulator/GenEm/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenEmTest.AddressDisplacementTest, DefaultTest, Version=1.0.5387.20537, Culture=neutral, PublicKeyToken=null" name="ARInDirectAddressModeWordIncrementTest" />
+    </UnitTest>
+    <UnitTest name="TstNegativeTest" storage="c:\genesisemulator\genem\debug\defaulttest.dll" id="61b9ee7e-4133-3167-e0f6-e0ba1f1b3452">
+      <Execution id="4cf21c14-526e-4787-80d0-53f9f490abe0" />
+      <TestMethod codeBase="C:/GenesisEmulator/GenEm/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenEmTest.ProgramControlTest, DefaultTest, Version=1.0.5387.20537, Culture=neutral, PublicKeyToken=null" name="TstNegativeTest" />
+    </UnitTest>
+    <UnitTest name="DRDirectAddressModeWordTest" storage="c:\genesisemulator\genem\debug\defaulttest.dll" id="7bbfba78-db02-22e0-112d-f4f3b90f6463">
+      <Execution id="f2a5e802-f4e1-4d2b-b653-15391bac8a56" />
+      <TestMethod codeBase="C:/GenesisEmulator/GenEm/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenEmTest.UnitTest1, DefaultTest, Version=1.0.5387.20537, Culture=neutral, PublicKeyToken=null" name="DRDirectAddressModeWordTest" />
+    </UnitTest>
+    <UnitTest name="JMPTest" storage="c:\genesisemulator\genem\debug\defaulttest.dll" id="4246e005-5582-1a69-a24a-7bd7fbc2ff19">
+      <Execution id="12d630e4-07b2-4c25-904b-b04c443e925c" />
+      <TestMethod codeBase="C:/GenesisEmulator/GenEm/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenEmTest.ProgramControlTest, DefaultTest, Version=1.0.5387.20537, Culture=neutral, PublicKeyToken=null" name="JMPTest" />
+    </UnitTest>
+    <UnitTest name="ARInDirectAddressModeLongDisplacementTest" storage="c:\genesisemulator\genem\debug\defaulttest.dll" id="080b45e0-ed85-db33-9e13-4b35cd49d769">
+      <Execution id="c46cd826-24e4-4947-9bfd-26e2ef824197" />
+      <TestMethod codeBase="C:/GenesisEmulator/GenEm/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenEmTest.AddressDisplacementTest, DefaultTest, Version=1.0.5387.20537, Culture=neutral, PublicKeyToken=null" name="ARInDirectAddressModeLongDisplacementTest" />
+    </UnitTest>
+    <UnitTest name="moveqnegTest" storage="c:\genesisemulator\genem\debug\defaulttest.dll" id="4f742dd3-6b2e-cd7a-601c-d21d1203ec94">
+      <Execution id="f3c89545-6a35-4441-823d-2bc95dcb03a8" />
+      <TestMethod codeBase="C:/GenesisEmulator/GenEm/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenEmTest.DataMovementTest, DefaultTest, Version=1.0.5387.20537, Culture=neutral, PublicKeyToken=null" name="moveqnegTest" />
+    </UnitTest>
+    <UnitTest name="Bra32BitTest" storage="c:\genesisemulator\genem\debug\defaulttest.dll" id="ed296a88-0c21-604c-fae1-ba9cec2453d9">
+      <Execution id="ea2f189b-8891-438c-91c0-ae22880739c3" />
+      <TestMethod codeBase="C:/GenesisEmulator/GenEm/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenEmTest.ProgramControlTest, DefaultTest, Version=1.0.5387.20537, Culture=neutral, PublicKeyToken=null" name="Bra32BitTest" />
+    </UnitTest>
+    <UnitTest name="AbsoluteShortAddressModeLongTest" storage="c:\genesisemulator\genem\debug\defaulttest.dll" id="a334898a-8fa3-4405-cd1c-7387b81db5f4">
+      <Execution id="d831803a-3a17-41aa-829f-d86d847a4436" />
+      <TestMethod codeBase="C:/GenesisEmulator/GenEm/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenEmTest.UnitTest1, DefaultTest, Version=1.0.5387.20537, Culture=neutral, PublicKeyToken=null" name="AbsoluteShortAddressModeLongTest" />
+    </UnitTest>
+    <UnitTest name="ARInDirectAddressModeLongDecrementTest" storage="c:\genesisemulator\genem\debug\defaulttest.dll" id="99f501ca-7a13-0b63-66c7-f9c38b6830ff">
+      <Execution id="9e41fa89-ed13-4d14-93e8-fc4f1e9e997f" />
+      <TestMethod codeBase="C:/GenesisEmulator/GenEm/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenEmTest.AddressDisplacementTest, DefaultTest, Version=1.0.5387.20537, Culture=neutral, PublicKeyToken=null" name="ARInDirectAddressModeLongDecrementTest" />
+    </UnitTest>
+    <UnitTest name="ARInDirectAddressModeLongTest" storage="c:\genesisemulator\genem\debug\defaulttest.dll" id="d2d6d958-0656-1274-5cd4-08718515d5aa">
+      <Execution id="6af8b618-5571-4692-9fe2-4b6003da274b" />
+      <TestMethod codeBase="C:/GenesisEmulator/GenEm/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenEmTest.UnitTest1, DefaultTest, Version=1.0.5387.20537, Culture=neutral, PublicKeyToken=null" name="ARInDirectAddressModeLongTest" />
+    </UnitTest>
+    <UnitTest name="ARInDirectAddressModeByteIncrementTest" storage="c:\genesisemulator\genem\debug\defaulttest.dll" id="3d45c220-26cb-afa4-bbc3-0953ed300eec">
+      <Execution id="ab8fc9e9-3c72-471b-a00f-5c49ad3f263b" />
+      <TestMethod codeBase="C:/GenesisEmulator/GenEm/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenEmTest.AddressDisplacementTest, DefaultTest, Version=1.0.5387.20537, Culture=neutral, PublicKeyToken=null" name="ARInDirectAddressModeByteIncrementTest" />
+    </UnitTest>
+    <UnitTest name="ARInDirectAddressModeByteTest" storage="c:\genesisemulator\genem\debug\defaulttest.dll" id="0826740c-fd4b-d197-1502-079e985e4a4f">
+      <Execution id="4d287db6-375e-43bb-a5a7-0a478a62435a" />
+      <TestMethod codeBase="C:/GenesisEmulator/GenEm/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenEmTest.UnitTest1, DefaultTest, Version=1.0.5387.20537, Culture=neutral, PublicKeyToken=null" name="ARInDirectAddressModeByteTest" />
+    </UnitTest>
+    <UnitTest name="TstZeroTest" storage="c:\genesisemulator\genem\debug\defaulttest.dll" id="a5ffacd2-eccb-97f5-ca59-8696181279a3">
+      <Execution id="d5588ff2-573b-4546-92b6-9d698879c9c0" />
+      <TestMethod codeBase="C:/GenesisEmulator/GenEm/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenEmTest.ProgramControlTest, DefaultTest, Version=1.0.5387.20537, Culture=neutral, PublicKeyToken=null" name="TstZeroTest" />
+    </UnitTest>
+    <UnitTest name="Bra8BitTest" storage="c:\genesisemulator\genem\debug\defaulttest.dll" id="e2852dd1-8418-301e-5fef-121983e85ad2">
+      <Execution id="193fae1e-248e-49c7-a626-47b01cc12f0d" />
+      <TestMethod codeBase="C:/GenesisEmulator/GenEm/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenEmTest.ProgramControlTest, DefaultTest, Version=1.0.5387.20537, Culture=neutral, PublicKeyToken=null" name="Bra8BitTest" />
+    </UnitTest>
+    <UnitTest name="Bra16BitTest" storage="c:\genesisemulator\genem\debug\defaulttest.dll" id="70ba78f9-03fc-e9ce-b835-ebea9a0f7668">
+      <Execution id="d1debfff-f3df-4641-98e9-f2eb223b852b" />
+      <TestMethod codeBase="C:/GenesisEmulator/GenEm/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenEmTest.ProgramControlTest, DefaultTest, Version=1.0.5387.20537, Culture=neutral, PublicKeyToken=null" name="Bra16BitTest" />
+    </UnitTest>
+    <UnitTest name="ImmediateAddressModeWordTest" storage="c:\genesisemulator\genem\debug\defaulttest.dll" id="6d5169a5-fc62-6120-a678-54b1fc7d1ed6">
+      <Execution id="7a961f7f-45e3-4943-84a6-e23331606dec" />
+      <TestMethod codeBase="C:/GenesisEmulator/GenEm/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenEmTest.UnitTest1, DefaultTest, Version=1.0.5387.20537, Culture=neutral, PublicKeyToken=null" name="ImmediateAddressModeWordTest" />
+    </UnitTest>
+    <UnitTest name="ARInDirectAddressModeLongIncrementTest" storage="c:\genesisemulator\genem\debug\defaulttest.dll" id="5729348f-4874-4e1e-a4b3-471010e67a26">
+      <Execution id="e3743331-a22e-4350-a748-22edbc0ba35e" />
+      <TestMethod codeBase="C:/GenesisEmulator/GenEm/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenEmTest.AddressDisplacementTest, DefaultTest, Version=1.0.5387.20537, Culture=neutral, PublicKeyToken=null" name="ARInDirectAddressModeLongIncrementTest" />
+    </UnitTest>
+    <UnitTest name="ARInDirectAddressModeLongIndexDisplacementTest" storage="c:\genesisemulator\genem\debug\defaulttest.dll" id="673555db-df97-d4e6-95a6-8db8ae30ad06">
+      <Execution id="16d7a7fd-1b8f-4703-972d-15be81ecad0b" />
+      <TestMethod codeBase="C:/GenesisEmulator/GenEm/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenEmTest.AddressDisplacementTest, DefaultTest, Version=1.0.5387.20537, Culture=neutral, PublicKeyToken=null" name="ARInDirectAddressModeLongIndexDisplacementTest" />
+    </UnitTest>
+    <UnitTest name="TstPositiveTest" storage="c:\genesisemulator\genem\debug\defaulttest.dll" id="0d3e83d0-5014-d6f9-bdf6-8948b9f90c86">
+      <Execution id="1aab3f72-0695-4947-aef9-a48a31d1785b" />
+      <TestMethod codeBase="C:/GenesisEmulator/GenEm/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenEmTest.ProgramControlTest, DefaultTest, Version=1.0.5387.20537, Culture=neutral, PublicKeyToken=null" name="TstPositiveTest" />
+    </UnitTest>
+    <UnitTest name="ImmediateAddressModeLongTest" storage="c:\genesisemulator\genem\debug\defaulttest.dll" id="55bfa6b1-39ce-2383-38d5-9069d7b5f1d0">
+      <Execution id="17f5d7d3-f6a8-4569-8ea0-c15d98676336" />
+      <TestMethod codeBase="C:/GenesisEmulator/GenEm/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenEmTest.UnitTest1, DefaultTest, Version=1.0.5387.20537, Culture=neutral, PublicKeyToken=null" name="ImmediateAddressModeLongTest" />
+    </UnitTest>
+    <UnitTest name="DRDirectAddressModeLongTest" storage="c:\genesisemulator\genem\debug\defaulttest.dll" id="d60e7dfd-f0b5-1dc2-cd78-09dd93cc330a">
+      <Execution id="aa20724a-d0b2-408c-8a39-81d99e6d08b3" />
+      <TestMethod codeBase="C:/GenesisEmulator/GenEm/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenEmTest.UnitTest1, DefaultTest, Version=1.0.5387.20537, Culture=neutral, PublicKeyToken=null" name="DRDirectAddressModeLongTest" />
+    </UnitTest>
+    <UnitTest name="ARInDirectAddressModeByteIndexDisplacementTest" storage="c:\genesisemulator\genem\debug\defaulttest.dll" id="c0acc18e-900e-d1c4-d109-b2e8c2a54bba">
+      <Execution id="c1b4c76a-f31d-42aa-b03d-3595ac7e7509" />
+      <TestMethod codeBase="C:/GenesisEmulator/GenEm/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenEmTest.AddressDisplacementTest, DefaultTest, Version=1.0.5387.20537, Culture=neutral, PublicKeyToken=null" name="ARInDirectAddressModeByteIndexDisplacementTest" />
+    </UnitTest>
+    <UnitTest name="moveawordposTest" storage="c:\genesisemulator\genem\debug\defaulttest.dll" id="f5e3553d-51fd-7a25-b025-63bbc2a4379d">
+      <Execution id="0054c596-0d51-4d53-be21-954fb9ef86bf" />
+      <TestMethod codeBase="C:/GenesisEmulator/GenEm/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenEmTest.DataMovementTest, DefaultTest, Version=1.0.5387.20537, Culture=neutral, PublicKeyToken=null" name="moveawordposTest" />
+    </UnitTest>
+    <UnitTest name="Bcc8bitTest" storage="c:\genesisemulator\genem\debug\defaulttest.dll" id="153d9f17-f883-be4b-f9e7-ace3a2a34de6">
+      <Execution id="a0ae9bf5-9c74-4b7a-bb40-9eb4a9e0d83d" />
+      <TestMethod codeBase="C:/GenesisEmulator/GenEm/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenEmTest.ProgramControlTest, DefaultTest, Version=1.0.5387.20537, Culture=neutral, PublicKeyToken=null" name="Bcc8bitTest" />
+    </UnitTest>
+    <UnitTest name="ARDirectAddressModeLongTest" storage="c:\genesisemulator\genem\debug\defaulttest.dll" id="8fb9f831-5c37-ae0b-6c9b-900f024de0cc">
+      <Execution id="8af4989e-ee06-4599-8c59-b40d4f7a5a93" />
+      <TestMethod codeBase="C:/GenesisEmulator/GenEm/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenEmTest.UnitTest1, DefaultTest, Version=1.0.5387.20537, Culture=neutral, PublicKeyToken=null" name="ARDirectAddressModeLongTest" />
+    </UnitTest>
+    <UnitTest name="ARDirectAddressModeByteTest" storage="c:\genesisemulator\genem\debug\defaulttest.dll" id="bf85fec3-d5fc-818c-6463-be33e3f3694d">
+      <Execution id="3826f77d-94fb-49fa-8562-70751ec48901" />
+      <TestMethod codeBase="C:/GenesisEmulator/GenEm/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenEmTest.UnitTest1, DefaultTest, Version=1.0.5387.20537, Culture=neutral, PublicKeyToken=null" name="ARDirectAddressModeByteTest" />
+    </UnitTest>
+    <UnitTest name="ARInDirectAddressModeWordIndexDisplacementTest" storage="c:\genesisemulator\genem\debug\defaulttest.dll" id="fbfcd82a-f36c-878b-a8e6-fc507d622fa8">
+      <Execution id="f6e2f397-bc60-4867-88fd-a32adf88a097" />
+      <TestMethod codeBase="C:/GenesisEmulator/GenEm/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenEmTest.AddressDisplacementTest, DefaultTest, Version=1.0.5387.20537, Culture=neutral, PublicKeyToken=null" name="ARInDirectAddressModeWordIndexDisplacementTest" />
+    </UnitTest>
+    <UnitTest name="movealongTest" storage="c:\genesisemulator\genem\debug\defaulttest.dll" id="e7e328c3-8833-8755-36bc-290ff227fa6b">
+      <Execution id="0debd680-9b47-4d3c-87b0-66035ee0b9dc" />
+      <TestMethod codeBase="C:/GenesisEmulator/GenEm/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenEmTest.DataMovementTest, DefaultTest, Version=1.0.5387.20537, Culture=neutral, PublicKeyToken=null" name="movealongTest" />
+    </UnitTest>
+    <UnitTest name="ImmediateAddressModeByteTest" storage="c:\genesisemulator\genem\debug\defaulttest.dll" id="f3e08c24-2f78-3e36-31d4-062f1b63be1e">
+      <Execution id="a9d689d0-3d16-49aa-8d0c-7f5ad64075b6" />
+      <TestMethod codeBase="C:/GenesisEmulator/GenEm/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenEmTest.UnitTest1, DefaultTest, Version=1.0.5387.20537, Culture=neutral, PublicKeyToken=null" name="ImmediateAddressModeByteTest" />
+    </UnitTest>
+    <UnitTest name="moveTest" storage="c:\genesisemulator\genem\debug\defaulttest.dll" id="405043ea-b16c-d3e6-8672-bb99768825bf">
+      <Execution id="b6151dfb-74eb-464e-b345-f48cbce73b50" />
+      <TestMethod codeBase="C:/GenesisEmulator/GenEm/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenEmTest.DataMovementTest, DefaultTest, Version=1.0.5387.20537, Culture=neutral, PublicKeyToken=null" name="moveTest" />
+    </UnitTest>
+    <UnitTest name="ARInDirectAddressModeByteDecrementTest" storage="c:\genesisemulator\genem\debug\defaulttest.dll" id="9cd94090-2377-de1a-9b9b-38814dabf111">
+      <Execution id="30e20fa2-9e4c-4724-b590-6f315cb9d74d" />
+      <TestMethod codeBase="C:/GenesisEmulator/GenEm/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenEmTest.AddressDisplacementTest, DefaultTest, Version=1.0.5387.20537, Culture=neutral, PublicKeyToken=null" name="ARInDirectAddressModeByteDecrementTest" />
+    </UnitTest>
+    <UnitTest name="ARDirectAddressModeWordTest" storage="c:\genesisemulator\genem\debug\defaulttest.dll" id="0ded22de-f8c0-b253-a61b-4b64a0a68bc8">
+      <Execution id="a4e4bbd9-64a9-4970-b592-73ae17ad4c7e" />
+      <TestMethod codeBase="C:/GenesisEmulator/GenEm/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenEmTest.UnitTest1, DefaultTest, Version=1.0.5387.20537, Culture=neutral, PublicKeyToken=null" name="ARDirectAddressModeWordTest" />
+    </UnitTest>
+    <UnitTest name="Bcc32bitTest" storage="c:\genesisemulator\genem\debug\defaulttest.dll" id="d1682589-214e-ac75-7590-ceee3dac3f76">
+      <Execution id="2b98c469-07ee-4b3e-8620-703c3f6e30c5" />
+      <TestMethod codeBase="C:/GenesisEmulator/GenEm/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenEmTest.ProgramControlTest, DefaultTest, Version=1.0.5387.20537, Culture=neutral, PublicKeyToken=null" name="Bcc32bitTest" />
+    </UnitTest>
+    <UnitTest name="AbsoluteShortAddressModeByteTest" storage="c:\genesisemulator\genem\debug\defaulttest.dll" id="daba1e0f-e8c6-5d01-2253-ac9c99a8a429">
+      <Execution id="d2ca6d69-6068-4e59-85a8-e63708244643" />
+      <TestMethod codeBase="C:/GenesisEmulator/GenEm/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenEmTest.UnitTest1, DefaultTest, Version=1.0.5387.20537, Culture=neutral, PublicKeyToken=null" name="AbsoluteShortAddressModeByteTest" />
+    </UnitTest>
+    <UnitTest name="ARInDirectAddressModeByteDisplacementTest" storage="c:\genesisemulator\genem\debug\defaulttest.dll" id="d4a7209b-3036-e9e7-1544-5b2a9dd02fa0">
+      <Execution id="6670cabf-237e-4428-a84f-0fdc2e8013ea" />
+      <TestMethod codeBase="C:/GenesisEmulator/GenEm/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenEmTest.AddressDisplacementTest, DefaultTest, Version=1.0.5387.20537, Culture=neutral, PublicKeyToken=null" name="ARInDirectAddressModeByteDisplacementTest" />
+    </UnitTest>
+    <UnitTest name="moveqposTest" storage="c:\genesisemulator\genem\debug\defaulttest.dll" id="4046718c-1796-ccad-b3fa-0a99ca8d7207">
+      <Execution id="dd6d0c16-484a-4766-8c8e-4fc0778dbfc7" />
+      <TestMethod codeBase="C:/GenesisEmulator/GenEm/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenEmTest.DataMovementTest, DefaultTest, Version=1.0.5387.20537, Culture=neutral, PublicKeyToken=null" name="moveqposTest" />
+    </UnitTest>
+    <UnitTest name="DRDirectAddressModeByteTest" storage="c:\genesisemulator\genem\debug\defaulttest.dll" id="fd32e42f-c4f4-b6e5-950c-4143c3d5e6f8">
+      <Execution id="89ad2645-a091-48b3-a3d4-d8212c2ee881" />
+      <TestMethod codeBase="C:/GenesisEmulator/GenEm/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenEmTest.UnitTest1, DefaultTest, Version=1.0.5387.20537, Culture=neutral, PublicKeyToken=null" name="DRDirectAddressModeByteTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="01e284ca-a346-b826-2be1-41ae3c76b745" executionId="f893cf8a-b679-4eb7-9290-e3cb1e54e34b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="080b45e0-ed85-db33-9e13-4b35cd49d769" executionId="c46cd826-24e4-4947-9bfd-26e2ef824197" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0826740c-fd4b-d197-1502-079e985e4a4f" executionId="4d287db6-375e-43bb-a5a7-0a478a62435a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0d3e83d0-5014-d6f9-bdf6-8948b9f90c86" executionId="1aab3f72-0695-4947-aef9-a48a31d1785b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0ded22de-f8c0-b253-a61b-4b64a0a68bc8" executionId="a4e4bbd9-64a9-4970-b592-73ae17ad4c7e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="153d9f17-f883-be4b-f9e7-ace3a2a34de6" executionId="a0ae9bf5-9c74-4b7a-bb40-9eb4a9e0d83d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="32211488-436a-ba83-9f57-dab5fad1e88b" executionId="44e53159-5141-4ef9-bf98-faa7aa12a8c6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3d45c220-26cb-afa4-bbc3-0953ed300eec" executionId="ab8fc9e9-3c72-471b-a00f-5c49ad3f263b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4046718c-1796-ccad-b3fa-0a99ca8d7207" executionId="dd6d0c16-484a-4766-8c8e-4fc0778dbfc7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="405043ea-b16c-d3e6-8672-bb99768825bf" executionId="b6151dfb-74eb-464e-b345-f48cbce73b50" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4246e005-5582-1a69-a24a-7bd7fbc2ff19" executionId="12d630e4-07b2-4c25-904b-b04c443e925c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4f742dd3-6b2e-cd7a-601c-d21d1203ec94" executionId="f3c89545-6a35-4441-823d-2bc95dcb03a8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="55bfa6b1-39ce-2383-38d5-9069d7b5f1d0" executionId="17f5d7d3-f6a8-4569-8ea0-c15d98676336" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5729348f-4874-4e1e-a4b3-471010e67a26" executionId="e3743331-a22e-4350-a748-22edbc0ba35e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="61b9ee7e-4133-3167-e0f6-e0ba1f1b3452" executionId="4cf21c14-526e-4787-80d0-53f9f490abe0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="673555db-df97-d4e6-95a6-8db8ae30ad06" executionId="16d7a7fd-1b8f-4703-972d-15be81ecad0b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="68ca2e86-1e6f-4e69-fd3d-6a013217d7e1" executionId="a8352169-9aca-4d7c-9b2a-b9a2f81dcc25" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6d5169a5-fc62-6120-a678-54b1fc7d1ed6" executionId="7a961f7f-45e3-4943-84a6-e23331606dec" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="70ba78f9-03fc-e9ce-b835-ebea9a0f7668" executionId="d1debfff-f3df-4641-98e9-f2eb223b852b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="77f36036-5b3e-a9c7-69fd-b08a362faeb5" executionId="d1a2fde9-5ef3-4ffa-ac02-9aacb6a14358" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7bbfba78-db02-22e0-112d-f4f3b90f6463" executionId="f2a5e802-f4e1-4d2b-b653-15391bac8a56" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8fb9f831-5c37-ae0b-6c9b-900f024de0cc" executionId="8af4989e-ee06-4599-8c59-b40d4f7a5a93" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="90ead5ab-0cc3-68b5-c872-3c5910452fe3" executionId="705ab740-ea3e-4563-a19c-1af7f3fe3ed5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="99f501ca-7a13-0b63-66c7-f9c38b6830ff" executionId="9e41fa89-ed13-4d14-93e8-fc4f1e9e997f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9cd94090-2377-de1a-9b9b-38814dabf111" executionId="30e20fa2-9e4c-4724-b590-6f315cb9d74d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a334898a-8fa3-4405-cd1c-7387b81db5f4" executionId="d831803a-3a17-41aa-829f-d86d847a4436" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a5ffacd2-eccb-97f5-ca59-8696181279a3" executionId="d5588ff2-573b-4546-92b6-9d698879c9c0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bf85fec3-d5fc-818c-6463-be33e3f3694d" executionId="3826f77d-94fb-49fa-8562-70751ec48901" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c0acc18e-900e-d1c4-d109-b2e8c2a54bba" executionId="c1b4c76a-f31d-42aa-b03d-3595ac7e7509" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d1682589-214e-ac75-7590-ceee3dac3f76" executionId="2b98c469-07ee-4b3e-8620-703c3f6e30c5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d2d6d958-0656-1274-5cd4-08718515d5aa" executionId="6af8b618-5571-4692-9fe2-4b6003da274b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d4a7209b-3036-e9e7-1544-5b2a9dd02fa0" executionId="6670cabf-237e-4428-a84f-0fdc2e8013ea" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d60e7dfd-f0b5-1dc2-cd78-09dd93cc330a" executionId="aa20724a-d0b2-408c-8a39-81d99e6d08b3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="daba1e0f-e8c6-5d01-2253-ac9c99a8a429" executionId="d2ca6d69-6068-4e59-85a8-e63708244643" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="dcaabd90-51f3-42ac-82ce-9bc33df60a6c" executionId="f4bd47b2-385d-470e-97c1-21e06f77b52d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e2852dd1-8418-301e-5fef-121983e85ad2" executionId="193fae1e-248e-49c7-a626-47b01cc12f0d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e7e328c3-8833-8755-36bc-290ff227fa6b" executionId="0debd680-9b47-4d3c-87b0-66035ee0b9dc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ed296a88-0c21-604c-fae1-ba9cec2453d9" executionId="ea2f189b-8891-438c-91c0-ae22880739c3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f3e08c24-2f78-3e36-31d4-062f1b63be1e" executionId="a9d689d0-3d16-49aa-8d0c-7f5ad64075b6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f5919619-705f-35cb-065a-928005e5942f" executionId="a1fc3185-2608-4e9c-90c2-1a267b052cac" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f5e3553d-51fd-7a25-b025-63bbc2a4379d" executionId="0054c596-0d51-4d53-be21-954fb9ef86bf" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fbfcd82a-f36c-878b-a8e6-fc507d622fa8" executionId="f6e2f397-bc60-4867-88fd-a32adf88a097" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fd32e42f-c4f4-b6e5-950c-4143c3d5e6f8" executionId="89ad2645-a091-48b3-a3d4-d8212c2ee881" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="f893cf8a-b679-4eb7-9290-e3cb1e54e34b" testId="01e284ca-a346-b826-2be1-41ae3c76b745" testName="moveawordnegTest" computerName="D-BRYANT2" duration="00:00:00.0188395" startTime="2014-10-01T12:25:25.9464841-04:00" endTime="2014-10-01T12:25:27.0434841-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f893cf8a-b679-4eb7-9290-e3cb1e54e34b">
+      <CollectorDataEntries>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\SystemInformation.xml">System Information from D-BRYANT2</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/TestImpact/1.0" collectorDisplayName="Test Impact">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\testimpact.xml">Test Impact Data</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="c46cd826-24e4-4947-9bfd-26e2ef824197" testId="080b45e0-ed85-db33-9e13-4b35cd49d769" testName="ARInDirectAddressModeLongDisplacementTest" computerName="D-BRYANT2" duration="00:00:00.0015306" startTime="2014-10-01T12:25:27.0574841-04:00" endTime="2014-10-01T12:25:27.0924841-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c46cd826-24e4-4947-9bfd-26e2ef824197">
+      <CollectorDataEntries>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\SystemInformation.xml">System Information from D-BRYANT2</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/TestImpact/1.0" collectorDisplayName="Test Impact">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\testimpact.xml">Test Impact Data</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="4d287db6-375e-43bb-a5a7-0a478a62435a" testId="0826740c-fd4b-d197-1502-079e985e4a4f" testName="ARInDirectAddressModeByteTest" computerName="D-BRYANT2" duration="00:00:00.0032964" startTime="2014-10-01T12:25:27.1044841-04:00" endTime="2014-10-01T12:25:27.1404841-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4d287db6-375e-43bb-a5a7-0a478a62435a">
+      <CollectorDataEntries>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\SystemInformation.xml">System Information from D-BRYANT2</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/TestImpact/1.0" collectorDisplayName="Test Impact">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\testimpact.xml">Test Impact Data</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="1aab3f72-0695-4947-aef9-a48a31d1785b" testId="0d3e83d0-5014-d6f9-bdf6-8948b9f90c86" testName="TstPositiveTest" computerName="D-BRYANT2" duration="00:00:00.0004763" startTime="2014-10-01T12:25:27.1424841-04:00" endTime="2014-10-01T12:25:27.1554841-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1aab3f72-0695-4947-aef9-a48a31d1785b">
+      <CollectorDataEntries>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\SystemInformation.xml">System Information from D-BRYANT2</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/TestImpact/1.0" collectorDisplayName="Test Impact">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\testimpact.xml">Test Impact Data</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="a4e4bbd9-64a9-4970-b592-73ae17ad4c7e" testId="0ded22de-f8c0-b253-a61b-4b64a0a68bc8" testName="ARDirectAddressModeWordTest" computerName="D-BRYANT2" duration="00:00:00.0004417" startTime="2014-10-01T12:25:27.1574841-04:00" endTime="2014-10-01T12:25:27.1734841-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a4e4bbd9-64a9-4970-b592-73ae17ad4c7e">
+      <CollectorDataEntries>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\SystemInformation.xml">System Information from D-BRYANT2</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/TestImpact/1.0" collectorDisplayName="Test Impact">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\testimpact.xml">Test Impact Data</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="a0ae9bf5-9c74-4b7a-bb40-9eb4a9e0d83d" testId="153d9f17-f883-be4b-f9e7-ace3a2a34de6" testName="Bcc8bitTest" computerName="D-BRYANT2" duration="00:00:00.0004417" startTime="2014-10-01T12:25:27.1764841-04:00" endTime="2014-10-01T12:25:27.1874841-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a0ae9bf5-9c74-4b7a-bb40-9eb4a9e0d83d">
+      <CollectorDataEntries>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\SystemInformation.xml">System Information from D-BRYANT2</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/TestImpact/1.0" collectorDisplayName="Test Impact">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\testimpact.xml">Test Impact Data</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="44e53159-5141-4ef9-bf98-faa7aa12a8c6" testId="32211488-436a-ba83-9f57-dab5fad1e88b" testName="ARInDirectAddressModeWordTest" computerName="D-BRYANT2" duration="00:00:00.0004584" startTime="2014-10-01T12:25:27.1894841-04:00" endTime="2014-10-01T12:25:27.2014841-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="44e53159-5141-4ef9-bf98-faa7aa12a8c6">
+      <CollectorDataEntries>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\SystemInformation.xml">System Information from D-BRYANT2</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/TestImpact/1.0" collectorDisplayName="Test Impact">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\testimpact.xml">Test Impact Data</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="ab8fc9e9-3c72-471b-a00f-5c49ad3f263b" testId="3d45c220-26cb-afa4-bbc3-0953ed300eec" testName="ARInDirectAddressModeByteIncrementTest" computerName="D-BRYANT2" duration="00:00:00.0004676" startTime="2014-10-01T12:25:27.2034841-04:00" endTime="2014-10-01T12:25:27.2174841-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ab8fc9e9-3c72-471b-a00f-5c49ad3f263b">
+      <CollectorDataEntries>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\SystemInformation.xml">System Information from D-BRYANT2</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/TestImpact/1.0" collectorDisplayName="Test Impact">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\testimpact.xml">Test Impact Data</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="dd6d0c16-484a-4766-8c8e-4fc0778dbfc7" testId="4046718c-1796-ccad-b3fa-0a99ca8d7207" testName="moveqposTest" computerName="D-BRYANT2" duration="00:00:00.0004249" startTime="2014-10-01T12:25:27.2204841-04:00" endTime="2014-10-01T12:25:27.2324841-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dd6d0c16-484a-4766-8c8e-4fc0778dbfc7">
+      <CollectorDataEntries>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\SystemInformation.xml">System Information from D-BRYANT2</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/TestImpact/1.0" collectorDisplayName="Test Impact">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\testimpact.xml">Test Impact Data</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="b6151dfb-74eb-464e-b345-f48cbce73b50" testId="405043ea-b16c-d3e6-8672-bb99768825bf" testName="moveTest" computerName="D-BRYANT2" duration="00:00:00.0004322" startTime="2014-10-01T12:25:27.2344841-04:00" endTime="2014-10-01T12:25:27.2494841-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b6151dfb-74eb-464e-b345-f48cbce73b50">
+      <CollectorDataEntries>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\SystemInformation.xml">System Information from D-BRYANT2</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/TestImpact/1.0" collectorDisplayName="Test Impact">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\testimpact.xml">Test Impact Data</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="12d630e4-07b2-4c25-904b-b04c443e925c" testId="4246e005-5582-1a69-a24a-7bd7fbc2ff19" testName="JMPTest" computerName="D-BRYANT2" duration="00:00:00.0004451" startTime="2014-10-01T12:25:27.2514841-04:00" endTime="2014-10-01T12:25:27.2714841-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="12d630e4-07b2-4c25-904b-b04c443e925c">
+      <CollectorDataEntries>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\SystemInformation.xml">System Information from D-BRYANT2</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/TestImpact/1.0" collectorDisplayName="Test Impact">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\testimpact.xml">Test Impact Data</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="f3c89545-6a35-4441-823d-2bc95dcb03a8" testId="4f742dd3-6b2e-cd7a-601c-d21d1203ec94" testName="moveqnegTest" computerName="D-BRYANT2" duration="00:00:00.0004223" startTime="2014-10-01T12:25:27.2734841-04:00" endTime="2014-10-01T12:25:27.2854841-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f3c89545-6a35-4441-823d-2bc95dcb03a8">
+      <CollectorDataEntries>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\SystemInformation.xml">System Information from D-BRYANT2</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/TestImpact/1.0" collectorDisplayName="Test Impact">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\testimpact.xml">Test Impact Data</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="17f5d7d3-f6a8-4569-8ea0-c15d98676336" testId="55bfa6b1-39ce-2383-38d5-9069d7b5f1d0" testName="ImmediateAddressModeLongTest" computerName="D-BRYANT2" duration="00:00:00.0004569" startTime="2014-10-01T12:25:27.2874841-04:00" endTime="2014-10-01T12:25:27.3004841-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="17f5d7d3-f6a8-4569-8ea0-c15d98676336">
+      <CollectorDataEntries>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\SystemInformation.xml">System Information from D-BRYANT2</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/TestImpact/1.0" collectorDisplayName="Test Impact">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\testimpact.xml">Test Impact Data</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="e3743331-a22e-4350-a748-22edbc0ba35e" testId="5729348f-4874-4e1e-a4b3-471010e67a26" testName="ARInDirectAddressModeLongIncrementTest" computerName="D-BRYANT2" duration="00:00:00.0004622" startTime="2014-10-01T12:25:27.3024841-04:00" endTime="2014-10-01T12:25:27.3184841-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e3743331-a22e-4350-a748-22edbc0ba35e">
+      <CollectorDataEntries>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\SystemInformation.xml">System Information from D-BRYANT2</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/TestImpact/1.0" collectorDisplayName="Test Impact">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\testimpact.xml">Test Impact Data</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="4cf21c14-526e-4787-80d0-53f9f490abe0" testId="61b9ee7e-4133-3167-e0f6-e0ba1f1b3452" testName="TstNegativeTest" computerName="D-BRYANT2" duration="00:00:00.0006163" startTime="2014-10-01T12:25:27.3214841-04:00" endTime="2014-10-01T12:25:27.3344841-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4cf21c14-526e-4787-80d0-53f9f490abe0">
+      <CollectorDataEntries>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\SystemInformation.xml">System Information from D-BRYANT2</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/TestImpact/1.0" collectorDisplayName="Test Impact">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\testimpact.xml">Test Impact Data</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="16d7a7fd-1b8f-4703-972d-15be81ecad0b" testId="673555db-df97-d4e6-95a6-8db8ae30ad06" testName="ARInDirectAddressModeLongIndexDisplacementTest" computerName="D-BRYANT2" duration="00:00:00.0006875" startTime="2014-10-01T12:25:27.3364841-04:00" endTime="2014-10-01T12:25:27.3504841-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="16d7a7fd-1b8f-4703-972d-15be81ecad0b">
+      <CollectorDataEntries>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\SystemInformation.xml">System Information from D-BRYANT2</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/TestImpact/1.0" collectorDisplayName="Test Impact">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\testimpact.xml">Test Impact Data</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="a8352169-9aca-4d7c-9b2a-b9a2f81dcc25" testId="68ca2e86-1e6f-4e69-fd3d-6a013217d7e1" testName="ARInDirectAddressModeWordDecrementTest" computerName="D-BRYANT2" duration="00:00:00.0005204" startTime="2014-10-01T12:25:27.3524841-04:00" endTime="2014-10-01T12:25:27.3694841-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a8352169-9aca-4d7c-9b2a-b9a2f81dcc25">
+      <CollectorDataEntries>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\SystemInformation.xml">System Information from D-BRYANT2</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/TestImpact/1.0" collectorDisplayName="Test Impact">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\testimpact.xml">Test Impact Data</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="7a961f7f-45e3-4943-84a6-e23331606dec" testId="6d5169a5-fc62-6120-a678-54b1fc7d1ed6" testName="ImmediateAddressModeWordTest" computerName="D-BRYANT2" duration="00:00:00.0005197" startTime="2014-10-01T12:25:27.3724841-04:00" endTime="2014-10-01T12:25:27.3844841-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7a961f7f-45e3-4943-84a6-e23331606dec">
+      <CollectorDataEntries>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\SystemInformation.xml">System Information from D-BRYANT2</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/TestImpact/1.0" collectorDisplayName="Test Impact">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\testimpact.xml">Test Impact Data</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="d1debfff-f3df-4641-98e9-f2eb223b852b" testId="70ba78f9-03fc-e9ce-b835-ebea9a0f7668" testName="Bra16BitTest" computerName="D-BRYANT2" duration="00:00:00.0004421" startTime="2014-10-01T12:25:27.3864841-04:00" endTime="2014-10-01T12:25:27.4004841-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d1debfff-f3df-4641-98e9-f2eb223b852b">
+      <CollectorDataEntries>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\SystemInformation.xml">System Information from D-BRYANT2</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/TestImpact/1.0" collectorDisplayName="Test Impact">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\testimpact.xml">Test Impact Data</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="d1a2fde9-5ef3-4ffa-ac02-9aacb6a14358" testId="77f36036-5b3e-a9c7-69fd-b08a362faeb5" testName="AbsoluteShortAddressModeWordTest" computerName="D-BRYANT2" duration="00:00:00.0005067" startTime="2014-10-01T12:25:27.4034841-04:00" endTime="2014-10-01T12:25:27.4194841-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d1a2fde9-5ef3-4ffa-ac02-9aacb6a14358">
+      <CollectorDataEntries>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\SystemInformation.xml">System Information from D-BRYANT2</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/TestImpact/1.0" collectorDisplayName="Test Impact">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\testimpact.xml">Test Impact Data</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="f2a5e802-f4e1-4d2b-b653-15391bac8a56" testId="7bbfba78-db02-22e0-112d-f4f3b90f6463" testName="DRDirectAddressModeWordTest" computerName="D-BRYANT2" duration="00:00:00.0004858" startTime="2014-10-01T12:25:27.4224841-04:00" endTime="2014-10-01T12:25:27.4354841-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f2a5e802-f4e1-4d2b-b653-15391bac8a56">
+      <CollectorDataEntries>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\SystemInformation.xml">System Information from D-BRYANT2</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/TestImpact/1.0" collectorDisplayName="Test Impact">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\testimpact.xml">Test Impact Data</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="8af4989e-ee06-4599-8c59-b40d4f7a5a93" testId="8fb9f831-5c37-ae0b-6c9b-900f024de0cc" testName="ARDirectAddressModeLongTest" computerName="D-BRYANT2" duration="00:00:00.0004771" startTime="2014-10-01T12:25:27.4374841-04:00" endTime="2014-10-01T12:25:27.4524841-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8af4989e-ee06-4599-8c59-b40d4f7a5a93">
+      <CollectorDataEntries>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\SystemInformation.xml">System Information from D-BRYANT2</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/TestImpact/1.0" collectorDisplayName="Test Impact">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\testimpact.xml">Test Impact Data</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="705ab740-ea3e-4563-a19c-1af7f3fe3ed5" testId="90ead5ab-0cc3-68b5-c872-3c5910452fe3" testName="ARInDirectAddressModeWordDisplacementTest" computerName="D-BRYANT2" duration="00:00:00.0005585" startTime="2014-10-01T12:25:27.4544841-04:00" endTime="2014-10-01T12:25:27.4714841-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="705ab740-ea3e-4563-a19c-1af7f3fe3ed5">
+      <CollectorDataEntries>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\SystemInformation.xml">System Information from D-BRYANT2</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/TestImpact/1.0" collectorDisplayName="Test Impact">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\testimpact.xml">Test Impact Data</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="9e41fa89-ed13-4d14-93e8-fc4f1e9e997f" testId="99f501ca-7a13-0b63-66c7-f9c38b6830ff" testName="ARInDirectAddressModeLongDecrementTest" computerName="D-BRYANT2" duration="00:00:00.0005026" startTime="2014-10-01T12:25:27.4734841-04:00" endTime="2014-10-01T12:25:27.4854841-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9e41fa89-ed13-4d14-93e8-fc4f1e9e997f">
+      <CollectorDataEntries>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\SystemInformation.xml">System Information from D-BRYANT2</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/TestImpact/1.0" collectorDisplayName="Test Impact">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\testimpact.xml">Test Impact Data</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="30e20fa2-9e4c-4724-b590-6f315cb9d74d" testId="9cd94090-2377-de1a-9b9b-38814dabf111" testName="ARInDirectAddressModeByteDecrementTest" computerName="D-BRYANT2" duration="00:00:00.0004930" startTime="2014-10-01T12:25:27.4884841-04:00" endTime="2014-10-01T12:25:27.6444841-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="30e20fa2-9e4c-4724-b590-6f315cb9d74d">
+      <CollectorDataEntries>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\SystemInformation.xml">System Information from D-BRYANT2</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/TestImpact/1.0" collectorDisplayName="Test Impact">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\testimpact.xml">Test Impact Data</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="d831803a-3a17-41aa-829f-d86d847a4436" testId="a334898a-8fa3-4405-cd1c-7387b81db5f4" testName="AbsoluteShortAddressModeLongTest" computerName="D-BRYANT2" duration="00:00:00.0015614" startTime="2014-10-01T12:25:27.6514841-04:00" endTime="2014-10-01T12:25:27.6854841-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d831803a-3a17-41aa-829f-d86d847a4436">
+      <CollectorDataEntries>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\SystemInformation.xml">System Information from D-BRYANT2</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/TestImpact/1.0" collectorDisplayName="Test Impact">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\testimpact.xml">Test Impact Data</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="d5588ff2-573b-4546-92b6-9d698879c9c0" testId="a5ffacd2-eccb-97f5-ca59-8696181279a3" testName="TstZeroTest" computerName="D-BRYANT2" duration="00:00:00.0004508" startTime="2014-10-01T12:25:27.6904841-04:00" endTime="2014-10-01T12:25:27.7044841-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d5588ff2-573b-4546-92b6-9d698879c9c0">
+      <CollectorDataEntries>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\SystemInformation.xml">System Information from D-BRYANT2</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/TestImpact/1.0" collectorDisplayName="Test Impact">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\testimpact.xml">Test Impact Data</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="3826f77d-94fb-49fa-8562-70751ec48901" testId="bf85fec3-d5fc-818c-6463-be33e3f3694d" testName="ARDirectAddressModeByteTest" computerName="D-BRYANT2" duration="00:00:00.0004512" startTime="2014-10-01T12:25:27.7074841-04:00" endTime="2014-10-01T12:25:27.7204841-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3826f77d-94fb-49fa-8562-70751ec48901">
+      <CollectorDataEntries>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\SystemInformation.xml">System Information from D-BRYANT2</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/TestImpact/1.0" collectorDisplayName="Test Impact">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\testimpact.xml">Test Impact Data</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="c1b4c76a-f31d-42aa-b03d-3595ac7e7509" testId="c0acc18e-900e-d1c4-d109-b2e8c2a54bba" testName="ARInDirectAddressModeByteIndexDisplacementTest" computerName="D-BRYANT2" duration="00:00:00.0005242" startTime="2014-10-01T12:25:27.7224841-04:00" endTime="2014-10-01T12:25:27.7404841-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c1b4c76a-f31d-42aa-b03d-3595ac7e7509">
+      <CollectorDataEntries>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\SystemInformation.xml">System Information from D-BRYANT2</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/TestImpact/1.0" collectorDisplayName="Test Impact">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\testimpact.xml">Test Impact Data</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="2b98c469-07ee-4b3e-8620-703c3f6e30c5" testId="d1682589-214e-ac75-7590-ceee3dac3f76" testName="Bcc32bitTest" computerName="D-BRYANT2" duration="00:00:00.0004885" startTime="2014-10-01T12:25:27.7434841-04:00" endTime="2014-10-01T12:25:27.7574841-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2b98c469-07ee-4b3e-8620-703c3f6e30c5">
+      <CollectorDataEntries>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\SystemInformation.xml">System Information from D-BRYANT2</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/TestImpact/1.0" collectorDisplayName="Test Impact">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\testimpact.xml">Test Impact Data</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="6af8b618-5571-4692-9fe2-4b6003da274b" testId="d2d6d958-0656-1274-5cd4-08718515d5aa" testName="ARInDirectAddressModeLongTest" computerName="D-BRYANT2" duration="00:00:00.0004645" startTime="2014-10-01T12:25:27.7594841-04:00" endTime="2014-10-01T12:25:27.7724841-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6af8b618-5571-4692-9fe2-4b6003da274b">
+      <CollectorDataEntries>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\SystemInformation.xml">System Information from D-BRYANT2</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/TestImpact/1.0" collectorDisplayName="Test Impact">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\testimpact.xml">Test Impact Data</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="6670cabf-237e-4428-a84f-0fdc2e8013ea" testId="d4a7209b-3036-e9e7-1544-5b2a9dd02fa0" testName="ARInDirectAddressModeByteDisplacementTest" computerName="D-BRYANT2" duration="00:00:00.0004820" startTime="2014-10-01T12:25:27.7744841-04:00" endTime="2014-10-01T12:25:27.7894841-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6670cabf-237e-4428-a84f-0fdc2e8013ea">
+      <CollectorDataEntries>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\SystemInformation.xml">System Information from D-BRYANT2</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/TestImpact/1.0" collectorDisplayName="Test Impact">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\testimpact.xml">Test Impact Data</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="aa20724a-d0b2-408c-8a39-81d99e6d08b3" testId="d60e7dfd-f0b5-1dc2-cd78-09dd93cc330a" testName="DRDirectAddressModeLongTest" computerName="D-BRYANT2" duration="00:00:00.0004501" startTime="2014-10-01T12:25:27.7914841-04:00" endTime="2014-10-01T12:25:27.8034841-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="aa20724a-d0b2-408c-8a39-81d99e6d08b3">
+      <CollectorDataEntries>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\SystemInformation.xml">System Information from D-BRYANT2</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/TestImpact/1.0" collectorDisplayName="Test Impact">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\testimpact.xml">Test Impact Data</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="d2ca6d69-6068-4e59-85a8-e63708244643" testId="daba1e0f-e8c6-5d01-2253-ac9c99a8a429" testName="AbsoluteShortAddressModeByteTest" computerName="D-BRYANT2" duration="00:00:00.0004695" startTime="2014-10-01T12:25:27.8064841-04:00" endTime="2014-10-01T12:25:27.8174841-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d2ca6d69-6068-4e59-85a8-e63708244643">
+      <CollectorDataEntries>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\SystemInformation.xml">System Information from D-BRYANT2</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/TestImpact/1.0" collectorDisplayName="Test Impact">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\testimpact.xml">Test Impact Data</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="f4bd47b2-385d-470e-97c1-21e06f77b52d" testId="dcaabd90-51f3-42ac-82ce-9bc33df60a6c" testName="Bcc16bitTest" computerName="D-BRYANT2" duration="00:00:00.0004443" startTime="2014-10-01T12:25:27.8204841-04:00" endTime="2014-10-01T12:25:27.8354841-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f4bd47b2-385d-470e-97c1-21e06f77b52d">
+      <CollectorDataEntries>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\SystemInformation.xml">System Information from D-BRYANT2</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/TestImpact/1.0" collectorDisplayName="Test Impact">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\testimpact.xml">Test Impact Data</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="193fae1e-248e-49c7-a626-47b01cc12f0d" testId="e2852dd1-8418-301e-5fef-121983e85ad2" testName="Bra8BitTest" computerName="D-BRYANT2" duration="00:00:00.0004421" startTime="2014-10-01T12:25:27.8384841-04:00" endTime="2014-10-01T12:25:27.8504841-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="193fae1e-248e-49c7-a626-47b01cc12f0d">
+      <CollectorDataEntries>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\SystemInformation.xml">System Information from D-BRYANT2</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/TestImpact/1.0" collectorDisplayName="Test Impact">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\testimpact.xml">Test Impact Data</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="0debd680-9b47-4d3c-87b0-66035ee0b9dc" testId="e7e328c3-8833-8755-36bc-290ff227fa6b" testName="movealongTest" computerName="D-BRYANT2" duration="00:00:00.0004189" startTime="2014-10-01T12:25:27.8534841-04:00" endTime="2014-10-01T12:25:27.8694841-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0debd680-9b47-4d3c-87b0-66035ee0b9dc">
+      <CollectorDataEntries>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\SystemInformation.xml">System Information from D-BRYANT2</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/TestImpact/1.0" collectorDisplayName="Test Impact">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\testimpact.xml">Test Impact Data</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="ea2f189b-8891-438c-91c0-ae22880739c3" testId="ed296a88-0c21-604c-fae1-ba9cec2453d9" testName="Bra32BitTest" computerName="D-BRYANT2" duration="00:00:00.0004927" startTime="2014-10-01T12:25:27.8724841-04:00" endTime="2014-10-01T12:25:27.8874841-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ea2f189b-8891-438c-91c0-ae22880739c3">
+      <CollectorDataEntries>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\SystemInformation.xml">System Information from D-BRYANT2</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/TestImpact/1.0" collectorDisplayName="Test Impact">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\testimpact.xml">Test Impact Data</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="a9d689d0-3d16-49aa-8d0c-7f5ad64075b6" testId="f3e08c24-2f78-3e36-31d4-062f1b63be1e" testName="ImmediateAddressModeByteTest" computerName="D-BRYANT2" duration="00:00:00.0004565" startTime="2014-10-01T12:25:27.8894841-04:00" endTime="2014-10-01T12:25:27.9024841-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a9d689d0-3d16-49aa-8d0c-7f5ad64075b6">
+      <CollectorDataEntries>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\SystemInformation.xml">System Information from D-BRYANT2</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/TestImpact/1.0" collectorDisplayName="Test Impact">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\testimpact.xml">Test Impact Data</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="a1fc3185-2608-4e9c-90c2-1a267b052cac" testId="f5919619-705f-35cb-065a-928005e5942f" testName="ARInDirectAddressModeWordIncrementTest" computerName="D-BRYANT2" duration="00:00:00.0006643" startTime="2014-10-01T12:25:27.9054841-04:00" endTime="2014-10-01T12:25:27.9194841-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a1fc3185-2608-4e9c-90c2-1a267b052cac">
+      <CollectorDataEntries>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\SystemInformation.xml">System Information from D-BRYANT2</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/TestImpact/1.0" collectorDisplayName="Test Impact">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\testimpact.xml">Test Impact Data</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="0054c596-0d51-4d53-be21-954fb9ef86bf" testId="f5e3553d-51fd-7a25-b025-63bbc2a4379d" testName="moveawordposTest" computerName="D-BRYANT2" duration="00:00:00.0004200" startTime="2014-10-01T12:25:27.9224841-04:00" endTime="2014-10-01T12:25:27.9384841-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0054c596-0d51-4d53-be21-954fb9ef86bf">
+      <CollectorDataEntries>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\SystemInformation.xml">System Information from D-BRYANT2</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/TestImpact/1.0" collectorDisplayName="Test Impact">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\testimpact.xml">Test Impact Data</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="f6e2f397-bc60-4867-88fd-a32adf88a097" testId="fbfcd82a-f36c-878b-a8e6-fc507d622fa8" testName="ARInDirectAddressModeWordIndexDisplacementTest" computerName="D-BRYANT2" duration="00:00:00.0005003" startTime="2014-10-01T12:25:27.9414841-04:00" endTime="2014-10-01T12:25:27.9544841-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f6e2f397-bc60-4867-88fd-a32adf88a097">
+      <CollectorDataEntries>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\SystemInformation.xml">System Information from D-BRYANT2</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/TestImpact/1.0" collectorDisplayName="Test Impact">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\testimpact.xml">Test Impact Data</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="89ad2645-a091-48b3-a3d4-d8212c2ee881" testId="fd32e42f-c4f4-b6e5-950c-4143c3d5e6f8" testName="DRDirectAddressModeByteTest" computerName="D-BRYANT2" duration="00:00:00.0004504" startTime="2014-10-01T12:25:27.9564841-04:00" endTime="2014-10-01T12:25:27.9684841-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="89ad2645-a091-48b3-a3d4-d8212c2ee881">
+      <CollectorDataEntries>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\SystemInformation.xml">System Information from D-BRYANT2</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="D-BRYANT2" uri="datacollector://microsoft/TestImpact/1.0" collectorDisplayName="Test Impact">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D-BRYANT2\testimpact.xml">Test Impact Data</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+  </Results>
+</TestRun>

@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Data Movement">
+      <UniqueIdentifier>{dfabfe82-564f-4797-b286-e8b76f831e40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Integer Math">
+      <UniqueIdentifier>{af2e17e9-a4e2-4f20-b5d5-2bce16a1c85f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Logical Operations">
+      <UniqueIdentifier>{79931b3a-6d43-49bf-ab07-bed1c2953974}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\S and R Operations">
+      <UniqueIdentifier>{bc418020-16f4-40fb-b5b9-e9c69059a545}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Bit Manipulation">
+      <UniqueIdentifier>{37e73861-eec2-4962-ad33-4721bc8425c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BitField Manipulation">
+      <UniqueIdentifier>{ab071b69-1648-4305-9fbf-b36ecc645304}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Binary-Coded Decimal Math">
+      <UniqueIdentifier>{c0761c77-66f0-4bbc-975d-3f7b0a4a3d86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Program Control">
+      <UniqueIdentifier>{d4ebe52f-455b-4b04-92f8-7fc92fc0ec58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\System Control">
+      <UniqueIdentifier>{35264c02-45ae-46d0-ab95-876f191f3f28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Cache Maintenance">
+      <UniqueIdentifier>{078f0d2d-23cf-44c4-af7a-c9338d148cd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Memory Management">
+      <UniqueIdentifier>{658aaa3a-3112-4cec-aaca-9cfb0d5c74e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Floating Point Math">
+      <UniqueIdentifier>{c95a5fed-f094-47ee-8041-1642d4267fc1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DataMovementInstr.cpp">
+      <Filter>Source Files\Data Movement</Filter>
+    </ClCompile>
+    <ClCompile Include="ProgramControlInstr.cpp">
+      <Filter>Source Files\Program Control</Filter>
+    </ClCompile>
+    <ClCompile Include="68KCPU.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Instr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MemoryRegion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IntegerMathInstr.cpp">
+      <Filter>Source Files\Integer Math</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemControlInstr.cpp">
+      <Filter>Source Files\System Control</Filter>
+    </ClCompile>
+    <ClCompile Include="LogicalInstr.cpp">
+      <Filter>Source Files\Logical Operations</Filter>
+    </ClCompile>
+    <ClCompile Include="BitManipulationInstr.cpp">
+      <Filter>Source Files\Bit Manipulation</Filter>
+    </ClCompile>
+    <ClCompile Include="SRInstr.cpp">
+      <Filter>Source Files\S and R Operations</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MemoryRegion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="68kCPU.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

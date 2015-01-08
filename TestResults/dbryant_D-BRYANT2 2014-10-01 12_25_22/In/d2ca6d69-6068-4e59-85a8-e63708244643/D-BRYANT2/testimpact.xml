@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Test xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="AbsoluteShortAddressModeByteTest" IsTestCase="false" TestCaseId="0" AutomatedTestId="daba1e0f-e8c6-5d01-2253-ac9c99a8a429">
+  <Signatures>
+    <Signature>AC3509B49E991C0476FA1B9141976D6FBFA81820</Signature>
+    <Signature>AD2A5A03B8BA65EBDFDA82A68E7B19F5F135FB6A</Signature>
+    <Signature>7DAF21241BA220AAAC045E828B2BAD8504B2503F</Signature>
+  </Signatures>
+</Test>

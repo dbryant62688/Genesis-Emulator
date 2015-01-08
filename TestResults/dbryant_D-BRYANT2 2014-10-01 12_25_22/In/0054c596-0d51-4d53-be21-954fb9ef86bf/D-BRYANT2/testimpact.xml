@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Test xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="moveawordposTest" IsTestCase="false" TestCaseId="0" AutomatedTestId="f5e3553d-51fd-7a25-b025-63bbc2a4379d">
+  <Signatures>
+    <Signature>FAA277E31B84C9CAD02D025BC3793D69C8F3D4AB</Signature>
+    <Signature>2F9A7EC927417F49B9400D7F93A5BC50F90A22ED</Signature>
+  </Signatures>
+</Test>

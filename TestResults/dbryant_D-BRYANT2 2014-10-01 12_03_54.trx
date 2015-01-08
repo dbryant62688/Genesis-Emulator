@@ -1,0 +1,283 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="a862944b-bf68-41f1-8fd0-41d80ef586d0" name="dbryant@D-BRYANT2 2014-10-01 12:03:54" runUser="CRESTRON\dbryant" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Trace and Test Impact" id="bef5c62a-216d-4f5a-93ba-7bf2fdf519e1">
+    <Description>These are test settings for Trace and Test Impact.</Description>
+    <Deployment userDeploymentRoot="C:\GenesisEmulator\GenEm\TestResults" useDefaultDeploymentRoot="false" runDeploymentRoot="dbryant_D-BRYANT2 2014-10-01 12_03_54">
+      <DeploymentItem filename="C:\GenesisEmulator\GenEm\Debug\CPU68K.lib" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+        <DataCollectors>
+          <DataCollector uri="datacollector://microsoft/SystemInfo/1.0" assemblyQualifiedName="Microsoft.VisualStudio.TestTools.DataCollection.SystemInfo.SystemInfoDataCollector, Microsoft.VisualStudio.TestTools.DataCollection.SystemInfo, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" friendlyName="System Information">
+          </DataCollector>
+          <DataCollector uri="datacollector://microsoft/ActionLog/1.0" assemblyQualifiedName="Microsoft.VisualStudio.TestTools.ManualTest.ActionLog.ActionLogPlugin, Microsoft.VisualStudio.TestTools.ManualTest.ActionLog, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" friendlyName="Actions">
+          </DataCollector>
+          <DataCollector uri="datacollector://microsoft/HttpProxy/1.0" assemblyQualifiedName="Microsoft.VisualStudio.TraceCollector.HttpProxyCollector, Microsoft.VisualStudio.TraceCollector, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" friendlyName="ASP.NET Client Proxy for IntelliTrace and Test Impact">
+          </DataCollector>
+          <DataCollector uri="datacollector://microsoft/TestImpact/1.0" assemblyQualifiedName="Microsoft.VisualStudio.TraceCollector.TestImpactDataCollector, Microsoft.VisualStudio.TraceCollector, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" friendlyName="Test Impact">
+          </DataCollector>
+          <DataCollector uri="datacollector://microsoft/TraceDebugger/1.0" assemblyQualifiedName="Microsoft.VisualStudio.TraceCollector.TraceDebuggerDataCollector, Microsoft.VisualStudio.TraceCollector, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" friendlyName="IntelliTrace">
+          </DataCollector>
+        </DataCollectors>
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-10-01T12:03:54.9274733-04:00" queuing="2014-10-01T12:03:55.6865492-04:00" start="2014-10-01T12:04:01.5571362-04:00" finish="2014-10-01T12:08:41.2341011-04:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="34" executed="1" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="33" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="D-BRYANT2" outcome="Error" timestamp="2014-10-01T12:08:41.2311008-04:00">
+        <Text>Test host process exited unexpectedly.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="ARDirectAddressModeWordTest" storage="c:\genesisemulator\genem\debug\defaulttest.dll" id="0ded22de-f8c0-b253-a61b-4b64a0a68bc8">
+      <Execution id="627319b2-a225-4947-a967-63dc798b12d4" />
+      <TestMethod codeBase="C:/GenesisEmulator/GenEm/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenEmTest.UnitTest1, DefaultTest, Version=1.0.5387.19866, Culture=neutral, PublicKeyToken=null" name="ARDirectAddressModeWordTest" />
+    </UnitTest>
+    <UnitTest name="moveawordnegTest" storage="c:\genesisemulator\genem\debug\defaulttest.dll" id="01e284ca-a346-b826-2be1-41ae3c76b745">
+      <Execution id="dd54848c-5a2c-4377-9c45-2d63fd8f66c2" />
+      <TestMethod codeBase="C:/GenesisEmulator/GenEm/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenEmTest.DataMovementTest, DefaultTest, Version=1.0.5387.19866, Culture=neutral, PublicKeyToken=null" name="moveawordnegTest" />
+    </UnitTest>
+    <UnitTest name="AbsoluteShortAddressModeWordTest" storage="c:\genesisemulator\genem\debug\defaulttest.dll" id="77f36036-5b3e-a9c7-69fd-b08a362faeb5">
+      <Execution id="47ca31e5-4ace-4cf6-8907-b4c94f664af1" />
+      <TestMethod codeBase="C:/GenesisEmulator/GenEm/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenEmTest.UnitTest1, DefaultTest, Version=1.0.5387.19866, Culture=neutral, PublicKeyToken=null" name="AbsoluteShortAddressModeWordTest" />
+    </UnitTest>
+    <UnitTest name="ARInDirectAddressModeWordDecrementTest" storage="c:\genesisemulator\genem\debug\defaulttest.dll" id="68ca2e86-1e6f-4e69-fd3d-6a013217d7e1">
+      <Execution id="23737ca1-27fa-4292-970e-8d58406277b5" />
+      <TestMethod codeBase="C:/GenesisEmulator/GenEm/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenEmTest.AddressDisplacementTest, DefaultTest, Version=1.0.5387.19866, Culture=neutral, PublicKeyToken=null" name="ARInDirectAddressModeWordDecrementTest" />
+    </UnitTest>
+    <UnitTest name="ARInDirectAddressModeWordTest" storage="c:\genesisemulator\genem\debug\defaulttest.dll" id="32211488-436a-ba83-9f57-dab5fad1e88b">
+      <Execution id="e6bdeccc-c2b9-4e8a-9a77-4bc397db722d" />
+      <TestMethod codeBase="C:/GenesisEmulator/GenEm/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenEmTest.UnitTest1, DefaultTest, Version=1.0.5387.19866, Culture=neutral, PublicKeyToken=null" name="ARInDirectAddressModeWordTest" />
+    </UnitTest>
+    <UnitTest name="ARInDirectAddressModeWordIncrementTest" storage="c:\genesisemulator\genem\debug\defaulttest.dll" id="f5919619-705f-35cb-065a-928005e5942f">
+      <Execution id="aeb6c8e0-924f-423c-9176-0630ef25aa2b" />
+      <TestMethod codeBase="C:/GenesisEmulator/GenEm/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenEmTest.AddressDisplacementTest, DefaultTest, Version=1.0.5387.19866, Culture=neutral, PublicKeyToken=null" name="ARInDirectAddressModeWordIncrementTest" />
+    </UnitTest>
+    <UnitTest name="TstNegativeTest" storage="c:\genesisemulator\genem\debug\defaulttest.dll" id="61b9ee7e-4133-3167-e0f6-e0ba1f1b3452">
+      <Execution id="a9a1622b-65ad-442f-9ed7-2a144acddd6e" />
+      <TestMethod codeBase="C:/GenesisEmulator/GenEm/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenEmTest.ProgramControlTest, DefaultTest, Version=1.0.5387.19866, Culture=neutral, PublicKeyToken=null" name="TstNegativeTest" />
+    </UnitTest>
+    <UnitTest name="DRDirectAddressModeWordTest" storage="c:\genesisemulator\genem\debug\defaulttest.dll" id="7bbfba78-db02-22e0-112d-f4f3b90f6463">
+      <Execution id="ddef052c-2e15-44f3-a30f-7985ee512e34" />
+      <TestMethod codeBase="C:/GenesisEmulator/GenEm/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenEmTest.UnitTest1, DefaultTest, Version=1.0.5387.19866, Culture=neutral, PublicKeyToken=null" name="DRDirectAddressModeWordTest" />
+    </UnitTest>
+    <UnitTest name="ARInDirectAddressModeLongDisplacementTest" storage="c:\genesisemulator\genem\debug\defaulttest.dll" id="080b45e0-ed85-db33-9e13-4b35cd49d769">
+      <Execution id="d9200c59-6cd2-4366-8045-03336c1a3462" />
+      <TestMethod codeBase="C:/GenesisEmulator/GenEm/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenEmTest.AddressDisplacementTest, DefaultTest, Version=1.0.5387.19866, Culture=neutral, PublicKeyToken=null" name="ARInDirectAddressModeLongDisplacementTest" />
+    </UnitTest>
+    <UnitTest name="ARInDirectAddressModeWordDisplacementTest" storage="c:\genesisemulator\genem\debug\defaulttest.dll" id="90ead5ab-0cc3-68b5-c872-3c5910452fe3">
+      <Execution id="0ad75843-a2d1-4ba4-a6ac-e153d0170217" />
+      <TestMethod codeBase="C:/GenesisEmulator/GenEm/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenEmTest.AddressDisplacementTest, DefaultTest, Version=1.0.5387.19866, Culture=neutral, PublicKeyToken=null" name="ARInDirectAddressModeWordDisplacementTest" />
+    </UnitTest>
+    <UnitTest name="ARInDirectAddressModeLongIndexDisplacementTest" storage="c:\genesisemulator\genem\debug\defaulttest.dll" id="673555db-df97-d4e6-95a6-8db8ae30ad06">
+      <Execution id="9271c020-09da-4b66-aae6-a55db0405b20" />
+      <TestMethod codeBase="C:/GenesisEmulator/GenEm/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenEmTest.AddressDisplacementTest, DefaultTest, Version=1.0.5387.19866, Culture=neutral, PublicKeyToken=null" name="ARInDirectAddressModeLongIndexDisplacementTest" />
+    </UnitTest>
+    <UnitTest name="moveqnegTest" storage="c:\genesisemulator\genem\debug\defaulttest.dll" id="4f742dd3-6b2e-cd7a-601c-d21d1203ec94">
+      <Execution id="9128bebd-9db2-4e5c-b64a-2ec75845d1a4" />
+      <TestMethod codeBase="C:/GenesisEmulator/GenEm/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenEmTest.DataMovementTest, DefaultTest, Version=1.0.5387.19866, Culture=neutral, PublicKeyToken=null" name="moveqnegTest" />
+    </UnitTest>
+    <UnitTest name="AbsoluteShortAddressModeLongTest" storage="c:\genesisemulator\genem\debug\defaulttest.dll" id="a334898a-8fa3-4405-cd1c-7387b81db5f4">
+      <Execution id="f82ddb1a-2728-4f8a-ac82-039ce35d1c6c" />
+      <TestMethod codeBase="C:/GenesisEmulator/GenEm/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenEmTest.UnitTest1, DefaultTest, Version=1.0.5387.19866, Culture=neutral, PublicKeyToken=null" name="AbsoluteShortAddressModeLongTest" />
+    </UnitTest>
+    <UnitTest name="ARInDirectAddressModeByteDisplacementTest" storage="c:\genesisemulator\genem\debug\defaulttest.dll" id="d4a7209b-3036-e9e7-1544-5b2a9dd02fa0">
+      <Execution id="36a7fc94-b304-4bcf-8d93-aae62e06b679" />
+      <TestMethod codeBase="C:/GenesisEmulator/GenEm/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenEmTest.AddressDisplacementTest, DefaultTest, Version=1.0.5387.19866, Culture=neutral, PublicKeyToken=null" name="ARInDirectAddressModeByteDisplacementTest" />
+    </UnitTest>
+    <UnitTest name="ARInDirectAddressModeLongTest" storage="c:\genesisemulator\genem\debug\defaulttest.dll" id="d2d6d958-0656-1274-5cd4-08718515d5aa">
+      <Execution id="21b6365e-6728-4ac5-8b11-bcd2a057ac53" />
+      <TestMethod codeBase="C:/GenesisEmulator/GenEm/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenEmTest.UnitTest1, DefaultTest, Version=1.0.5387.19866, Culture=neutral, PublicKeyToken=null" name="ARInDirectAddressModeLongTest" />
+    </UnitTest>
+    <UnitTest name="ARInDirectAddressModeByteIncrementTest" storage="c:\genesisemulator\genem\debug\defaulttest.dll" id="3d45c220-26cb-afa4-bbc3-0953ed300eec">
+      <Execution id="1ae87249-6b5d-490b-b5ef-382c140696d6" />
+      <TestMethod codeBase="C:/GenesisEmulator/GenEm/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenEmTest.AddressDisplacementTest, DefaultTest, Version=1.0.5387.19866, Culture=neutral, PublicKeyToken=null" name="ARInDirectAddressModeByteIncrementTest" />
+    </UnitTest>
+    <UnitTest name="ARInDirectAddressModeLongDecrementTest" storage="c:\genesisemulator\genem\debug\defaulttest.dll" id="99f501ca-7a13-0b63-66c7-f9c38b6830ff">
+      <Execution id="f229d066-e917-4802-acd6-1abf77ee062f" />
+      <TestMethod codeBase="C:/GenesisEmulator/GenEm/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenEmTest.AddressDisplacementTest, DefaultTest, Version=1.0.5387.19866, Culture=neutral, PublicKeyToken=null" name="ARInDirectAddressModeLongDecrementTest" />
+    </UnitTest>
+    <UnitTest name="ARInDirectAddressModeLongIncrementTest" storage="c:\genesisemulator\genem\debug\defaulttest.dll" id="5729348f-4874-4e1e-a4b3-471010e67a26">
+      <Execution id="06ce134f-66ab-46a4-a5b1-d669717312d4" />
+      <TestMethod codeBase="C:/GenesisEmulator/GenEm/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenEmTest.AddressDisplacementTest, DefaultTest, Version=1.0.5387.19866, Culture=neutral, PublicKeyToken=null" name="ARInDirectAddressModeLongIncrementTest" />
+    </UnitTest>
+    <UnitTest name="ARInDirectAddressModeByteTest" storage="c:\genesisemulator\genem\debug\defaulttest.dll" id="0826740c-fd4b-d197-1502-079e985e4a4f">
+      <Execution id="c253b292-cfa2-4765-b46b-011d3daab445" />
+      <TestMethod codeBase="C:/GenesisEmulator/GenEm/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenEmTest.UnitTest1, DefaultTest, Version=1.0.5387.19866, Culture=neutral, PublicKeyToken=null" name="ARInDirectAddressModeByteTest" />
+    </UnitTest>
+    <UnitTest name="ImmediateAddressModeWordTest" storage="c:\genesisemulator\genem\debug\defaulttest.dll" id="6d5169a5-fc62-6120-a678-54b1fc7d1ed6">
+      <Execution id="ff88cc83-8c9a-4e3f-9fde-85b12991187a" />
+      <TestMethod codeBase="C:/GenesisEmulator/GenEm/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenEmTest.UnitTest1, DefaultTest, Version=1.0.5387.19866, Culture=neutral, PublicKeyToken=null" name="ImmediateAddressModeWordTest" />
+    </UnitTest>
+    <UnitTest name="ARInDirectAddressModeByteIndexDisplacementTest" storage="c:\genesisemulator\genem\debug\defaulttest.dll" id="c0acc18e-900e-d1c4-d109-b2e8c2a54bba">
+      <Execution id="498e0d97-e2e5-46ff-9a6b-8955f1c7545d" />
+      <TestMethod codeBase="C:/GenesisEmulator/GenEm/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenEmTest.AddressDisplacementTest, DefaultTest, Version=1.0.5387.19866, Culture=neutral, PublicKeyToken=null" name="ARInDirectAddressModeByteIndexDisplacementTest" />
+    </UnitTest>
+    <UnitTest name="ARInDirectAddressModeWordIndexDisplacementTest" storage="c:\genesisemulator\genem\debug\defaulttest.dll" id="fbfcd82a-f36c-878b-a8e6-fc507d622fa8">
+      <Execution id="d98563e3-16df-4597-8b6a-39e31b6e25fd" />
+      <TestMethod codeBase="C:/GenesisEmulator/GenEm/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenEmTest.AddressDisplacementTest, DefaultTest, Version=1.0.5387.19866, Culture=neutral, PublicKeyToken=null" name="ARInDirectAddressModeWordIndexDisplacementTest" />
+    </UnitTest>
+    <UnitTest name="ImmediateAddressModeLongTest" storage="c:\genesisemulator\genem\debug\defaulttest.dll" id="55bfa6b1-39ce-2383-38d5-9069d7b5f1d0">
+      <Execution id="179e965a-e2a1-4b95-b1de-74af7c1641c7" />
+      <TestMethod codeBase="C:/GenesisEmulator/GenEm/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenEmTest.UnitTest1, DefaultTest, Version=1.0.5387.19866, Culture=neutral, PublicKeyToken=null" name="ImmediateAddressModeLongTest" />
+    </UnitTest>
+    <UnitTest name="moveawordposTest" storage="c:\genesisemulator\genem\debug\defaulttest.dll" id="f5e3553d-51fd-7a25-b025-63bbc2a4379d">
+      <Execution id="527343fe-b767-47d1-b36c-b976d6c06f20" />
+      <TestMethod codeBase="C:/GenesisEmulator/GenEm/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenEmTest.DataMovementTest, DefaultTest, Version=1.0.5387.19866, Culture=neutral, PublicKeyToken=null" name="moveawordposTest" />
+    </UnitTest>
+    <UnitTest name="ARDirectAddressModeLongTest" storage="c:\genesisemulator\genem\debug\defaulttest.dll" id="8fb9f831-5c37-ae0b-6c9b-900f024de0cc">
+      <Execution id="4970dfc0-0a5b-4cb2-91f6-97840c98292d" />
+      <TestMethod codeBase="C:/GenesisEmulator/GenEm/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenEmTest.UnitTest1, DefaultTest, Version=1.0.5387.19866, Culture=neutral, PublicKeyToken=null" name="ARDirectAddressModeLongTest" />
+    </UnitTest>
+    <UnitTest name="ARDirectAddressModeByteTest" storage="c:\genesisemulator\genem\debug\defaulttest.dll" id="bf85fec3-d5fc-818c-6463-be33e3f3694d">
+      <Execution id="810a8885-d337-4d4a-a05f-daad1cc85d9f" />
+      <TestMethod codeBase="C:/GenesisEmulator/GenEm/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenEmTest.UnitTest1, DefaultTest, Version=1.0.5387.19866, Culture=neutral, PublicKeyToken=null" name="ARDirectAddressModeByteTest" />
+    </UnitTest>
+    <UnitTest name="movealongTest" storage="c:\genesisemulator\genem\debug\defaulttest.dll" id="e7e328c3-8833-8755-36bc-290ff227fa6b">
+      <Execution id="a4c66f01-1cf7-4a79-ae20-e7dc6fac6639" />
+      <TestMethod codeBase="C:/GenesisEmulator/GenEm/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenEmTest.DataMovementTest, DefaultTest, Version=1.0.5387.19866, Culture=neutral, PublicKeyToken=null" name="movealongTest" />
+    </UnitTest>
+    <UnitTest name="ImmediateAddressModeByteTest" storage="c:\genesisemulator\genem\debug\defaulttest.dll" id="f3e08c24-2f78-3e36-31d4-062f1b63be1e">
+      <Execution id="61d69bbc-7ff8-4142-8d75-95c59c8ddb7c" />
+      <TestMethod codeBase="C:/GenesisEmulator/GenEm/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenEmTest.UnitTest1, DefaultTest, Version=1.0.5387.19866, Culture=neutral, PublicKeyToken=null" name="ImmediateAddressModeByteTest" />
+    </UnitTest>
+    <UnitTest name="moveTest" storage="c:\genesisemulator\genem\debug\defaulttest.dll" id="405043ea-b16c-d3e6-8672-bb99768825bf">
+      <Execution id="06d017a8-1466-4dab-861f-864602239267" />
+      <TestMethod codeBase="C:/GenesisEmulator/GenEm/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenEmTest.DataMovementTest, DefaultTest, Version=1.0.5387.19866, Culture=neutral, PublicKeyToken=null" name="moveTest" />
+    </UnitTest>
+    <UnitTest name="ARInDirectAddressModeByteDecrementTest" storage="c:\genesisemulator\genem\debug\defaulttest.dll" id="9cd94090-2377-de1a-9b9b-38814dabf111">
+      <Execution id="ebf468d8-0dba-4cc1-bdf8-bfede16b3b9f" />
+      <TestMethod codeBase="C:/GenesisEmulator/GenEm/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenEmTest.AddressDisplacementTest, DefaultTest, Version=1.0.5387.19866, Culture=neutral, PublicKeyToken=null" name="ARInDirectAddressModeByteDecrementTest" />
+    </UnitTest>
+    <UnitTest name="DRDirectAddressModeLongTest" storage="c:\genesisemulator\genem\debug\defaulttest.dll" id="d60e7dfd-f0b5-1dc2-cd78-09dd93cc330a">
+      <Execution id="edd7cbab-35b6-4512-a204-79dacd856ef4" />
+      <TestMethod codeBase="C:/GenesisEmulator/GenEm/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenEmTest.UnitTest1, DefaultTest, Version=1.0.5387.19866, Culture=neutral, PublicKeyToken=null" name="DRDirectAddressModeLongTest" />
+    </UnitTest>
+    <UnitTest name="AbsoluteShortAddressModeByteTest" storage="c:\genesisemulator\genem\debug\defaulttest.dll" id="daba1e0f-e8c6-5d01-2253-ac9c99a8a429">
+      <Execution id="f90afb32-ee86-461f-94b1-8895184038be" />
+      <TestMethod codeBase="C:/GenesisEmulator/GenEm/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenEmTest.UnitTest1, DefaultTest, Version=1.0.5387.19866, Culture=neutral, PublicKeyToken=null" name="AbsoluteShortAddressModeByteTest" />
+    </UnitTest>
+    <UnitTest name="moveqposTest" storage="c:\genesisemulator\genem\debug\defaulttest.dll" id="4046718c-1796-ccad-b3fa-0a99ca8d7207">
+      <Execution id="499cff77-abe0-4d52-b967-1dff9b3e583e" />
+      <TestMethod codeBase="C:/GenesisEmulator/GenEm/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenEmTest.DataMovementTest, DefaultTest, Version=1.0.5387.19866, Culture=neutral, PublicKeyToken=null" name="moveqposTest" />
+    </UnitTest>
+    <UnitTest name="DRDirectAddressModeByteTest" storage="c:\genesisemulator\genem\debug\defaulttest.dll" id="fd32e42f-c4f4-b6e5-950c-4143c3d5e6f8">
+      <Execution id="6d5af6d5-4cb8-4e64-9a24-e3bcc68c7663" />
+      <TestMethod codeBase="C:/GenesisEmulator/GenEm/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GenEmTest.UnitTest1, DefaultTest, Version=1.0.5387.19866, Culture=neutral, PublicKeyToken=null" name="DRDirectAddressModeByteTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="a334898a-8fa3-4405-cd1c-7387b81db5f4" executionId="f82ddb1a-2728-4f8a-ac82-039ce35d1c6c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0ded22de-f8c0-b253-a61b-4b64a0a68bc8" executionId="627319b2-a225-4947-a967-63dc798b12d4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bf85fec3-d5fc-818c-6463-be33e3f3694d" executionId="810a8885-d337-4d4a-a05f-daad1cc85d9f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3d45c220-26cb-afa4-bbc3-0953ed300eec" executionId="1ae87249-6b5d-490b-b5ef-382c140696d6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0826740c-fd4b-d197-1502-079e985e4a4f" executionId="c253b292-cfa2-4765-b46b-011d3daab445" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="405043ea-b16c-d3e6-8672-bb99768825bf" executionId="06d017a8-1466-4dab-861f-864602239267" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d2d6d958-0656-1274-5cd4-08718515d5aa" executionId="21b6365e-6728-4ac5-8b11-bcd2a057ac53" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="55bfa6b1-39ce-2383-38d5-9069d7b5f1d0" executionId="179e965a-e2a1-4b95-b1de-74af7c1641c7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f5919619-705f-35cb-065a-928005e5942f" executionId="aeb6c8e0-924f-423c-9176-0630ef25aa2b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d60e7dfd-f0b5-1dc2-cd78-09dd93cc330a" executionId="edd7cbab-35b6-4512-a204-79dacd856ef4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="01e284ca-a346-b826-2be1-41ae3c76b745" executionId="dd54848c-5a2c-4377-9c45-2d63fd8f66c2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="080b45e0-ed85-db33-9e13-4b35cd49d769" executionId="d9200c59-6cd2-4366-8045-03336c1a3462" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="68ca2e86-1e6f-4e69-fd3d-6a013217d7e1" executionId="23737ca1-27fa-4292-970e-8d58406277b5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f3e08c24-2f78-3e36-31d4-062f1b63be1e" executionId="61d69bbc-7ff8-4142-8d75-95c59c8ddb7c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d4a7209b-3036-e9e7-1544-5b2a9dd02fa0" executionId="36a7fc94-b304-4bcf-8d93-aae62e06b679" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="90ead5ab-0cc3-68b5-c872-3c5910452fe3" executionId="0ad75843-a2d1-4ba4-a6ac-e153d0170217" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="77f36036-5b3e-a9c7-69fd-b08a362faeb5" executionId="47ca31e5-4ace-4cf6-8907-b4c94f664af1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f5e3553d-51fd-7a25-b025-63bbc2a4379d" executionId="527343fe-b767-47d1-b36c-b976d6c06f20" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8fb9f831-5c37-ae0b-6c9b-900f024de0cc" executionId="4970dfc0-0a5b-4cb2-91f6-97840c98292d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="61b9ee7e-4133-3167-e0f6-e0ba1f1b3452" executionId="a9a1622b-65ad-442f-9ed7-2a144acddd6e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="32211488-436a-ba83-9f57-dab5fad1e88b" executionId="e6bdeccc-c2b9-4e8a-9a77-4bc397db722d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c0acc18e-900e-d1c4-d109-b2e8c2a54bba" executionId="498e0d97-e2e5-46ff-9a6b-8955f1c7545d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4046718c-1796-ccad-b3fa-0a99ca8d7207" executionId="499cff77-abe0-4d52-b967-1dff9b3e583e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="daba1e0f-e8c6-5d01-2253-ac9c99a8a429" executionId="f90afb32-ee86-461f-94b1-8895184038be" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9cd94090-2377-de1a-9b9b-38814dabf111" executionId="ebf468d8-0dba-4cc1-bdf8-bfede16b3b9f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6d5169a5-fc62-6120-a678-54b1fc7d1ed6" executionId="ff88cc83-8c9a-4e3f-9fde-85b12991187a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5729348f-4874-4e1e-a4b3-471010e67a26" executionId="06ce134f-66ab-46a4-a5b1-d669717312d4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fbfcd82a-f36c-878b-a8e6-fc507d622fa8" executionId="d98563e3-16df-4597-8b6a-39e31b6e25fd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e7e328c3-8833-8755-36bc-290ff227fa6b" executionId="a4c66f01-1cf7-4a79-ae20-e7dc6fac6639" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="99f501ca-7a13-0b63-66c7-f9c38b6830ff" executionId="f229d066-e917-4802-acd6-1abf77ee062f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="673555db-df97-d4e6-95a6-8db8ae30ad06" executionId="9271c020-09da-4b66-aae6-a55db0405b20" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7bbfba78-db02-22e0-112d-f4f3b90f6463" executionId="ddef052c-2e15-44f3-a30f-7985ee512e34" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fd32e42f-c4f4-b6e5-950c-4143c3d5e6f8" executionId="6d5af6d5-4cb8-4e64-9a24-e3bcc68c7663" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4f742dd3-6b2e-cd7a-601c-d21d1203ec94" executionId="9128bebd-9db2-4e5c-b64a-2ec75845d1a4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="f82ddb1a-2728-4f8a-ac82-039ce35d1c6c" testId="a334898a-8fa3-4405-cd1c-7387b81db5f4" testName="AbsoluteShortAddressModeLongTest" computerName="D-BRYANT2" duration="00:04:38.9818954" startTime="2014-10-01T12:04:02.2502055-04:00" endTime="2014-10-01T12:08:41.2321009-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f82ddb1a-2728-4f8a-ac82-039ce35d1c6c">
+    </UnitTestResult>
+    <UnitTestResult executionId="627319b2-a225-4947-a967-63dc798b12d4" testId="0ded22de-f8c0-b253-a61b-4b64a0a68bc8" testName="ARDirectAddressModeWordTest" computerName="D-BRYANT2" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="627319b2-a225-4947-a967-63dc798b12d4">
+    </UnitTestResult>
+    <UnitTestResult executionId="810a8885-d337-4d4a-a05f-daad1cc85d9f" testId="bf85fec3-d5fc-818c-6463-be33e3f3694d" testName="ARDirectAddressModeByteTest" computerName="D-BRYANT2" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="810a8885-d337-4d4a-a05f-daad1cc85d9f">
+    </UnitTestResult>
+    <UnitTestResult executionId="1ae87249-6b5d-490b-b5ef-382c140696d6" testId="3d45c220-26cb-afa4-bbc3-0953ed300eec" testName="ARInDirectAddressModeByteIncrementTest" computerName="D-BRYANT2" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1ae87249-6b5d-490b-b5ef-382c140696d6">
+    </UnitTestResult>
+    <UnitTestResult executionId="c253b292-cfa2-4765-b46b-011d3daab445" testId="0826740c-fd4b-d197-1502-079e985e4a4f" testName="ARInDirectAddressModeByteTest" computerName="D-BRYANT2" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c253b292-cfa2-4765-b46b-011d3daab445">
+    </UnitTestResult>
+    <UnitTestResult executionId="06d017a8-1466-4dab-861f-864602239267" testId="405043ea-b16c-d3e6-8672-bb99768825bf" testName="moveTest" computerName="D-BRYANT2" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="06d017a8-1466-4dab-861f-864602239267">
+    </UnitTestResult>
+    <UnitTestResult executionId="21b6365e-6728-4ac5-8b11-bcd2a057ac53" testId="d2d6d958-0656-1274-5cd4-08718515d5aa" testName="ARInDirectAddressModeLongTest" computerName="D-BRYANT2" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="21b6365e-6728-4ac5-8b11-bcd2a057ac53">
+    </UnitTestResult>
+    <UnitTestResult executionId="179e965a-e2a1-4b95-b1de-74af7c1641c7" testId="55bfa6b1-39ce-2383-38d5-9069d7b5f1d0" testName="ImmediateAddressModeLongTest" computerName="D-BRYANT2" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="179e965a-e2a1-4b95-b1de-74af7c1641c7">
+    </UnitTestResult>
+    <UnitTestResult executionId="aeb6c8e0-924f-423c-9176-0630ef25aa2b" testId="f5919619-705f-35cb-065a-928005e5942f" testName="ARInDirectAddressModeWordIncrementTest" computerName="D-BRYANT2" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="aeb6c8e0-924f-423c-9176-0630ef25aa2b">
+    </UnitTestResult>
+    <UnitTestResult executionId="edd7cbab-35b6-4512-a204-79dacd856ef4" testId="d60e7dfd-f0b5-1dc2-cd78-09dd93cc330a" testName="DRDirectAddressModeLongTest" computerName="D-BRYANT2" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="edd7cbab-35b6-4512-a204-79dacd856ef4">
+    </UnitTestResult>
+    <UnitTestResult executionId="dd54848c-5a2c-4377-9c45-2d63fd8f66c2" testId="01e284ca-a346-b826-2be1-41ae3c76b745" testName="moveawordnegTest" computerName="D-BRYANT2" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dd54848c-5a2c-4377-9c45-2d63fd8f66c2">
+    </UnitTestResult>
+    <UnitTestResult executionId="d9200c59-6cd2-4366-8045-03336c1a3462" testId="080b45e0-ed85-db33-9e13-4b35cd49d769" testName="ARInDirectAddressModeLongDisplacementTest" computerName="D-BRYANT2" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d9200c59-6cd2-4366-8045-03336c1a3462">
+    </UnitTestResult>
+    <UnitTestResult executionId="23737ca1-27fa-4292-970e-8d58406277b5" testId="68ca2e86-1e6f-4e69-fd3d-6a013217d7e1" testName="ARInDirectAddressModeWordDecrementTest" computerName="D-BRYANT2" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="23737ca1-27fa-4292-970e-8d58406277b5">
+    </UnitTestResult>
+    <UnitTestResult executionId="61d69bbc-7ff8-4142-8d75-95c59c8ddb7c" testId="f3e08c24-2f78-3e36-31d4-062f1b63be1e" testName="ImmediateAddressModeByteTest" computerName="D-BRYANT2" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="61d69bbc-7ff8-4142-8d75-95c59c8ddb7c">
+    </UnitTestResult>
+    <UnitTestResult executionId="36a7fc94-b304-4bcf-8d93-aae62e06b679" testId="d4a7209b-3036-e9e7-1544-5b2a9dd02fa0" testName="ARInDirectAddressModeByteDisplacementTest" computerName="D-BRYANT2" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="36a7fc94-b304-4bcf-8d93-aae62e06b679">
+    </UnitTestResult>
+    <UnitTestResult executionId="0ad75843-a2d1-4ba4-a6ac-e153d0170217" testId="90ead5ab-0cc3-68b5-c872-3c5910452fe3" testName="ARInDirectAddressModeWordDisplacementTest" computerName="D-BRYANT2" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0ad75843-a2d1-4ba4-a6ac-e153d0170217">
+    </UnitTestResult>
+    <UnitTestResult executionId="47ca31e5-4ace-4cf6-8907-b4c94f664af1" testId="77f36036-5b3e-a9c7-69fd-b08a362faeb5" testName="AbsoluteShortAddressModeWordTest" computerName="D-BRYANT2" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="47ca31e5-4ace-4cf6-8907-b4c94f664af1">
+    </UnitTestResult>
+    <UnitTestResult executionId="527343fe-b767-47d1-b36c-b976d6c06f20" testId="f5e3553d-51fd-7a25-b025-63bbc2a4379d" testName="moveawordposTest" computerName="D-BRYANT2" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="527343fe-b767-47d1-b36c-b976d6c06f20">
+    </UnitTestResult>
+    <UnitTestResult executionId="4970dfc0-0a5b-4cb2-91f6-97840c98292d" testId="8fb9f831-5c37-ae0b-6c9b-900f024de0cc" testName="ARDirectAddressModeLongTest" computerName="D-BRYANT2" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4970dfc0-0a5b-4cb2-91f6-97840c98292d">
+    </UnitTestResult>
+    <UnitTestResult executionId="a9a1622b-65ad-442f-9ed7-2a144acddd6e" testId="61b9ee7e-4133-3167-e0f6-e0ba1f1b3452" testName="TstNegativeTest" computerName="D-BRYANT2" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a9a1622b-65ad-442f-9ed7-2a144acddd6e">
+    </UnitTestResult>
+    <UnitTestResult executionId="e6bdeccc-c2b9-4e8a-9a77-4bc397db722d" testId="32211488-436a-ba83-9f57-dab5fad1e88b" testName="ARInDirectAddressModeWordTest" computerName="D-BRYANT2" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e6bdeccc-c2b9-4e8a-9a77-4bc397db722d">
+    </UnitTestResult>
+    <UnitTestResult executionId="498e0d97-e2e5-46ff-9a6b-8955f1c7545d" testId="c0acc18e-900e-d1c4-d109-b2e8c2a54bba" testName="ARInDirectAddressModeByteIndexDisplacementTest" computerName="D-BRYANT2" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="498e0d97-e2e5-46ff-9a6b-8955f1c7545d">
+    </UnitTestResult>
+    <UnitTestResult executionId="499cff77-abe0-4d52-b967-1dff9b3e583e" testId="4046718c-1796-ccad-b3fa-0a99ca8d7207" testName="moveqposTest" computerName="D-BRYANT2" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="499cff77-abe0-4d52-b967-1dff9b3e583e">
+    </UnitTestResult>
+    <UnitTestResult executionId="f90afb32-ee86-461f-94b1-8895184038be" testId="daba1e0f-e8c6-5d01-2253-ac9c99a8a429" testName="AbsoluteShortAddressModeByteTest" computerName="D-BRYANT2" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f90afb32-ee86-461f-94b1-8895184038be">
+    </UnitTestResult>
+    <UnitTestResult executionId="ebf468d8-0dba-4cc1-bdf8-bfede16b3b9f" testId="9cd94090-2377-de1a-9b9b-38814dabf111" testName="ARInDirectAddressModeByteDecrementTest" computerName="D-BRYANT2" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ebf468d8-0dba-4cc1-bdf8-bfede16b3b9f">
+    </UnitTestResult>
+    <UnitTestResult executionId="ff88cc83-8c9a-4e3f-9fde-85b12991187a" testId="6d5169a5-fc62-6120-a678-54b1fc7d1ed6" testName="ImmediateAddressModeWordTest" computerName="D-BRYANT2" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ff88cc83-8c9a-4e3f-9fde-85b12991187a">
+    </UnitTestResult>
+    <UnitTestResult executionId="06ce134f-66ab-46a4-a5b1-d669717312d4" testId="5729348f-4874-4e1e-a4b3-471010e67a26" testName="ARInDirectAddressModeLongIncrementTest" computerName="D-BRYANT2" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="06ce134f-66ab-46a4-a5b1-d669717312d4">
+    </UnitTestResult>
+    <UnitTestResult executionId="d98563e3-16df-4597-8b6a-39e31b6e25fd" testId="fbfcd82a-f36c-878b-a8e6-fc507d622fa8" testName="ARInDirectAddressModeWordIndexDisplacementTest" computerName="D-BRYANT2" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d98563e3-16df-4597-8b6a-39e31b6e25fd">
+    </UnitTestResult>
+    <UnitTestResult executionId="a4c66f01-1cf7-4a79-ae20-e7dc6fac6639" testId="e7e328c3-8833-8755-36bc-290ff227fa6b" testName="movealongTest" computerName="D-BRYANT2" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a4c66f01-1cf7-4a79-ae20-e7dc6fac6639">
+    </UnitTestResult>
+    <UnitTestResult executionId="f229d066-e917-4802-acd6-1abf77ee062f" testId="99f501ca-7a13-0b63-66c7-f9c38b6830ff" testName="ARInDirectAddressModeLongDecrementTest" computerName="D-BRYANT2" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f229d066-e917-4802-acd6-1abf77ee062f">
+    </UnitTestResult>
+    <UnitTestResult executionId="9271c020-09da-4b66-aae6-a55db0405b20" testId="673555db-df97-d4e6-95a6-8db8ae30ad06" testName="ARInDirectAddressModeLongIndexDisplacementTest" computerName="D-BRYANT2" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9271c020-09da-4b66-aae6-a55db0405b20">
+    </UnitTestResult>
+    <UnitTestResult executionId="ddef052c-2e15-44f3-a30f-7985ee512e34" testId="7bbfba78-db02-22e0-112d-f4f3b90f6463" testName="DRDirectAddressModeWordTest" computerName="D-BRYANT2" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ddef052c-2e15-44f3-a30f-7985ee512e34">
+    </UnitTestResult>
+    <UnitTestResult executionId="6d5af6d5-4cb8-4e64-9a24-e3bcc68c7663" testId="fd32e42f-c4f4-b6e5-950c-4143c3d5e6f8" testName="DRDirectAddressModeByteTest" computerName="D-BRYANT2" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6d5af6d5-4cb8-4e64-9a24-e3bcc68c7663">
+    </UnitTestResult>
+    <UnitTestResult executionId="9128bebd-9db2-4e5c-b64a-2ec75845d1a4" testId="4f742dd3-6b2e-cd7a-601c-d21d1203ec94" testName="moveqnegTest" computerName="D-BRYANT2" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9128bebd-9db2-4e5c-b64a-2ec75845d1a4">
+    </UnitTestResult>
+  </Results>
+</TestRun>

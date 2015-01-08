@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Test xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="Bra32BitTest" IsTestCase="false" TestCaseId="0" AutomatedTestId="ed296a88-0c21-604c-fae1-ba9cec2453d9">
+  <Signatures>
+    <Signature>5A1611142E8322C4EE1620DFF8E7AAB9ED3B78E9</Signature>
+    <Signature>EB6238DDD9E1B2E8E236CFED89B9C36A4AF72089</Signature>
+  </Signatures>
+</Test>

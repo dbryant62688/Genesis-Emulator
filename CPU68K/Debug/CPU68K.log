@@ -1,0 +1,215 @@
+﻿Build started 10/20/2014 11:35:39 AM.
+     1>Project "C:\GenesisEmulator\GenEm\CPU68K\CPU68K.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Debug\CPU68K.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Debug\CPU68K.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt 68KCPU.cpp BitManipulationInstr.cpp Instr.cpp IntegerMathInstr.cpp LogicalInstr.cpp MemoryRegion.cpp DataMovementInstr.cpp ProgramControlInstr.cpp SRInstr.cpp SystemControlInstr.cpp
+         SystemControlInstr.cpp
+         SRInstr.cpp
+         ProgramControlInstr.cpp
+     1>c:\genesisemulator\genem\cpu68k\programcontrolinstr.cpp(25): warning C4244: 'argument' : conversion from 'short' to 'char', possible loss of data
+     1>c:\genesisemulator\genem\cpu68k\programcontrolinstr.cpp(25): warning C4244: 'argument' : conversion from 'short' to 'char', possible loss of data
+     1>c:\genesisemulator\genem\cpu68k\programcontrolinstr.cpp(25): warning C4244: 'argument' : conversion from 'short' to 'char', possible loss of data
+     1>c:\genesisemulator\genem\cpu68k\programcontrolinstr.cpp(33): warning C4554: '&' : check operator precedence for possible error; use parentheses to clarify precedence
+     1>c:\genesisemulator\genem\cpu68k\programcontrolinstr.cpp(327): warning C4244: 'argument' : conversion from 'short' to 'char', possible loss of data
+     1>c:\genesisemulator\genem\cpu68k\programcontrolinstr.cpp(327): warning C4244: 'argument' : conversion from 'short' to 'char', possible loss of data
+     1>c:\genesisemulator\genem\cpu68k\programcontrolinstr.cpp(352): warning C4244: 'argument' : conversion from 'short' to 'char', possible loss of data
+     1>c:\genesisemulator\genem\cpu68k\programcontrolinstr.cpp(352): warning C4244: 'argument' : conversion from 'short' to 'char', possible loss of data
+         DataMovementInstr.cpp
+     1>c:\genesisemulator\genem\cpu68k\datamovementinstr.cpp(83): warning C4244: 'argument' : conversion from 'short' to 'char', possible loss of data
+     1>c:\genesisemulator\genem\cpu68k\datamovementinstr.cpp(86): warning C4244: 'argument' : conversion from 'short' to 'char', possible loss of data
+     1>c:\genesisemulator\genem\cpu68k\datamovementinstr.cpp(112): warning C4244: 'argument' : conversion from 'short' to 'char', possible loss of data
+     1>c:\genesisemulator\genem\cpu68k\datamovementinstr.cpp(129): warning C4244: 'argument' : conversion from 'short' to 'char', possible loss of data
+     1>c:\genesisemulator\genem\cpu68k\datamovementinstr.cpp(129): warning C4244: 'argument' : conversion from 'short' to 'char', possible loss of data
+     1>c:\genesisemulator\genem\cpu68k\datamovementinstr.cpp(171): warning C4244: 'argument' : conversion from 'short' to 'char', possible loss of data
+     1>c:\genesisemulator\genem\cpu68k\datamovementinstr.cpp(171): warning C4244: 'argument' : conversion from 'short' to 'char', possible loss of data
+         MemoryRegion.cpp
+         LogicalInstr.cpp
+     1>c:\genesisemulator\genem\cpu68k\logicalinstr.cpp(33): warning C4244: 'argument' : conversion from 'short' to 'char', possible loss of data
+     1>c:\genesisemulator\genem\cpu68k\logicalinstr.cpp(33): warning C4244: 'argument' : conversion from 'short' to 'char', possible loss of data
+     1>c:\genesisemulator\genem\cpu68k\logicalinstr.cpp(33): warning C4244: 'argument' : conversion from 'short' to 'char', possible loss of data
+     1>c:\genesisemulator\genem\cpu68k\logicalinstr.cpp(39): warning C4244: 'argument' : conversion from 'short' to 'char', possible loss of data
+     1>c:\genesisemulator\genem\cpu68k\logicalinstr.cpp(39): warning C4244: 'argument' : conversion from 'short' to 'char', possible loss of data
+     1>c:\genesisemulator\genem\cpu68k\logicalinstr.cpp(39): warning C4244: 'argument' : conversion from 'short' to 'char', possible loss of data
+     1>c:\genesisemulator\genem\cpu68k\logicalinstr.cpp(51): warning C4244: 'argument' : conversion from 'short' to 'char', possible loss of data
+     1>c:\genesisemulator\genem\cpu68k\logicalinstr.cpp(51): warning C4244: 'argument' : conversion from 'short' to 'char', possible loss of data
+     1>c:\genesisemulator\genem\cpu68k\logicalinstr.cpp(51): warning C4244: 'argument' : conversion from 'short' to 'char', possible loss of data
+     1>c:\genesisemulator\genem\cpu68k\logicalinstr.cpp(85): warning C4244: 'argument' : conversion from 'short' to 'char', possible loss of data
+     1>c:\genesisemulator\genem\cpu68k\logicalinstr.cpp(85): warning C4244: 'argument' : conversion from 'short' to 'char', possible loss of data
+     1>c:\genesisemulator\genem\cpu68k\logicalinstr.cpp(85): warning C4244: 'argument' : conversion from 'short' to 'char', possible loss of data
+     1>c:\genesisemulator\genem\cpu68k\logicalinstr.cpp(92): warning C4244: 'argument' : conversion from 'short' to 'char', possible loss of data
+     1>c:\genesisemulator\genem\cpu68k\logicalinstr.cpp(92): warning C4244: 'argument' : conversion from 'short' to 'char', possible loss of data
+     1>c:\genesisemulator\genem\cpu68k\logicalinstr.cpp(92): warning C4244: 'argument' : conversion from 'short' to 'char', possible loss of data
+     1>c:\genesisemulator\genem\cpu68k\logicalinstr.cpp(130): warning C4244: 'argument' : conversion from 'short' to 'char', possible loss of data
+     1>c:\genesisemulator\genem\cpu68k\logicalinstr.cpp(130): warning C4244: 'argument' : conversion from 'short' to 'char', possible loss of data
+     1>c:\genesisemulator\genem\cpu68k\logicalinstr.cpp(130): warning C4244: 'argument' : conversion from 'short' to 'char', possible loss of data
+     1>c:\genesisemulator\genem\cpu68k\logicalinstr.cpp(137): warning C4244: 'argument' : conversion from 'short' to 'char', possible loss of data
+     1>c:\genesisemulator\genem\cpu68k\logicalinstr.cpp(137): warning C4244: 'argument' : conversion from 'short' to 'char', possible loss of data
+     1>c:\genesisemulator\genem\cpu68k\logicalinstr.cpp(137): warning C4244: 'argument' : conversion from 'short' to 'char', possible loss of data
+     1>c:\genesisemulator\genem\cpu68k\logicalinstr.cpp(163): warning C4244: 'argument' : conversion from 'short' to 'char', possible loss of data
+     1>c:\genesisemulator\genem\cpu68k\logicalinstr.cpp(163): warning C4244: 'argument' : conversion from 'short' to 'char', possible loss of data
+     1>c:\genesisemulator\genem\cpu68k\logicalinstr.cpp(163): warning C4244: 'argument' : conversion from 'short' to 'char', possible loss of data
+     1>c:\genesisemulator\genem\cpu68k\logicalinstr.cpp(170): warning C4244: 'argument' : conversion from 'short' to 'char', possible loss of data
+     1>c:\genesisemulator\genem\cpu68k\logicalinstr.cpp(170): warning C4244: 'argument' : conversion from 'short' to 'char', possible loss of data
+     1>c:\genesisemulator\genem\cpu68k\logicalinstr.cpp(170): warning C4244: 'argument' : conversion from 'short' to 'char', possible loss of data
+     1>c:\genesisemulator\genem\cpu68k\logicalinstr.cpp(205): warning C4244: 'argument' : conversion from 'short' to 'char', possible loss of data
+     1>c:\genesisemulator\genem\cpu68k\logicalinstr.cpp(205): warning C4244: 'argument' : conversion from 'short' to 'char', possible loss of data
+     1>c:\genesisemulator\genem\cpu68k\logicalinstr.cpp(205): warning C4244: 'argument' : conversion from 'short' to 'char', possible loss of data
+     1>c:\genesisemulator\genem\cpu68k\logicalinstr.cpp(211): warning C4244: 'argument' : conversion from 'short' to 'char', possible loss of data
+     1>c:\genesisemulator\genem\cpu68k\logicalinstr.cpp(211): warning C4244: 'argument' : conversion from 'short' to 'char', possible loss of data
+     1>c:\genesisemulator\genem\cpu68k\logicalinstr.cpp(211): warning C4244: 'argument' : conversion from 'short' to 'char', possible loss of data
+     1>c:\genesisemulator\genem\cpu68k\logicalinstr.cpp(223): warning C4244: 'argument' : conversion from 'short' to 'char', possible loss of data
+     1>c:\genesisemulator\genem\cpu68k\logicalinstr.cpp(223): warning C4244: 'argument' : conversion from 'short' to 'char', possible loss of data
+     1>c:\genesisemulator\genem\cpu68k\logicalinstr.cpp(223): warning C4244: 'argument' : conversion from 'short' to 'char', possible loss of data
+     1>c:\genesisemulator\genem\cpu68k\logicalinstr.cpp(257): warning C4244: 'argument' : conversion from 'short' to 'char', possible loss of data
+     1>c:\genesisemulator\genem\cpu68k\logicalinstr.cpp(257): warning C4244: 'argument' : conversion from 'short' to 'char', possible loss of data
+     1>c:\genesisemulator\genem\cpu68k\logicalinstr.cpp(257): warning C4244: 'argument' : conversion from 'short' to 'char', possible loss of data
+     1>c:\genesisemulator\genem\cpu68k\logicalinstr.cpp(264): warning C4244: 'argument' : conversion from 'short' to 'char', possible loss of data
+     1>c:\genesisemulator\genem\cpu68k\logicalinstr.cpp(264): warning C4244: 'argument' : conversion from 'short' to 'char', possible loss of data
+     1>c:\genesisemulator\genem\cpu68k\logicalinstr.cpp(264): warning C4244: 'argument' : conversion from 'short' to 'char', possible loss of data
+         IntegerMathInstr.cpp
+         Instr.cpp
+     1>c:\genesisemulator\genem\cpu68k\instr.cpp(155): warning C4309: 'initializing' : truncation of constant value
+     1>c:\genesisemulator\genem\cpu68k\instr.cpp(156): warning C4309: 'initializing' : truncation of constant value
+     1>c:\genesisemulator\genem\cpu68k\instr.cpp(157): warning C4309: 'initializing' : truncation of constant value
+     1>c:\genesisemulator\genem\cpu68k\instr.cpp(158): warning C4309: 'initializing' : truncation of constant value
+     1>c:\genesisemulator\genem\cpu68k\instr.cpp(159): warning C4309: 'initializing' : truncation of constant value
+     1>c:\genesisemulator\genem\cpu68k\instr.cpp(160): warning C4309: 'initializing' : truncation of constant value
+     1>c:\genesisemulator\genem\cpu68k\instr.cpp(161): warning C4309: 'initializing' : truncation of constant value
+     1>c:\genesisemulator\genem\cpu68k\instr.cpp(162): warning C4309: 'initializing' : truncation of constant value
+     1>c:\genesisemulator\genem\cpu68k\instr.cpp(163): warning C4309: 'initializing' : truncation of constant value
+     1>c:\genesisemulator\genem\cpu68k\instr.cpp(164): warning C4309: 'initializing' : truncation of constant value
+     1>c:\genesisemulator\genem\cpu68k\instr.cpp(165): warning C4309: 'initializing' : truncation of constant value
+     1>c:\genesisemulator\genem\cpu68k\instr.cpp(166): warning C4309: 'initializing' : truncation of constant value
+     1>c:\genesisemulator\genem\cpu68k\instr.cpp(167): warning C4309: 'initializing' : truncation of constant value
+     1>c:\genesisemulator\genem\cpu68k\instr.cpp(168): warning C4309: 'initializing' : truncation of constant value
+     1>c:\genesisemulator\genem\cpu68k\instr.cpp(169): warning C4309: 'initializing' : truncation of constant value
+     1>c:\genesisemulator\genem\cpu68k\instr.cpp(170): warning C4309: 'initializing' : truncation of constant value
+     1>c:\genesisemulator\genem\cpu68k\instr.cpp(171): warning C4309: 'initializing' : truncation of constant value
+     1>c:\genesisemulator\genem\cpu68k\instr.cpp(172): warning C4309: 'initializing' : truncation of constant value
+     1>c:\genesisemulator\genem\cpu68k\instr.cpp(173): warning C4309: 'initializing' : truncation of constant value
+     1>c:\genesisemulator\genem\cpu68k\instr.cpp(174): warning C4309: 'initializing' : truncation of constant value
+     1>c:\genesisemulator\genem\cpu68k\instr.cpp(175): warning C4309: 'initializing' : truncation of constant value
+     1>c:\genesisemulator\genem\cpu68k\instr.cpp(176): warning C4309: 'initializing' : truncation of constant value
+     1>c:\genesisemulator\genem\cpu68k\instr.cpp(177): warning C4309: 'initializing' : truncation of constant value
+     1>c:\genesisemulator\genem\cpu68k\instr.cpp(180): warning C4309: 'initializing' : truncation of constant value
+     1>c:\genesisemulator\genem\cpu68k\instr.cpp(181): warning C4309: 'initializing' : truncation of constant value
+     1>c:\genesisemulator\genem\cpu68k\instr.cpp(182): warning C4309: 'initializing' : truncation of constant value
+     1>c:\genesisemulator\genem\cpu68k\instr.cpp(183): warning C4309: 'initializing' : truncation of constant value
+     1>c:\genesisemulator\genem\cpu68k\instr.cpp(184): warning C4309: 'initializing' : truncation of constant value
+     1>c:\genesisemulator\genem\cpu68k\instr.cpp(185): warning C4309: 'initializing' : truncation of constant value
+     1>c:\genesisemulator\genem\cpu68k\instr.cpp(186): warning C4309: 'initializing' : truncation of constant value
+     1>c:\genesisemulator\genem\cpu68k\instr.cpp(187): warning C4309: 'initializing' : truncation of constant value
+     1>c:\genesisemulator\genem\cpu68k\instr.cpp(188): warning C4309: 'initializing' : truncation of constant value
+     1>c:\genesisemulator\genem\cpu68k\instr.cpp(189): warning C4309: 'initializing' : truncation of constant value
+     1>c:\genesisemulator\genem\cpu68k\instr.cpp(190): warning C4309: 'initializing' : truncation of constant value
+     1>c:\genesisemulator\genem\cpu68k\instr.cpp(191): warning C4309: 'initializing' : truncation of constant value
+     1>c:\genesisemulator\genem\cpu68k\instr.cpp(192): warning C4309: 'initializing' : truncation of constant value
+     1>c:\genesisemulator\genem\cpu68k\instr.cpp(193): warning C4309: 'initializing' : truncation of constant value
+     1>c:\genesisemulator\genem\cpu68k\instr.cpp(194): warning C4309: 'initializing' : truncation of constant value
+     1>c:\genesisemulator\genem\cpu68k\instr.cpp(195): warning C4309: 'initializing' : truncation of constant value
+     1>c:\genesisemulator\genem\cpu68k\instr.cpp(196): warning C4309: 'initializing' : truncation of constant value
+     1>c:\genesisemulator\genem\cpu68k\instr.cpp(197): warning C4309: 'initializing' : truncation of constant value
+     1>c:\genesisemulator\genem\cpu68k\instr.cpp(198): warning C4309: 'initializing' : truncation of constant value
+     1>c:\genesisemulator\genem\cpu68k\instr.cpp(199): warning C4309: 'initializing' : truncation of constant value
+     1>c:\genesisemulator\genem\cpu68k\instr.cpp(200): warning C4309: 'initializing' : truncation of constant value
+     1>c:\genesisemulator\genem\cpu68k\instr.cpp(201): warning C4309: 'initializing' : truncation of constant value
+     1>c:\genesisemulator\genem\cpu68k\instr.cpp(202): warning C4309: 'initializing' : truncation of constant value
+     1>c:\genesisemulator\genem\cpu68k\instr.cpp(203): warning C4309: 'initializing' : truncation of constant value
+     1>c:\genesisemulator\genem\cpu68k\instr.cpp(204): warning C4309: 'initializing' : truncation of constant value
+     1>c:\genesisemulator\genem\cpu68k\instr.cpp(205): warning C4309: 'initializing' : truncation of constant value
+     1>c:\genesisemulator\genem\cpu68k\instr.cpp(206): warning C4309: 'initializing' : truncation of constant value
+     1>c:\genesisemulator\genem\cpu68k\instr.cpp(207): warning C4309: 'initializing' : truncation of constant value
+     1>c:\genesisemulator\genem\cpu68k\instr.cpp(208): warning C4309: 'initializing' : truncation of constant value
+     1>c:\genesisemulator\genem\cpu68k\instr.cpp(209): warning C4309: 'initializing' : truncation of constant value
+     1>c:\genesisemulator\genem\cpu68k\instr.cpp(211): warning C4309: 'initializing' : truncation of constant value
+     1>c:\genesisemulator\genem\cpu68k\instr.cpp(212): warning C4309: 'initializing' : truncation of constant value
+     1>c:\genesisemulator\genem\cpu68k\instr.cpp(213): warning C4309: 'initializing' : truncation of constant value
+     1>c:\genesisemulator\genem\cpu68k\instr.cpp(214): warning C4309: 'initializing' : truncation of constant value
+     1>c:\genesisemulator\genem\cpu68k\instr.cpp(216): warning C4309: 'initializing' : truncation of constant value
+     1>c:\genesisemulator\genem\cpu68k\instr.cpp(217): warning C4309: 'initializing' : truncation of constant value
+     1>c:\genesisemulator\genem\cpu68k\instr.cpp(218): warning C4309: 'initializing' : truncation of constant value
+     1>c:\genesisemulator\genem\cpu68k\instr.cpp(220): warning C4309: 'initializing' : truncation of constant value
+     1>c:\genesisemulator\genem\cpu68k\instr.cpp(222): warning C4309: 'initializing' : truncation of constant value
+     1>c:\genesisemulator\genem\cpu68k\instr.cpp(222): warning C4309: 'initializing' : truncation of constant value
+     1>c:\genesisemulator\genem\cpu68k\instr.cpp(223): warning C4309: 'initializing' : truncation of constant value
+     1>c:\genesisemulator\genem\cpu68k\instr.cpp(223): warning C4309: 'initializing' : truncation of constant value
+     1>c:\genesisemulator\genem\cpu68k\instr.cpp(224): warning C4309: 'initializing' : truncation of constant value
+     1>c:\genesisemulator\genem\cpu68k\instr.cpp(224): warning C4309: 'initializing' : truncation of constant value
+     1>c:\genesisemulator\genem\cpu68k\instr.cpp(225): warning C4309: 'initializing' : truncation of constant value
+     1>c:\genesisemulator\genem\cpu68k\instr.cpp(225): warning C4309: 'initializing' : truncation of constant value
+     1>c:\genesisemulator\genem\cpu68k\instr.cpp(227): warning C4309: 'initializing' : truncation of constant value
+     1>c:\genesisemulator\genem\cpu68k\instr.cpp(227): warning C4309: 'initializing' : truncation of constant value
+     1>c:\genesisemulator\genem\cpu68k\instr.cpp(228): warning C4309: 'initializing' : truncation of constant value
+     1>c:\genesisemulator\genem\cpu68k\instr.cpp(228): warning C4309: 'initializing' : truncation of constant value
+     1>c:\genesisemulator\genem\cpu68k\instr.cpp(229): warning C4309: 'initializing' : truncation of constant value
+     1>c:\genesisemulator\genem\cpu68k\instr.cpp(229): warning C4309: 'initializing' : truncation of constant value
+     1>c:\genesisemulator\genem\cpu68k\instr.cpp(231): warning C4309: 'initializing' : truncation of constant value
+     1>c:\genesisemulator\genem\cpu68k\instr.cpp(231): warning C4309: 'initializing' : truncation of constant value
+     1>c:\genesisemulator\genem\cpu68k\instr.cpp(232): warning C4309: 'initializing' : truncation of constant value
+     1>c:\genesisemulator\genem\cpu68k\instr.cpp(232): warning C4309: 'initializing' : truncation of constant value
+     1>c:\genesisemulator\genem\cpu68k\instr.cpp(233): warning C4309: 'initializing' : truncation of constant value
+     1>c:\genesisemulator\genem\cpu68k\instr.cpp(233): warning C4309: 'initializing' : truncation of constant value
+     1>c:\genesisemulator\genem\cpu68k\instr.cpp(234): warning C4309: 'initializing' : truncation of constant value
+     1>c:\genesisemulator\genem\cpu68k\instr.cpp(234): warning C4309: 'initializing' : truncation of constant value
+     1>c:\genesisemulator\genem\cpu68k\instr.cpp(236): warning C4309: 'initializing' : truncation of constant value
+     1>c:\genesisemulator\genem\cpu68k\instr.cpp(236): warning C4309: 'initializing' : truncation of constant value
+     1>c:\genesisemulator\genem\cpu68k\instr.cpp(237): warning C4309: 'initializing' : truncation of constant value
+     1>c:\genesisemulator\genem\cpu68k\instr.cpp(237): warning C4309: 'initializing' : truncation of constant value
+     1>c:\genesisemulator\genem\cpu68k\instr.cpp(238): warning C4309: 'initializing' : truncation of constant value
+     1>c:\genesisemulator\genem\cpu68k\instr.cpp(238): warning C4309: 'initializing' : truncation of constant value
+     1>c:\genesisemulator\genem\cpu68k\instr.cpp(239): warning C4309: 'initializing' : truncation of constant value
+     1>c:\genesisemulator\genem\cpu68k\instr.cpp(239): warning C4309: 'initializing' : truncation of constant value
+     1>c:\genesisemulator\genem\cpu68k\instr.cpp(240): warning C4309: 'initializing' : truncation of constant value
+     1>c:\genesisemulator\genem\cpu68k\instr.cpp(240): warning C4309: 'initializing' : truncation of constant value
+     1>c:\genesisemulator\genem\cpu68k\instr.cpp(242): warning C4309: 'initializing' : truncation of constant value
+     1>c:\genesisemulator\genem\cpu68k\instr.cpp(242): warning C4309: 'initializing' : truncation of constant value
+     1>c:\genesisemulator\genem\cpu68k\instr.cpp(243): warning C4309: 'initializing' : truncation of constant value
+     1>c:\genesisemulator\genem\cpu68k\instr.cpp(243): warning C4309: 'initializing' : truncation of constant value
+     1>c:\genesisemulator\genem\cpu68k\instr.cpp(244): warning C4309: 'initializing' : truncation of constant value
+     1>c:\genesisemulator\genem\cpu68k\instr.cpp(244): warning C4309: 'initializing' : truncation of constant value
+     1>c:\genesisemulator\genem\cpu68k\instr.cpp(246): warning C4309: 'initializing' : truncation of constant value
+     1>c:\genesisemulator\genem\cpu68k\instr.cpp(246): warning C4309: 'initializing' : truncation of constant value
+     1>c:\genesisemulator\genem\cpu68k\instr.cpp(247): warning C4309: 'initializing' : truncation of constant value
+     1>c:\genesisemulator\genem\cpu68k\instr.cpp(247): warning C4309: 'initializing' : truncation of constant value
+     1>c:\genesisemulator\genem\cpu68k\instr.cpp(248): warning C4309: 'initializing' : truncation of constant value
+     1>c:\genesisemulator\genem\cpu68k\instr.cpp(248): warning C4309: 'initializing' : truncation of constant value
+     1>c:\genesisemulator\genem\cpu68k\instr.cpp(249): warning C4309: 'initializing' : truncation of constant value
+     1>c:\genesisemulator\genem\cpu68k\instr.cpp(249): warning C4309: 'initializing' : truncation of constant value
+     1>c:\genesisemulator\genem\cpu68k\instr.cpp(250): warning C4309: 'initializing' : truncation of constant value
+     1>c:\genesisemulator\genem\cpu68k\instr.cpp(250): warning C4309: 'initializing' : truncation of constant value
+     1>c:\genesisemulator\genem\cpu68k\instr.cpp(251): warning C4309: 'initializing' : truncation of constant value
+     1>c:\genesisemulator\genem\cpu68k\instr.cpp(251): warning C4309: 'initializing' : truncation of constant value
+     1>c:\genesisemulator\genem\cpu68k\instr.cpp(252): warning C4309: 'initializing' : truncation of constant value
+     1>c:\genesisemulator\genem\cpu68k\instr.cpp(252): warning C4309: 'initializing' : truncation of constant value
+     1>c:\genesisemulator\genem\cpu68k\instr.cpp(253): warning C4309: 'initializing' : truncation of constant value
+     1>c:\genesisemulator\genem\cpu68k\instr.cpp(253): warning C4309: 'initializing' : truncation of constant value
+         BitManipulationInstr.cpp
+         68KCPU.cpp
+     1>c:\genesisemulator\genem\cpu68k\68kcpu.cpp(89): warning C4244: 'initializing' : conversion from 'unsigned short' to 'char', possible loss of data
+         Generating Code...
+     1>c:\genesisemulator\genem\cpu68k\memoryregion.cpp(106): warning C4715: 'MemoryMap::MemoryReadByte' : not all control paths return a value
+     1>c:\genesisemulator\genem\cpu68k\memoryregion.cpp(127): warning C4715: 'MemoryMap::MemoryReadWord' : not all control paths return a value
+     1>c:\genesisemulator\genem\cpu68k\memoryregion.cpp(151): warning C4715: 'MemoryMap::MemoryReadLong' : not all control paths return a value
+       Lib:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\GenesisEmulator\GenEm\Debug\CPU68K.lib" /NOLOGO Debug\68KCPU.obj
+         Debug\BitManipulationInstr.obj
+         Debug\Instr.obj
+         Debug\IntegerMathInstr.obj
+         Debug\LogicalInstr.obj
+         Debug\MemoryRegion.obj
+         Debug\DataMovementInstr.obj
+         Debug\ProgramControlInstr.obj
+         Debug\SRInstr.obj
+         Debug\SystemControlInstr.obj
+         CPU68K.vcxproj -> C:\GenesisEmulator\GenEm\Debug\CPU68K.lib
+       FinalizeBuildStatus:
+         Deleting file "Debug\CPU68K.unsuccessfulbuild".
+         Touching "Debug\CPU68K.lastbuildstate".
+     1>Done Building Project "C:\GenesisEmulator\GenEm\CPU68K\CPU68K.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.05

@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Test xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="JMPTest" IsTestCase="false" TestCaseId="0" AutomatedTestId="4246e005-5582-1a69-a24a-7bd7fbc2ff19">
+  <Signatures>
+    <Signature>BEF437821317C9DFE44831310D70ED2F35F20094</Signature>
+    <Signature>EB6238DDD9E1B2E8E236CFED89B9C36A4AF72089</Signature>
+  </Signatures>
+</Test>

@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Test xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="Bcc32bitTest" IsTestCase="false" TestCaseId="0" AutomatedTestId="d1682589-214e-ac75-7590-ceee3dac3f76">
+  <Signatures>
+    <Signature>D008F8565E59690DDE3028AB38103C0F2987F3E6</Signature>
+    <Signature>EB6238DDD9E1B2E8E236CFED89B9C36A4AF72089</Signature>
+  </Signatures>
+</Test>

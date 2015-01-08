@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Test xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="moveqposTest" IsTestCase="false" TestCaseId="0" AutomatedTestId="4046718c-1796-ccad-b3fa-0a99ca8d7207">
+  <Signatures>
+    <Signature>915D7799F27333DB283404D42CC73EC44069EBE7</Signature>
+    <Signature>2F9A7EC927417F49B9400D7F93A5BC50F90A22ED</Signature>
+  </Signatures>
+</Test>
